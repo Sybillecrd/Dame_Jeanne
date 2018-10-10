@@ -1,1 +1,16 @@
-// Specific CSS for your home-page
+.card {
+  position: relative;
+  height: 350px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 4px;
+}
+.card-infos {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+
+
+}
