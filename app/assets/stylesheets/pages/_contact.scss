@@ -9,10 +9,15 @@
   position: absolute;
   margin-top: 80px;
   z-index: 1;
+  color: $gray-brown;
 }
 
 .background-side-left {
   background-color: white;
+  width: 50%;
+  position: absolute;
+  left: 0px;
+  height: 100vh;
 }
 
 .background-side-right {
@@ -23,5 +28,4 @@
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
-
 }
