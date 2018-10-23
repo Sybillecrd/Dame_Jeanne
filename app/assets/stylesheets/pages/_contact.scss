@@ -18,6 +18,9 @@
   position: absolute;
   left: 0px;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .background-side-right {
@@ -28,4 +31,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-infos {
+  position: absolute;
+}
+.contact-infos p {
+  font-size: 12px;
+  color: $wine-red;
 }
