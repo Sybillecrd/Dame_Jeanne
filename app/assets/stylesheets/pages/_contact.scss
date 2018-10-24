@@ -51,7 +51,8 @@
 .background-xs {
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover !important;
+  flex: 1;
 }
 
 .contact-title-xs {
@@ -67,4 +68,10 @@
       font-size: 12px;
       color: $wine-red;
     }
+}
+@media screen and (min-width: 10px) {
+  .background-xs {
+    height:100vh;
+    overflow: scroll;
+  }
 }
