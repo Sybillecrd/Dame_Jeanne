@@ -1,0 +1,47 @@
+.background-about-total {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.background-about-left {
+  position: absolute;
+  background-color: white;
+  width: 50%;
+  left: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-about-right {
+  position: absolute;
+  width: 50%;
+  right: 0px;
+  height: 100vh;
+  background-size: cover;
+  top: 0;
+}
+
+.about-content {
+  width: 35rem;
+  height: 20rem;
+}
+
+.about-social a {
+  background-color: $wine-red;
+  text-align: center;
+  	float: left;
+  	width: 36px;
+  	height: 36px;
+  	border-radius: 100%;
+  	margin-right: 7px;
+}
+
+.about-social a i{
+	font-size: 20px;
+  line-height: 38px;
+	color: white;
+}
