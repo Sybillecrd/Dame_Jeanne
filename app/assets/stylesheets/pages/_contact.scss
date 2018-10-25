@@ -43,6 +43,9 @@
 .contact-infos {
   position: absolute;
 }
+.contact-infos h3, h5 {
+  color: $gray-typo;
+}
 .contact-infos p {
   font-size: 12px;
   color: $wine-red;
