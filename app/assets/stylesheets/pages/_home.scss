@@ -1,4 +1,10 @@
-.card {
+.artists-name {
+  text-align: center;
+  color: $gray-brown;
+  margin-top: 80px;
+}
+
+.card-poster {
   position: relative;
   height: 350px;
   width: 250px;
@@ -6,11 +12,33 @@
   background-position: center;
   border-radius: 4px;
   margin: 50px 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: none;
 }
 
-.card-infos {
+.card-infos-artist {
   position: absolute;
+  opacity: 0;
+  color: $gray-brown;
   width: 100%;
-  display: inline-block;
-  text-align: center;
+  transition-delay: 50ms;
+  transition: ease 300ms all;
+}
+
+.card-filter {
+  position: absolute;
+  opacity: 0;
+  background: linear-gradient(0deg, rgba(229, 229, 229, 0.4) 50%, rgba(229, 229, 229, 0) 100%);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition-delay: 50ms;
+  transition: ease 300ms all;
+}
+
+.card-filter:hover, .card-infos-artist:hover {
+  opacity: 1;
 }
