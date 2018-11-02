@@ -1,36 +1,34 @@
 .background-about-total {
   position: relative;
-  display: flex;
-  justify-content: center;
   height: 100vh;
 }
 
 .background-about-left {
   position: absolute;
-  background-color: white;
+  background-size: cover;
   width: 50%;
   left: 0px;
   height: 100vh;
+  top: 0;
 }
 
 .background-about-right {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50%;
   right: 0px;
   height: 100vh;
-  background-size: cover;
-  top: 0;
+  background-color: white;
 }
 
 .about-content {
   position: absolute;
-  left: 14rem;
-  margin-top: 10rem;
-  z-index: 1;
-  width: 36rem;
+
+  width: 32rem;
   height: 22rem;
   padding: 1rem;
-  box-shadow: $box-shadow;
   border: none;
 }
 
