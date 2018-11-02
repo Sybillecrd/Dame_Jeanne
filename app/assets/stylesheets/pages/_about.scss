@@ -1,14 +1,15 @@
 .background-about-total {
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 70px);
 }
 
 .background-about-left {
   position: absolute;
   background-size: cover;
+  background-position: bottom;
   width: 50%;
   left: 0px;
-  height: 100vh;
+  height: calc(100vh - 70px);
   top: 0;
 }
 
@@ -17,17 +18,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-around;
   width: 50%;
   right: 0px;
-  height: 100vh;
+  height: calc(100vh - 70px);
   background-color: white;
 }
 
 .about-content {
   position: absolute;
-
-  width: 32rem;
-  height: 22rem;
   padding: 1rem;
   border: none;
 }
@@ -58,4 +57,59 @@
 
 .follow-us {
   color: $gray;
+}
+
+@media (min-width: 544px) {
+  .background-about-left {
+    width: 35%;
+  }
+  .background-about-right {
+    width: 65%;
+  }
+  .about-content {
+    width: 26rem;
+    height: 16rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .background-about-left {
+    width: 35%;
+  }
+  .background-about-right {
+    width: 65%;
+  }
+  .about-content {
+    width: 26rem;
+    height: 16rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .background-about-left {
+    width: 50%;
+  }
+  .background-about-right {
+    width: 50%;
+  }
+  .about-content {
+    width: 32rem;
+    height: 22rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .background-about-left {
+    width: 50%;
+  }
+  .background-about-right {
+    width: 50%;
+  }
+  .about-content {
+    width: 32rem;
+    height: 22rem;
+  }
 }

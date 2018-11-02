@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: calc(100vh - 70px);
 }
 
 .background-total h1 {
@@ -17,7 +17,7 @@
   width: 50%;
   position: absolute;
   left: 0px;
-  height: 100vh;
+  height: calc(100vh - 70px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@
   width: 50%;
   position: absolute;
   right: 0px;
-  height: 100vh;
+  height: calc(100vh - 70px);
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
