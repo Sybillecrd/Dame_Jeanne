@@ -16,9 +16,8 @@
 .background-about-right {
   position: absolute;
   display: flex;
-  justify-content: center;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   width: 50%;
   right: 0px;
   height: calc(100vh - 70px);
@@ -69,6 +68,13 @@
   .about-content {
     width: 26rem;
     height: 16rem;
+    padding: 0.8rem;
+  }
+  .about-title {
+    font-size: 2rem;
+  }
+  .card-text {
+    font-size: 0.8rem;
   }
 }
 
@@ -83,6 +89,12 @@
   .about-content {
     width: 26rem;
     height: 16rem;
+  }
+  .about-title {
+    font-size: 2.5rem;
+  }
+  .card-text {
+    font-size: 1rem;
   }
 }
 
@@ -102,14 +114,5 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .background-about-left {
-    width: 50%;
-  }
-  .background-about-right {
-    width: 50%;
-  }
-  .about-content {
-    width: 32rem;
-    height: 22rem;
-  }
+
 }
