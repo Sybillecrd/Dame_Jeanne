@@ -10,6 +10,12 @@
   width: 260px;
 }
 
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card-poster {
   position: relative;
   height: 350px;
@@ -17,15 +23,17 @@
   background-size: cover;
   background-position: center;
   border-radius: 4px;
-  margin: 30px 0 0;
+  margin: 30px auto auto;
   border: none;
   display: flex;
-  text-align: center;
-  justify-content: center;
+  align-items: flex-end;
 }
 
 .card-filter {
   position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
   opacity: 0;
   background: linear-gradient(0deg, rgba(229, 229, 229, 0.6) 50%, rgba(229, 229, 229, 0.1) 100%);
   top: 0; bottom: 0; left: 0; right: 0;
