@@ -10,11 +10,7 @@
   width: 260px;
 }
 
-.cards-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .card-poster {
   position: relative;
@@ -25,8 +21,6 @@
   border-radius: 4px;
   margin: 30px auto auto;
   border: none;
-  display: flex;
-  align-items: flex-end;
 }
 
 .card-filter {
