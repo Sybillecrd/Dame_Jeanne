@@ -1,10 +1,8 @@
 class ArtistsController < ApplicationController
-  def name
+  def index
   end
 
-  def job
+  def show
   end
 
-  def avatar
-  end
 end
