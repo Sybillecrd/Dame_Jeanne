@@ -4,7 +4,7 @@ class CreatePosters < ActiveRecord::Migration[5.2]
       t.string :picture_one
       t.string :picture_two
       t.string :picture_three
-      t.referencess :project
+      t.references :project
 
       t.timestamps
     end
