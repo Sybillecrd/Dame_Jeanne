@@ -48,7 +48,7 @@
     "project": "",
     "speech": "",
     "blog": "www.behance.net/Marjorie-Goalard",
-    "instagram": "@marjorie.goalard"
+    "instagram": "https://www.instagram.com/marjorie.goalard/"
   },
   {
     "first_name": "Camille",
@@ -57,4 +57,51 @@
     "project": "",
     "speech": "Illustrations féminines, mode, lifestyle avec phrases humoristiques",
     "instagram": "https://www.instagram.com/camille_quid/"
-  }
+  },
+  {
+    "first_name": "Johanna",
+    "last_name": "de Sigoyer",
+    "job": "Graphiste web/print",
+    "project": "",
+    "speech": "",
+    "blog": "http://cargocollective.com/jomaxwell",
+    "linkedin": "https://www.linkedin.com/in/johanna-de-sigoyer-b5ab091b/"
+  },
+  {
+    "first_name": "Vincent",
+    "last_name": "Millas",
+    "job": "Direction artistique illustration & 3D",
+    "project": "",
+    "speech": "Illustration, typographie, création 3D et motion 2D/3D.",
+    "blog": "http://larche.team/vincentmillas/index.html",
+    "instagram": "https://www.instagram.com/vincent_millas/"
+  },
+  {
+    "first_name": "Antoine",
+    "last_name": "Coiquaud",
+    "job": "Graphiste 3D",
+    "project": "",
+    "speech": "Images de synthèse et visite virtuelle 3d",
+    "blog": "http://antoinecoiquaud1991.e-monsite.com",
+  },
+  {
+    "first_name": "Pauline",
+    "last_name": "Lenain",
+    "job": "Graphiste / Illustratrice / Packaging",
+    "project": "",
+    "speech": "Etiquette de vin, impression letterpress, galbé, dorure, papier création.",
+    "blog": "https://www.graphisme-la-lettre-m.fr",
+  },
+  {
+    "first_name": "Amandine",
+    "last_name": "Thomas",
+    "job": "Illustratrice et DA print",
+    "project": "",
+    "speech": "Illustration jeunesse / presse / commerciale et graphisme / DA print.",
+    "blog": "www.amandine-thomas.com",
+    "instagram": "https://www.instagram.com/amandinethomas/"
+  },
+
+  @artits.each do |artist|
+  Artist.create!(first_name: artist[:first_name], job: artist[:job])
+end
