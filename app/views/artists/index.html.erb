@@ -1,1 +1,91 @@
-<h1>Artists#index</h1>
+<div class="container">
+  <div class="row">
+    <h1>Dame Jeanne</h1>
+    <br>
+    <ul>
+      <% @artists.each do |artist| %>
+        <div class="list-group d-none d-sm-block">
+          <div id="artists-name">
+            <%= link_to artist_path(artist) do %>
+              <h5><%= "#{artist.first_name} #{artist.last_name}" %></h5>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+    </ul>
+  </div>
+
+    <div class="cards-container">
+      <div class="row">
+        <div class="d-flex justify-content-around mr-auto p-1">
+          <div class="card card-poster" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1g_petit.jpg');">
+            <div class="card-filter">
+              <div class="card-infos-artist">
+                <h3>Marie Paruit</h3>
+                <p>Illustratrice</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-around mr-auto p-1">
+          <div class="card card-poster" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1d_petit.jpg');">
+            <div class="card-filter">
+              <div class="card-infos-artist">
+                <h3>Marie Paruit</h3>
+                <p>Illustratrice</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-around mr-auto p-1">
+          <div class="card card-poster" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1540279456/Dame%20Jeanne/pin-up-francaise-belle-vie-petit.jpg');">
+            <div class="card-filter">
+              <div class="card-infos-artist">
+                <h3>Marie Paruit</h3>
+                <p>Illustratrice</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-around mr-auto p-1">
+          <div class="card card-poster" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1540541559/Dame%20Jeanne/FINAL_PAVILLON_ADMINISTRATIF_re%CC%81so72.jpg');">
+            <div class="card-filter">
+              <div class="card-infos-artist">
+                <h3>Antoine Coiquaud</h3>
+                <p>Illustratreur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-around mr-auto p-1">
+          <div class="card card-poster" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1540541559/Dame%20Jeanne/FINAL_PAVILLON_ADMINISTRATIF_re%CC%81so72.jpg');">
+            <div class="card-filter">
+              <div class="card-infos-artist">
+                <h3>Antoine Coiquaud</h3>
+                <p>Illustratreur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-around mr-auto p-1">
+          <div class="card card-poster" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1540541559/Dame%20Jeanne/FINAL_PAVILLON_ADMINISTRATIF_re%CC%81so72.jpg');">
+            <div class="card-filter">
+              <div class="card-infos-artist">
+                <h3>Antoine Coiquaud</h3>
+                <p>Illustratreur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+</div>

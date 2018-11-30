@@ -93,6 +93,14 @@ artists_attributes = [
     blog: "www.amandine-thomas.com",
     instagram: "https://www.instagram.com/amandinethomas/"
   },
+  {
+    first_name: "Marie",
+    last_name: "Paruit",
+    job: "Illustratrice",
+    speech: "Illustration secteur jeunesse ",
+    blog: "www.marieparuit.ultra-book.com",
+    instagram: "https://www.instagram.com/marieparuit/"
+  },
 ]
 
 Artist.create!(artists_attributes)
