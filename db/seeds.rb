@@ -100,8 +100,9 @@ artists_attributes = [
     speech: "Illustration secteur jeunesse ",
     blog: "www.marieparuit.ultra-book.com",
     instagram: "https://www.instagram.com/marieparuit/"
-  },
+  }
 ]
+
 
 Artist.create!(artists_attributes)
 puts "#{Artist.count} artists created!"
