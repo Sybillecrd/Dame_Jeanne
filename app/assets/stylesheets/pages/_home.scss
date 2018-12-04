@@ -2,9 +2,18 @@
   display: flex;
 }
 
-#artists-name {
+.collective-name {
   color: $gray-brown;
-  margin-right: 30px;
+  margin-top: 5rem;
+}
+
+#artists-name {
+  color: $gray-typo;
+  margin: 2rem 3rem auto 0;
+}
+
+#artists-name :hover {
+  text-decoration: underline $gray-typo;
 }
 
 .card-poster {

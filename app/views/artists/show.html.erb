@@ -1,1 +1,17 @@
-<h1>Artists#show</h1>
+<div class="artist-info-show">
+  <h1><%= @artist.first_name %> <%= @artist.last_name %></h1>
+  <h5><%= @artist.job %></h5>
+  <br>
+  <p>Son projet</p>
+
+  <p>Son inspiration</p>
+  <h5><%= @artist.speech %></h5>
+
+  <p>Ses réseaux</p>
+  <div class="about-social">
+    <a href="#{artist.instagram}" target="_blank"><i class="fab fa-instagram" ></i></a>
+    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+
+</div>
