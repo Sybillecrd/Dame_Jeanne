@@ -3,6 +3,10 @@
   <h5><%= @artist.job %></h5>
   <br>
   <p>Son projet</p>
+  <% if @artist.projects.present? %>
+  <%= @artist.projects.first.name %>
+  <% end %>
+  <br><br>
 
   <p>Son inspiration</p>
   <h5><%= @artist.speech %></h5>

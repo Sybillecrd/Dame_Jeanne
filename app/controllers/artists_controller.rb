@@ -1,7 +1,7 @@
 class ArtistsController < ApplicationController
   def index
     @artists = Artist.all
-    @artists_alpha = @artists.sort_by { |a| a.last_name}
+    @artists_alpha = @artists.sort_by { |a| a.last_name.downcase}
   end
 
   def show
