@@ -9,7 +9,7 @@ artists_attributes = [
     last_name: "Delpierre",
     job: "Designer graphique/Chef de projet Web",
     speech: "",
-    blog: "www.victoire.delpierre.fr"
+    blog: "https://www.victoirephotos.fr"
   },
   {
     first_name: "Nicolas",
@@ -23,14 +23,15 @@ artists_attributes = [
     last_name: "Lafon",
     job: "Graphiste Web/Print",
     speech: "",
-    blog: "www.marclafon-design.fr"
+    blog: "https://www.marclafon-design.fr"
   },
   {
     first_name: "Liane",
     last_name: "Langenbach",
     job: "Illustratrice graphiste",
     speech: "Communication illustrée pour projets écologiques et solidaires",
-    blog: "www.liane-langenbach.com"
+    blog: "https://www.liane-langenbach.com",
+    blog2: "https://www.liloutestetou.com"
   },
   {
     first_name: "Sybille",
@@ -45,7 +46,7 @@ artists_attributes = [
     last_name: "Goalard",
     job: "Graphiste web/print & illustratrice",
     speech: "",
-    blog: "www.behance.net/Marjorie-Goalard",
+    blog: "https://www.behance.net/Marjorie-Goalard",
     instagram: "https://www.instagram.com/marjorie.goalard/"
   },
   {
@@ -76,7 +77,7 @@ artists_attributes = [
     last_name: "Coiquaud",
     job: "Graphiste 3D",
     speech: "Images de synthèse et visite virtuelle 3d",
-    blog: "http://antoinecoiquaud1991.e-monsite.com",
+    blog: "https://antoinecoiquaud1991.e-monsite.com",
   },
   {
     first_name: "Pauline",
@@ -90,7 +91,7 @@ artists_attributes = [
     last_name: "Thomas",
     job: "Illustratrice et DA print",
     speech: "Illustration jeunesse / presse / commerciale et graphisme / DA print.",
-    blog: "www.amandine-thomas.com",
+    blog: "https://www.amandine-thomas.com",
     instagram: "https://www.instagram.com/amandinethomas/"
   },
   {
@@ -98,7 +99,7 @@ artists_attributes = [
     last_name: "Paruit",
     job: "Illustratrice",
     speech: "Illustration secteur jeunesse ",
-    blog: "www.marieparuit.ultra-book.com",
+    blog: "http://www.marieparuit.ultra-book.com",
     instagram: "https://www.instagram.com/marieparuit/"
   }
 ]

@@ -11,6 +11,25 @@
   <p>Son inspiration</p>
   <h5><%= @artist.speech %></h5>
 
+  <% if @artist.blog2.present? %>
+    <p>Ses liens</p>
+      <%= link_to @artist.blog, target: "_blank" do %>
+        <%= @artist.blog %>
+      <% end %>
+      <br>
+      <%= link_to @artist.blog2, target: "_blank" do %>
+        <%= @artist.blog2 %>
+      <% end %>
+  <% else @artist.blog.present? %>
+    <p>Son lien</p>
+    <%= link_to @artist.blog, target: "_blank" do %>
+      <%= @artist.blog %>
+    <% end %>
+  <% end %>
+  <br><br>
+
+
+
   <p>Ses réseaux</p>
   <div class="about-social">
     <% if @artist.instagram.present? %>
