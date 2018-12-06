@@ -3,13 +3,12 @@
     <div class="collective-name"><h1>Dame Jeanne</h1></div>
     <br>
     <ul>
-      <% @artists.each do |artist| %>
+      <% @artists_alpha.each do |artist| %>
         <div class="list-group d-none d-sm-block">
           <div id="artists-name">
             <%= link_to artist_path(artist) do %>
               <h5><%= "#{artist.first_name} #{artist.last_name}" %></h5>
             <% end %>
-            @artists.sort!
           </div>
         </div>
       <% end %>
