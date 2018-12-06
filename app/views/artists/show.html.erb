@@ -4,7 +4,7 @@
   <br>
   <p>Son projet</p>
   <% if @artist.projects.present? %>
-  <%= @artist.projects.first.name %>
+    <%= @artist.projects.first.name %>
   <% end %>
   <br><br>
 
@@ -13,8 +13,17 @@
 
   <p>Ses réseaux</p>
   <div class="about-social">
-    <a href="#{artist.instagram}" target="_blank"><i class="fab fa-instagram" ></i></a>
-    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <% if @artist.instagram.present? %>
+      <%= link_to @artist.instagram, target: "_blank" do %>
+        <i class="fab fa-instagram"></i>
+      <% end %>
+    <% end %>
+
+    <% if @artist.linkedin.present? %>
+      <%= link_to @artist.linkedin, target: "_blank" do %>
+        <i class="fab fa-linkedin"></i>
+      <% end %>
+    <% end %>
   </div>
 
 
