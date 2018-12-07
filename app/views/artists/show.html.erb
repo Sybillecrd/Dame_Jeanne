@@ -1,49 +1,58 @@
-<div class="artist-info-show">
-  <h1><%= @artist.first_name %> <%= @artist.last_name %></h1>
-  <h5><%= @artist.job %></h5>
-  <br>
-  <p>Son projet</p>
-  <% if @artist.projects.present? %>
-    <%= @artist.projects.first.name %>
-  <% end %>
-  <br><br>
+<div class="container">
+  <div class="row">
+    <div class="col">
 
-  <p>Son inspiration</p>
-  <h5><%= @artist.speech %></h5>
+      <div class="artist-info-show">
+        <h1><%= @artist.first_name %> <%= @artist.last_name %></h1>
+        <h5><%= @artist.job %></h5>
+        <br>
+        <p>Son projet</p>
+        <% if @artist.projects.present? %>
+          <%= @artist.projects.first.name %>
+        <% end %>
+        <br><br>
 
-  <% if @artist.blog2.present? %>
-    <p>Ses liens</p>
-      <%= link_to @artist.blog, target: "_blank" do %>
-        <%= @artist.blog %>
-      <% end %>
-      <br>
-      <%= link_to @artist.blog2, target: "_blank" do %>
-        <%= @artist.blog2 %>
-      <% end %>
-  <% else @artist.blog.present? %>
-    <p>Son lien</p>
-    <%= link_to @artist.blog, target: "_blank" do %>
-      <%= @artist.blog %>
-    <% end %>
-  <% end %>
-  <br><br>
+        <p>Son inspiration</p>
+        <h6><%= @artist.speech %></h6>
+        <br><br>
 
+        <% if @artist.blog2.present? %>
+          <p>Ses liens</p>
+            <%= link_to @artist.blog, target: "_blank", class: "link-show" do %>
+              <%= @artist.blog %>
+            <% end %>
+            <br>
+            <%= link_to @artist.blog2, target: "_blank", class: "link-show" do %>
+              <%= @artist.blog2 %>
+            <% end %>
+        <% else @artist.blog.present? %>
+          <p>Son lien</p>
+          <%= link_to @artist.blog, target: "_blank", class: "link-show" do %>
+            <%= @artist.blog %>
+          <% end %>
+        <% end %>
+        <br><br>
 
+        <p>Ses réseaux sociaux</p>
+        <div class="about-social">
+          <% if @artist.instagram.present? %>
+            <%= link_to @artist.instagram, target: "_blank" do %>
+              <i class="fab fa-instagram"></i>
+            <% end %>
+          <% end %>
+          <% if @artist.linkedin.present? %>
+            <%= link_to @artist.linkedin, target: "_blank" do %>
+              <i class="fab fa-linkedin"></i>
+            <% end %>
+          <% end %>
+          <% if @artist.behance.present? %>
+            <%= link_to @artist.behance, target: "_blank" do %>
+              <i class="fab fa-behance"></i>
+            <% end %>
+          <% end %>
+        </div>
+      </div>
 
-  <p>Ses réseaux</p>
-  <div class="about-social">
-    <% if @artist.instagram.present? %>
-      <%= link_to @artist.instagram, target: "_blank" do %>
-        <i class="fab fa-instagram"></i>
-      <% end %>
-    <% end %>
-
-    <% if @artist.linkedin.present? %>
-      <%= link_to @artist.linkedin, target: "_blank" do %>
-        <i class="fab fa-linkedin"></i>
-      <% end %>
-    <% end %>
+    </div>
   </div>
-
-
 </div>

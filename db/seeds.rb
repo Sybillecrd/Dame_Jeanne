@@ -39,7 +39,8 @@ artists_attributes = [
     job: "Designer UX/UI",
     speech: "Illustrations inspirées de l'univers de la mode et de Bordeaux",
     blog: "http://sybillecrd.tumblr.com/",
-    linkedin: "https://www.linkedin.com/in/sybille-cordeau/"
+    linkedin: "https://www.linkedin.com/in/sybille-cordeau/",
+    behance: "https://www.behance.net/sybillecorda3f"
   },
   {
     first_name: "Marjorie",

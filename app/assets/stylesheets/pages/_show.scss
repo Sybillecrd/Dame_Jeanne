@@ -1,0 +1,17 @@
+.artist-info-show {
+  margin-top: 50px;
+  max-width: 80%;
+  height: 100vh;
+}
+
+.artist-info-show p {
+  color: $gray;
+}
+
+.link-show {
+  color: $gray-typo;
+}
+.link-show:hover {
+  color: $gray-typo;
+  text-decoration: underline $gray-typo;
+}
