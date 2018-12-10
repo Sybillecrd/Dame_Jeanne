@@ -9,7 +9,8 @@ artists_attributes = [
     last_name: "Delpierre",
     job: "Designer graphique/Chef de projet Web",
     speech: "",
-    blog: "https://www.victoirephotos.fr"
+    blog: "https://www.victoirephotos.fr",
+    blog2: "https://www.victoiredelpierre.fr/"
   },
   {
     first_name: "Nicolas",
