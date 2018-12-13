@@ -16,6 +16,33 @@
   text-decoration: underline $gray-typo;
 }
 
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-item {
+  height: 350px;
+  width: 250px;
+  margin: 30px auto auto;
+}
+
+.carousel-content {
+  position: absolute;
+  width: 100%;
+  background-color: $wine-red;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  bottom: 0;
+  line-height: 5px;
+  padding: 0.8rem ;
+  color: white;
+}
+
+.carousel-content-job p {
+  opacity: 0.6;
+}
+
 .card-poster {
   position: relative;
   height: 350px;
