@@ -37,7 +37,7 @@ artists_attributes = [
   {
     first_name: "Sybille",
     last_name: "Cordeau",
-    job: "Designer UX/UI",
+    job: "Graphiste & Designer UX/UI",
     speech: "Illustrations inspirées de l'univers de la mode et de Bordeaux",
     blog: "http://sybillecrd.tumblr.com/",
     linkedin: "https://www.linkedin.com/in/sybille-cordeau/",
