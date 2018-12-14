@@ -49,13 +49,15 @@ artists_attributes = [
     job: "Graphiste web/print & illustratrice",
     speech: "",
     blog: "https://www.behance.net/Marjorie-Goalard",
-    instagram: "https://www.instagram.com/marjorie.goalard/"
+    instagram: "https://www.instagram.com/marjorie.goalard/",
+    linkedin: "https://www.linkedin.com/in/marjorie-goalard/"
   },
   {
     first_name: "Camille",
     last_name: "Quid",
     job: "Illustratrice auteur",
     speech: "Illustrations féminines, mode, lifestyle avec phrases humoristiques",
+    blog: "http://camillequid.ultra-book.com/portfolio",
     instagram: "https://www.instagram.com/camille_quid/"
   },
   {
@@ -92,9 +94,10 @@ artists_attributes = [
     first_name: "Amandine",
     last_name: "Thomas",
     job: "Illustratrice et DA print",
-    speech: "Illustration jeunesse / presse / commerciale et graphisme / DA print.",
+    speech: "Illustration jeunesse / presse / commerciale et graphisme / DA print",
     blog: "https://www.amandine-thomas.com",
-    instagram: "https://www.instagram.com/amandinethomas/"
+    instagram: "https://www.instagram.com/amandinethomas/",
+    facebook: "https://www.facebook.com/helloamandinethomas"
   },
   {
     first_name: "Marie",
@@ -103,6 +106,15 @@ artists_attributes = [
     speech: "Illustration secteur jeunesse ",
     blog: "http://www.marieparuit.ultra-book.com",
     instagram: "https://www.instagram.com/marieparuit/"
+  },
+  {
+    first_name: "Alice",
+    last_name: "Sébégo",
+    job: "Développeuse web fullstack / Consultante Com' print et web",
+    speech: "Développement back et front / Stratégie / Graphisme / Rédaction Web",
+    blog: "https://www.com-amalice.fr",
+    linkedin: "https://linkedin.com/in/alicesebego/",
+    twitter: "https://twitter.com/ComaMalice"
   }
 ]
 
