@@ -16,14 +16,16 @@
   text-decoration: underline $gray-typo;
 }
 
-.carousel-inner {
+.carousel {
   position: relative;
-}
-
-.carousel-item {
   height: 350px;
   width: 250px;
   margin: 30px auto auto;
+
+}
+.carousel-inner {
+  position: absolute;
+  height: 80%;
 }
 
 .carousel-content {
@@ -47,33 +49,20 @@
   position: relative;
   height: 350px;
   width: 250px;
-  background-size: cover;
-  background-position: center;
+
+}
+.card-poster-link {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   border-radius: 4px;
   margin: 30px auto auto;
-  border: none;
+
 }
 
-.card-filter {
-  position: absolute;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  opacity: 0;
-  background: linear-gradient(0deg, rgba(229, 229, 229, 0.6) 50%, rgba(229, 229, 229, 0.1) 100%);
-  top: 0; bottom: 0; left: 0; right: 0;
-}
-
-.card-infos-artist {
-  position: absolute;
-  opacity: 0;
-  color: $gray-typo;
-  line-height: 10px;
-  top: 8rem; bottom: 0; left: 0; right: 0;
-}
-
-.card-filter:hover, .card-infos-artist:hover {
-  opacity: 1;
-  transition-delay: 50ms;
-  transition: ease 300ms all;
+.card-image:hover {
+  background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1d_petit.jpg');
 }
