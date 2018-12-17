@@ -1,5 +1,6 @@
 Artist.destroy_all
 Project.destroy_all
+Poster.destroy_all
 
 puts "Creating artists..."
 
@@ -136,8 +137,56 @@ puts "Creating projects..."
     {
       name: "Les trois Grâces",
       artist: Artist.find_by(first_name:"Sybille")
+    },
+    {
+      name: "Bordeaux vintage",
+      artist: Artist.find_by(first_name:"Marie")
+    },
+    {
+      name: "Projet architectural",
+      artist: Artist.find_by(first_name:"Antoine")
     }
   ]
 
   Project.create!(projects_attributes)
   puts "#{Project.count} projects created!"
+
+  puts "Creating posters..."
+
+  posters_attributes = [
+    {
+      project: Project.find_by(name:"Bordeaux vintage"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1g_petit.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux vintage"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1d_petit.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux vintage"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540279456/Dame%20Jeanne/pin-up-francaise-belle-vie-petit.jpg"
+    },
+    {
+      project: Project.find_by(name:"Projet architectural"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1544697902/Dame%20Jeanne/GRAND_THEATRE_FINAL.jpg"
+    },
+    {
+      project: Project.find_by(name:"Projet architectural"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540541559/Dame%20Jeanne/FINAL_PAVILLON_ADMINISTRATIF_re%CC%81so72.jpg"
+    },
+    {
+      project: Project.find_by(name:"Les trois Grâces"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1545058101/Dame%20Jeanne/vin-blanc-72.jpg"
+    },
+    {
+      project: Project.find_by(name:"Les trois Grâces"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1544698043/Dame%20Jeanne/vin-rouge-72.jpg"
+    },
+    {
+      project: Project.find_by(name:"Les trois Grâces"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1544698042/Dame%20Jeanne/Vin-rose%CC%81-72.jpg"
+    },
+  ]
+
+  Poster.create!(posters_attributes)
+  puts "#{Poster.count} posters created!"
