@@ -1,67 +1,54 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <div class="collective-name"><h1>Dame Jeanne</h1></div>
-
-      <ul>
-        <% @artists_alpha.each do |artist| %>
-          <div class="list-group d-none d-sm-block">
-            <div id="artists-name">
-              <%= link_to artist_path(artist) do %>
-                <h5><%= "#{artist.first_name} #{artist.last_name}" %></h5>
-              <% end %>
-            </div>
-          </div>
-        <% end %>
-      </ul>
+      <div class="list-artists-index">
+        <div class="collective-name"><h1>Dame Jeanne</h1></div>
+          <ul>
+            <% @artists_alpha.each do |artist| %>
+              <div class="list-group d-none d-sm-block">
+                <div id="artists-name">
+                  <%= link_to artist_path(artist) do %>
+                    <h5><%= "#{artist.first_name} #{artist.last_name}" %></h5>
+                  <% end %>
+                </div>
+              </div>
+            <% end %>
+          </ul>
+      </div>
     </div>
   </div>
 
 
-<div class="col-md-6 col-lg-3 mb-3">
 
-        <div class="carousel slide carousel-fade" data-interval="2000" data-ride="carousel">
+  <div class="row">
+    <% @artists.each do |artist| %>
+      <div class="col-md-6 col-lg-3">
+        <div id="carouselExampleSlidesOnly" data-interval="3000" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1g_petit.jpg">
+              <img class="d-block w-100" src="https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1g_petit.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1d_petit.jpg">
+              <img class="d-block w-100" src="https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1d_petit.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://res.cloudinary.com/sybillecrd/image/upload/v1540279456/Dame%20Jeanne/pin-up-francaise-belle-vie-petit.jpg">
+              <img class="d-block w-100" src="https://res.cloudinary.com/sybillecrd/image/upload/v1540279456/Dame%20Jeanne/pin-up-francaise-belle-vie-petit.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-content list-group">
+              <%= link_to artist_path(artist) do %>
+                <p><%= "#{artist.first_name} #{artist.last_name}" %></p>
+              <% end %>
+              <div class="carousel-content-project">
+                <% if artist.projects.present? %>
+                  <p><%= artist.projects.first.name %></p>
+                <% end %>
+              </div>
             </div>
           </div>
-          <div class="carousel-content list-group">
-              <div class="carousel-content-name"><p>Marie Paruit</p></div>
-              <div class="carousel-content-job"><p>Illustratrice</p></div>
-          </div>
         </div>
-
-</div>
-
-<div class="row mt-4">
-  <div class="col-md-6 col-lg-3 mb-3">
-    <div class="card-poster mb-4">
-      <a class="card-poster-link" href="#"></a>
-
-        <div class="card-image" style="background-image: url('https://res.cloudinary.com/sybillecrd/image/upload/v1540279456/Dame%20Jeanne/pin-up-francaise-belle-vie-petit.jpg');">
-        </div>
-
-        <div class="card-content list-group">
-            <div class="carousel-content-name"><p>Marie Paruit</p></div>
-            <div class="carousel-content-job"><p>Illustratrice</p></div>
-        </div>
-
-    </div>
+      </div>
+    <% end %>
   </div>
-</div>
-
-
-
-
-
-
 
 
 </div>
