@@ -17,8 +17,8 @@ artists_attributes = [
     first_name: "Nicolas",
     last_name: "Paquet",
     job: "Graphiste Web/Print",
-    speech: "",
-    blog: ""
+    instagram: "https://www.instagram.com/mephisto_artist/",
+    linkedin: "https://www.linkedin.com/in/nicolas-paquet-0179aa115/"
   },
   {
     first_name: "Marc",
