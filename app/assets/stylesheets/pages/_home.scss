@@ -2,12 +2,13 @@
   display: flex;
 }
 
-.list-artists {
-  width: 100%;
+.list-artists-index {
+
 }
 .collective-name {
   color: $gray-brown;
-  margin-top: 5rem;
+  margin-top: 4rem;
+
 }
 
 #artists-name {
@@ -23,20 +24,24 @@
   margin: 1rem auto;
 }
 .carousel-item {
-  width: 100%;
+  max-width: 265px;
+  max-height: 415px;
+
 }
 .carousel-content {
-  width: 100%;
+  max-width: 265px;
   background-color: $wine-red;
   display: flex;
   text-align: center;
   justify-content: center;
-  line-height: 5px;
-  padding: 0.8rem ;
+  padding: 0.6rem ;
+  color: white;
+}
+.carousel-content-artist a {
   color: white;
 }
 
-.carousel-content-project p {
+.carousel-content-project {
   opacity: 0.6;
   font-size: 12px;
 }
