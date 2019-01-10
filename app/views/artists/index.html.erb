@@ -1,11 +1,11 @@
 <div class="container">
   <div class="row">
-    <div class="col">
-      <div class="list-artists-index">
-        <div class="collective-name d-none d-sm-block"><h1>Dame Jeanne</h1></div>
+    <div class="col-md-6 col-lg-4">
+      <div class="list-artists-index d-none d-sm-block">
+        <div class="collective-name"><h1>Dame Jeanne</h1></div>
           <ul>
             <% @artists_alpha.each do |artist| %>
-              <div class="list-group d-none d-sm-block">
+              <div class="list-group">
                 <div id="artists-name">
                   <%= link_to artist_path(artist) do %>
                     <h5><%= "#{artist.first_name} #{artist.last_name}" %></h5>
@@ -40,14 +40,18 @@
                   <%= cl_image_tag project.posters.third.picture, class: "d-block w-100" %>
                 </div>
                 <% end %>
-                <div class="carousel-content list-group">
-                  <%= project.name %>
-                  <div class="carousel-content-project">
-                    <%= link_to artist_path(project.artist) do %>
-                      <%= "#{project.artist.first_name} #{project.artist.last_name}" %>
-                    <% end %>
-                  </div>
+
+              <div class="carousel-content list-group">
+                <div class="carousel-content-artist">
+                  <%= link_to artist_path(project.artist) do %>
+                    <%= "#{project.artist.first_name} #{project.artist.last_name}" %>
+                  <% end %>
                 </div>
+                <div class="carousel-content-project">
+                  <%= project.name %>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
