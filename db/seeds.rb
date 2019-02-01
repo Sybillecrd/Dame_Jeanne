@@ -33,7 +33,9 @@ artists_attributes = [
     job: "Illustratrice graphiste",
     speech: "Communication illustrée pour projets écologiques et solidaires",
     blog: "https://www.liane-langenbach.com",
-    blog2: "https://www.liloutestetou.com"
+    blog2: "https://www.liloutestetou.com",
+    instagram: "https://www.instagram.com/liane.langenbach/",
+    facebook: "https://www.facebook.com/liane.langenbach/"
   },
   {
     first_name: "Sybille",
@@ -147,7 +149,7 @@ puts "Creating projects..."
       artist: Artist.find_by(first_name:"Antoine")
     },
     {
-      name: "Ecologie illustrée",
+      name: "Bordeaux - Les animaux sont dans la place",
       artist: Artist.find_by(first_name:"Liane")
     }
   ]
@@ -191,15 +193,15 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1544698042/Dame%20Jeanne/Vin-rose%CC%81-72.jpg"
     },
     {
-      project: Project.find_by(name:"Ecologie illustrée"),
+      project: Project.find_by(name:"Bordeaux - Les animaux sont dans la place"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549015893/Dame%20Jeanne/Liane-Victoire-web-DJ.jpg"
     },
     {
-      project: Project.find_by(name:"Ecologie illustrée"),
+      project: Project.find_by(name:"Bordeaux - Les animaux sont dans la place"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549015893/Dame%20Jeanne/Liane-Quinconces-web-DJ.jpg"
     },
     {
-      project: Project.find_by(name:"Ecologie illustrée"),
+      project: Project.find_by(name:"Bordeaux - Les animaux sont dans la place"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549015893/Dame%20Jeanne/Liane-Stalingrad-web-DJ.jpg"
     },
   ]
