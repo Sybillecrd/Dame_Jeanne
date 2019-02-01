@@ -145,6 +145,10 @@ puts "Creating projects..."
     {
       name: "Projet architectural",
       artist: Artist.find_by(first_name:"Antoine")
+    },
+    {
+      name: "Ecologie illustrée",
+      artist: Artist.find_by(first_name:"Liane")
     }
   ]
 
@@ -185,6 +189,18 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Les trois Grâces"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1544698042/Dame%20Jeanne/Vin-rose%CC%81-72.jpg"
+    },
+    {
+      project: Project.find_by(name:"Ecologie illustrée"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549015893/Dame%20Jeanne/Liane-Victoire-web-DJ.jpg"
+    },
+    {
+      project: Project.find_by(name:"Ecologie illustrée"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549015893/Dame%20Jeanne/Liane-Quinconces-web-DJ.jpg"
+    },
+    {
+      project: Project.find_by(name:"Ecologie illustrée"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549015893/Dame%20Jeanne/Liane-Stalingrad-web-DJ.jpg"
     },
   ]
 
