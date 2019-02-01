@@ -26,7 +26,7 @@
   text-decoration: underline $gray-typo;
 }
 
-@media only screen and (max-width: 735px) {
+@media (min-width: 20px) and (max-width: 735px){
   .grid-container {
     display: grid;
     margin: 2% 4% 0 4%;
@@ -42,7 +42,7 @@
   }
 }
 
-@media only screen and (max-width: 1025px) {
+@media (min-width: 736px) and (max-width: 1025px) {
   .grid-container {
     display: grid;
     margin: 2% 2% 0 2%;
