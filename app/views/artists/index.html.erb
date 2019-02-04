@@ -1,6 +1,5 @@
 <div class="wrapper">
   <div class="menu">
-
       <div class="list-artists-index d-none d-sm-block">
         <div class="collective-name"><h1>Dame Jeanne</h1></div>
           <ul>
@@ -15,49 +14,51 @@
             <% end %>
           </ul>
       </div>
-
   </div>
 
 
-
   <div class="cards-container">
-
     <% @projects.each do |project| %>
       <% if project.posters.count > 0 %>
-
-          <div id="carouselExampleSlidesOnly" data-interval="3000" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+        <div id="carouselExampleSlidesOnly" data-interval="3000" class="carousel slide">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%= link_to artist_path(project.artist) do %>
                   <%= cl_image_tag project.posters.first.picture, class: "d-block w-100" %>
-                </div>
-                <% if project.posters.second.present? %>
-                  <div class="carousel-item">
-                    <%= cl_image_tag project.posters.second.picture, class: "d-block w-100" %>
-                  </div>
                 <% end %>
-                <% if project.posters.third.present? %>
+              </div>
+              <% if project.posters.second.present? %>
                 <div class="carousel-item">
-                  <%= cl_image_tag project.posters.third.picture, class: "d-block w-100" %>
-                </div>
-                <% end %>
-
-              <div class="carousel-content list-group">
-                <div class="carousel-content-artist">
                   <%= link_to artist_path(project.artist) do %>
-                    <%= "#{project.artist.first_name} #{project.artist.last_name}" %>
+                    <%= cl_image_tag project.posters.second.picture, class: "d-block w-100" %>
                   <% end %>
                 </div>
-                <div class="carousel-content-project">
-                  <%= project.name %>
-                </div>
+              <% end %>
+              <% if project.posters.third.present? %>
+              <div class="carousel-item">
+                <%= link_to artist_path(project.artist) do %>
+                  <%= cl_image_tag project.posters.third.picture, class: "d-block w-100" %>
+                <% end %>
+              </div>
+              <% end %>
+
+            <div class="carousel-content list-group">
+              <div class="carousel-content-artist">
+                <%= link_to artist_path(project.artist) do %>
+                  <%= "#{project.artist.first_name} #{project.artist.last_name}" %>
+                <% end %>
+              </div>
+              <div class="carousel-content-project">
+                <%= project.name %>
               </div>
             </div>
           </div>
-
+        </div>
       <% end %>
     <% end %>
 
   </div>
+
 
 
 </div>
