@@ -11,7 +11,8 @@ artists_attributes = [
     job: "Designer graphique/Chef de projet Web",
     speech: "",
     blog: "https://www.victoirephotos.fr",
-    blog2: "https://www.victoiredelpierre.fr/"
+    blog2: "https://www.victoiredelpierre.fr/",
+    instagram: "https://www.instagram.com/victoiredelpierre/"
   },
   {
     first_name: "Nicolas",
