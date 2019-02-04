@@ -122,6 +122,10 @@ puts "Creating projects..."
 
   projects_attributes = [
     {
+      name: "Bordeaux vintage",
+      artist: Artist.find_by(first_name:"Marie")
+    },
+    {
       name: "Zoom Zoom",
       artist: Artist.find_by(first_name:"Victoire")
     },
@@ -132,10 +136,6 @@ puts "Creating projects..."
     {
       name: "Les trois Grâces",
       artist: Artist.find_by(first_name:"Sybille")
-    },
-    {
-      name: "Bordeaux vintage",
-      artist: Artist.find_by(first_name:"Marie")
     },
     {
       name: "Projet architectural",
