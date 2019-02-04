@@ -72,14 +72,6 @@ artists_attributes = [
     linkedin: "https://www.linkedin.com/in/johanna-de-sigoyer-b5ab091b/"
   },
   {
-    first_name: "Vincent",
-    last_name: "Millas",
-    job: "Direction artistique illustration & 3D",
-    speech: "Illustration, typographie, création 3D et motion 2D/3D.",
-    blog: "http://larche.team/vincentmillas/index.html",
-    instagram: "https://www.instagram.com/vincent_millas/"
-  },
-  {
     first_name: "Antoine",
     last_name: "Coiquaud",
     job: "Graphiste 3D",
@@ -92,6 +84,7 @@ artists_attributes = [
     job: "Graphiste / Illustratrice / Packaging",
     speech: "Etiquette de vin, impression letterpress, galbé, dorure, papier création.",
     blog: "https://www.graphisme-la-lettre-m.fr",
+    instagram: "https://www.instagram.com/Pauline_lenain/",
   },
   {
     first_name: "Amandine",
@@ -129,6 +122,10 @@ puts "Creating projects..."
 
   projects_attributes = [
     {
+      name: "Bordeaux vintage",
+      artist: Artist.find_by(first_name:"Marie")
+    },
+    {
       name: "Zoom Zoom",
       artist: Artist.find_by(first_name:"Victoire")
     },
@@ -139,10 +136,6 @@ puts "Creating projects..."
     {
       name: "Les trois Grâces",
       artist: Artist.find_by(first_name:"Sybille")
-    },
-    {
-      name: "Bordeaux vintage",
-      artist: Artist.find_by(first_name:"Marie")
     },
     {
       name: "Projet architectural",
