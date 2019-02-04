@@ -25,7 +25,8 @@ artists_attributes = [
     last_name: "Lafon",
     job: "Graphiste Web/Print",
     speech: "",
-    blog: "https://www.marclafon-design.fr"
+    blog: "https://www.marclafon-design.fr",
+    instagram: "https://www.instagram.com/marclafon33/"
   },
   {
     first_name: "Liane",
@@ -144,6 +145,10 @@ puts "Creating projects..."
     {
       name: "Bordeaux - Les animaux sont dans la place",
       artist: Artist.find_by(first_name:"Liane")
+    },
+    {
+      name: "Bordeaux panoramique",
+      artist: Artist.find_by(first_name:"Marc")
     }
   ]
 
@@ -196,6 +201,18 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Bordeaux - Les animaux sont dans la place"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549015893/Dame%20Jeanne/Liane-Stalingrad-web-DJ.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux panoramique"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549284103/Dame%20Jeanne/Panoramique---SaintMichel-2.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux panoramique"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549284103/Dame%20Jeanne/Panoramique---Bourse-2.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux panoramique"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549284103/Dame%20Jeanne/Panoramique---Chartrons-2.jpg"
     },
   ]
 
