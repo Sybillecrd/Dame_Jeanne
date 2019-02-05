@@ -150,7 +150,15 @@ puts "Creating projects..."
     {
       name: "Bordeaux panoramique",
       artist: Artist.find_by(first_name:"Marc")
-    }
+    },
+    {
+      name: "Dégustation en bord d'eau",
+      artist: Artist.find_by(first_name:"Marjorie")
+    },
+    {
+      name: "Bordeaux à vol d'oiseau",
+      artist: Artist.find_by(first_name:"Amandine")
+    },
   ]
 
   Project.create!(projects_attributes)
@@ -189,7 +197,7 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Les trois Grâces"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1544698042/Dame%20Jeanne/Vin-rose%CC%81-72.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549377172/Dame%20Jeanne/Vin-rose%CC%81-72.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux - Les animaux sont dans la place"),
@@ -214,6 +222,18 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Bordeaux panoramique"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549284103/Dame%20Jeanne/Panoramique---Chartrons-2.jpg"
+    },
+    {
+      project: Project.find_by(name:"Dégustation en bord d'eau"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549380776/Dame%20Jeanne/2-affiche-marjorie.jpg"
+    },
+    {
+      project: Project.find_by(name:"Dégustation en bord d'eau"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549380772/Dame%20Jeanne/3-affiche-marjorie.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux à vol d'oiseau"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549377237/Dame%20Jeanne/AT-Poster-collecif-small.jpg"
     },
   ]
 
