@@ -104,15 +104,6 @@ artists_attributes = [
     speech: "Illustration secteur jeunesse ",
     blog: "http://www.marieparuit.ultra-book.com",
     instagram: "https://www.instagram.com/marieparuit/"
-  },
-  {
-    first_name: "Alice",
-    last_name: "Sébégo",
-    job: "Développeuse web fullstack / Consultante Com' print et web",
-    speech: "Développement back et front / Stratégie / Graphisme / Rédaction Web",
-    blog: "https://www.com-amalice.fr",
-    linkedin: "https://linkedin.com/in/alicesebego/",
-    twitter: "https://twitter.com/ComaMalice"
   }
 ]
 
@@ -169,15 +160,15 @@ puts "Creating projects..."
   posters_attributes = [
     {
       project: Project.find_by(name:"Bordeaux vintage"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1g_petit.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549630638/Dame%20Jeanne/diner-gauche-hommes-avec-matieres.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux vintage"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540279457/Dame%20Jeanne/bordeaux_1d_petit.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549630638/Dame%20Jeanne/diner-droite-femme-copie-avec-matieres.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux vintage"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540279456/Dame%20Jeanne/pin-up-francaise-belle-vie-petit.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549630638/Dame%20Jeanne/pin-up-velo-avec-matieres.jpg"
     },
     {
       project: Project.find_by(name:"Projet architectural"),
@@ -230,6 +221,10 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Dégustation en bord d'eau"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549380772/Dame%20Jeanne/3-affiche-marjorie.jpg"
+    },
+    {
+      project: Project.find_by(name:"Dégustation en bord d'eau"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549630638/Dame%20Jeanne/1-affiche-marjorie.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux à vol d'oiseau"),
