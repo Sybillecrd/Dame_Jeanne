@@ -13,36 +13,38 @@
   grid-row-gap: 1%;
   grid-auto-flow: dense;
 }
-
+.carousel-inner {
+  box-shadow: 2px 2px 4px #E5E5E5;
+}
 
 .collective-name {
-  color: $gray-brown;
+  color: $dark-blue;
   margin-top: 4rem;
 }
 
 #artists-name {
-  color: $gray-typo;
+  color: $dark-blue;
   margin-top: 2rem;
 }
 
 #artists-name :hover {
-  text-decoration: underline $gray-typo;
+  text-decoration: underline $dark-blue;
 }
 
 .carousel-content {
-  background-color: $dark-blue;
+  background-color: white;
   display: flex;
   text-align: center;
   justify-content: center;
   padding: 0.6rem ;
-  color: white;
+  color: $dark-blue;
 }
 .carousel-content-artist a {
-  color: white;
+  color: $dark-blue;
 }
 
 .carousel-content-project {
-  opacity: 0.6;
+  opacity: 0.8;
   font-size: 12px;
 }
 

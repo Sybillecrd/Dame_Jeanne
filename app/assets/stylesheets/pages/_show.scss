@@ -13,6 +13,10 @@
   grid-row-gap: 1.5%;
 }
 
+.show-poster {
+  box-shadow: 2px 2px 4px #E5E5E5;
+  border: none;
+}
 .artist-info-show p {
   color: $gray;
   margin: auto auto 0;
