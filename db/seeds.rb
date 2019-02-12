@@ -192,7 +192,7 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Bordeaux - Les animaux sont dans la place"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549015893/Dame%20Jeanne/Liane-Victoire-web-DJ.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549960981/Dame%20Jeanne/Liane-Victoire-DJ-web.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux - Les animaux sont dans la place"),
