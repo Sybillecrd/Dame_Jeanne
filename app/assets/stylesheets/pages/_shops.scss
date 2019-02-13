@@ -1,0 +1,24 @@
+.container-shops {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+}
+
+.banner {
+  height: 400px;
+  width: 1100px;
+  background-size: cover !important;
+  margin-top: 4rem;
+  justify-content: center;
+  grid-template-columns: 80%;
+}
+
+.card-shops {
+  display: grid;
+  width: 1000px;
+
+
+
+
+
+}
