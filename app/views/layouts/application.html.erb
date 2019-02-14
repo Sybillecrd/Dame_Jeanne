@@ -16,20 +16,6 @@
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
-
-    <script type="text/javascript">
-      $(function(){
-        $('.carousel').hover(function() {
-          $(this).carousel('next');
-          $(this).carousel({ ride: true });
-
-        }, function() {
-          $(this).carousel({ ride: false });
-        });
-      });
-    </script>
-
-
     <%= render 'shared/footer' %>
   </body>
 </html>
