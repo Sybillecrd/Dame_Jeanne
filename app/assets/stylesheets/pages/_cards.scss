@@ -20,6 +20,14 @@
 .card-body {
   padding: 2rem 4rem;
 }
+@media (min-width: 20px) and (max-width: 735px) {
+  .card-title {
+    font-size: 2rem;
+  }
+  .card-body {
+    padding: 2rem;
+  }
+}
 
 .about-social a {
   background-color: $dark-blue;

@@ -2,18 +2,19 @@
   display: grid;
   justify-content: center;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 300px 400px;
+  grid-template-rows: 1fr 1fr 400px;
 }
 
 .banner {
   height: 500px;
-  width: 1200px;
+  width: 100%;
   background-size: cover !important;
   margin-top: 4rem;
   position: relative;
   border-radius: 1px;
   background-attachment: fixed;
   box-shadow: 2px 2px 4px #E5E5E5;
+  justify-self: center;
 }
 
 .card-shops {
@@ -30,7 +31,7 @@
 
 .adresses-shops {
   display: grid;
-  margin: 40% 10% 5% 10%;
+  margin: 15% 10% 5% 10%;
   grid-column-gap: 4rem;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   align-self: center;
@@ -40,22 +41,30 @@
   .container-shops {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 300px 300px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 15%;
+    justify-content: center;
+    padding: 0;
   }
   .banner {
     position: relative;
-    width: 100vh;
-    background-size: cover !important;
+    background-position: center;
+    margin: 0;
   }
 
   .card-shops {
     position: absolute;
-    width: 80%;
-    top: 500px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    width: 90%;
+    height: 400px;
+    top: 450px;
     text-align: center;
+  }
+
+  .adresses-shops {
+    display: grid;
+    margin: auto 10% 5% 10%;
+    grid-template-columns: 1fr;
+    align-self: center;
+    grid-row-gap: 1rem;
   }
 }
