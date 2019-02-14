@@ -55,7 +55,7 @@
   .card-shops {
     position: absolute;
     width: 90%;
-    height: 400px;
+    height: 390px;
     top: 450px;
     text-align: center;
   }
@@ -66,5 +66,58 @@
     grid-template-columns: 1fr;
     align-self: center;
     grid-row-gap: 1rem;
+  }
+}
+@media (min-width: 736px) and (max-width: 991px) {
+  .container-shops {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 300px;
+    grid-row-gap: 10%;
+    justify-content: center;
+  }
+  .banner {
+    position: relative;
+    margin-top: 3rem;
+    height: 400px;
+    background-position: center;
+  }
+  .card-shops {
+    position: absolute;
+    width: 85%;
+    top: 450px;
+  }
+  .adresses-shops {
+    display: grid;
+    margin: 5% 5% 5% 5%;
+    grid-column-gap: 1rem;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1025px) {
+  .container-shops {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+  }
+  .banner {
+    position: relative;
+    background-position: center;
+  }
+  .card-shops {
+    position: absolute;
+    width: 80%;
+    top: 500px;
+  }
+
+  .adresses-shops {
+    display: grid;
+    margin: 5% 5% 5% 5%;
+    grid-column-gap: 2rem;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
   }
 }

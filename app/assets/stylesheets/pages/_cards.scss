@@ -22,8 +22,17 @@
 }
 @media (min-width: 20px) and (max-width: 735px) {
   .card-title {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
+  .card-body {
+    padding: 2rem;
+  }
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 736px) and (max-width: 991px) {
   .card-body {
     padding: 2rem;
   }
