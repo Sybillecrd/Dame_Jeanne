@@ -6,11 +6,11 @@
 }
 
 .card-title, .subtitle {
-  color: $gray-brown;
+  color: $dark-blue;
 }
 
 .card-text {
-  color: $gray-typo;
+  color: $dark-blue;
 }
 
 .follow-us {
@@ -38,7 +38,12 @@
   }
 }
 
+.about-social {
+  display: flex;
+  justify-content: center;
+}
 .about-social a {
+
   background-color: $dark-blue;
   text-align: center;
   float: left;
