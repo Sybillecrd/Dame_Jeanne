@@ -5,4 +5,6 @@ class PagesController < ApplicationController
   def contact; end
 
   def shops; end
+
+  def press; end
 end

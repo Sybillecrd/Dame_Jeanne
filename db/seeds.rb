@@ -79,6 +79,9 @@ artists_attributes = [
     job: "Graphiste 3D",
     speech: "Images de synthèse et visite virtuelle 3d",
     blog: "https://antoinecoiquaud1991.e-monsite.com",
+    instagram: "https://www.instagram.com/antoine__coiquaud/",
+    linkedin: "https://www.linkedin.com/in/antoine-coiquaud-5382a9145/",
+    facebook: "https://www.facebook.com/antoinecoiquaud3dview.fr/"
   },
   {
     first_name: "Pauline",
@@ -208,7 +211,7 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Bordeaux panoramique"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549284103/Dame%20Jeanne/Panoramique---Bourse-2.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1550658719/Dame%20Jeanne/2-Panoramique-Bourse-1.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux panoramique"),
