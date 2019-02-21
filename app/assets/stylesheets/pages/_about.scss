@@ -1,3 +1,8 @@
+.container-about {
+  display: grid;
+  height: 150vh;
+}
+
 .banner-about {
   height: 500px;
   width: 100%;
@@ -5,9 +10,40 @@
   margin-top: 4rem;
   position: relative;
   border-radius: 1px;
+  background-position: center;
   box-shadow: 2px 2px 4px #E5E5E5;
   justify-self: center;
-  background-position: center;
+}
+
+.card-about {
+  position: absolute;
+  height: 300px;
+  width: 1000px;
+  top: 540px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+@media (min-width: 20px) and (max-width: 735px) {
+  .container-about {
+    padding: 0;
+  }
+  .banner-about {
+    position: relative;
+    background-position: center;
+    margin: 0;
+  }
+
+  .card-shops-about {
+    position: absolute;
+    width: 90%;
+    height: 390px;
+    top: 450px;
+    text-align: center;
+  }
 }
 
 @media (min-width: 736px) and (max-width: 991px) {
@@ -15,10 +51,23 @@
     position: relative;
     margin-top: 3rem;
     height: 400px;
+    background-position: center;
+  }
+  .card-about {
+    position: absolute;
+    width: 85%;
+    top: 450px;
   }
 }
+
 @media (min-width: 20px) and (max-width: 735px) {
   .banner-about {
-    margin: 0;
+    position: relative;
+    background-position: center;
+  }
+  .card-about {
+    position: absolute;
+    width: 80%;
+    top: 500px;
   }
 }
