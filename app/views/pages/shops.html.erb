@@ -33,3 +33,16 @@
   </div>
 
 </div>
+
+<div id='map'></div>
+  <%= content_for :after_js do %>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic3liaWxsZWNyZCIsImEiOiJjanNlZ2xhMWowbDQ3NDNxbzM4YXFtNWs0In0.7sXXyyd2rCqh0grOwbY6FQ';
+      const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/sybillecrd/cjseglvly0cle1fqlem0h1x8m',
+      center: [-122.403944, 37.784020],
+      zoom: 13.6
+      });
+    </script>
+  <% end %>
