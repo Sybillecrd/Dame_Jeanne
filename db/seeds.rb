@@ -153,6 +153,18 @@ puts "Creating projects..."
       name: "Bordeaux à vol d'oiseau",
       artist: Artist.find_by(first_name:"Amandine")
     },
+    {
+      name: "La Bordelaise",
+      artist: Artist.find_by(first_name:"Camille")
+    },
+    {
+      name: "Le temps",
+      artist: Artist.find_by(first_name:"Pauline")
+    },
+    {
+      name: "Sur les rails",
+      artist: Artist.find_by(first_name:"Johanna")
+    },
   ]
 
   Project.create!(projects_attributes)
@@ -232,6 +244,18 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Bordeaux à vol d'oiseau"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549377237/Dame%20Jeanne/AT-Poster-collecif-small.jpg"
+    },
+    {
+      project: Project.find_by(name:"La Bordelaise"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/Affiche_1_Camille_Quid_pour_Dame_Jeanne-WEB.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le temps"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/illu-DAME-JEANNE-WEB.jpg"
+    },
+    {
+      project: Project.find_by(name:"Sur les rails"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/Affiche-grand-theatre-A3moins-web.jpg"
     },
   ]
 
