@@ -68,25 +68,50 @@
 
   <div class="row">
     <% @artist.projects.each do |project| %>
-
-            <div class="show-posters">
-              <% if project.posters.present? %>
-              <div class="card show-poster">
-                <%= cl_image_tag project.posters.first.picture, class: "d-block w-100" %>
-              </div>
-              <% end %>
-              <% if project.posters.second.present? %>
-                <div class="card show-poster">
-                  <%= cl_image_tag project.posters.second.picture, class: "d-block w-100" %>
-                </div>
-              <% end %>
-              <% if project.posters.third.present? %>
-              <div class="card show-poster">
-                <%= cl_image_tag project.posters.third.picture, class: "d-block w-100" %>
-              </div>
-              <% end %>
-            </div>
-
+      <div class="show-posters">
+        <% if project.posters.present? %>
+        <div class="card show-poster">
+          <%= cl_image_tag project.posters.first.picture, class: "d-block w-100" %>
+        </div>
+        <% end %>
+        <% if project.posters.second.present? %>
+          <div class="card show-poster">
+            <%= cl_image_tag project.posters.second.picture, class: "d-block w-100" %>
+          </div>
+        <% end %>
+        <% if project.posters.third.present? %>
+        <div class="card show-poster">
+          <%= cl_image_tag project.posters.third.picture, class: "d-block w-100" %>
+        </div>
+        <% end %>
+      </div>
+      <div class="d-none d-sm-block">
+        <div class="overlay">
+          <div class="overlay-inner">
+            <button class="close">× Fermer</button>
+            <img>
+          </div>
+        </div>
+      </div>
     <% end %>
   </div>
 </div>
+
+<script>
+  const buttons = document.querySelectorAll('.show-poster');
+  const overlay = document.querySelector('.overlay');
+  const overlayImage = document.querySelector('.overlay-inner img');
+
+  function open(e) {
+    overlay.classList.add('open');
+    const src= e.currentTarget.querySelector('img').src;
+    overlayImage.src = src;
+  }
+
+  function close() {
+    overlay.classList.remove('open');
+  }
+
+  buttons.forEach(button => button.addEventListener('click', open));
+  overlay.addEventListener('click', close);
+</script>
