@@ -246,6 +246,10 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549377237/Dame%20Jeanne/AT-Poster-collecif-small.jpg"
     },
     {
+      project: Project.find_by(name:"Bordeaux à vol d'oiseau"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551272991/Dame%20Jeanne/Poster-2-Amandine.jpg"
+    },
+    {
       project: Project.find_by(name:"La Bordelaise"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/Affiche_1_Camille_Quid_pour_Dame_Jeanne-WEB.jpg"
     },
