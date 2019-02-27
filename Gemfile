@@ -18,6 +18,7 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'cloudinary'
 gem "geocoder"
+gem 'mail_form'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
