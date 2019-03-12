@@ -187,7 +187,7 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Projet architectural"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1544697902/Dame%20Jeanne/GRAND_THEATRE_FINAL.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552384804/Dame%20Jeanne/ANTOINE_COIQUAUD_02.jpg"
     },
     {
       project: Project.find_by(name:"Projet architectural"),
@@ -195,15 +195,15 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Les trois Grâces"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1545058101/Dame%20Jeanne/vin-blanc-72.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552385572/Dame%20Jeanne/vin-blanc_RVB_72.jpg"
     },
     {
       project: Project.find_by(name:"Les trois Grâces"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1544698043/Dame%20Jeanne/vin-rouge-72.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552385572/Dame%20Jeanne/vin-rouge_RVB_72.jpg"
     },
     {
       project: Project.find_by(name:"Les trois Grâces"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549377172/Dame%20Jeanne/Vin-rose%CC%81-72.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552385572/Dame%20Jeanne/Vin-rose%CC%81_RVB_72.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux - Les animaux sont dans la place"),
