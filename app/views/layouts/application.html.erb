@@ -14,6 +14,24 @@
   </head>
   <body>
     <%= render 'shared/navbar' %>
+    <div class="collapse" id="artists-menu">
+      <div class="menu">
+        <div class="list-artists-index d-none d-sm-block">
+          <ul>
+            <% @artists_alpha.each do |artist| %>
+              <div class="list-group">
+                <div id="artists-name">
+                  <%= link_to artist_path(artist) do %>
+                    <h5><%= "#{artist.first_name} #{artist.last_name}" %></h5>
+                  <% end %>
+                </div>
+              </div>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>

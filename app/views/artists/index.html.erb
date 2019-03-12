@@ -1,21 +1,4 @@
-<div class="wrapper">
-  <div class="menu">
-      <div class="list-artists-index d-none d-sm-block">
-          <ul>
-            <% @artists_alpha.each do |artist| %>
-              <div class="list-group">
-                <div id="artists-name">
-                  <%= link_to artist_path(artist) do %>
-                    <h5><%= "#{artist.first_name} #{artist.last_name}" %></h5>
-                  <% end %>
-                </div>
-              </div>
-            <% end %>
-          </ul>
-      </div>
-  </div>
-
-
+<div class="container">
   <div class="cards-container">
     <% @projects.each do |project| %>
       <% if project.posters.count > 0 %>
