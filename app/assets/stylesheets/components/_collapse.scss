@@ -1,0 +1,10 @@
+.collapse {
+  margin-top: 1rem;
+}
+
+#artists-name p {
+  color: $dark-blue;
+  &:hover {
+    text-decoration: underline $dark-blue;
+  }
+}
