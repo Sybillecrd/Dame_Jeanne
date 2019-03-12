@@ -9,23 +9,18 @@ artists_attributes = [
     first_name: "Victoire",
     last_name: "Delpierre",
     job: "Designer graphique/Chef de projet Web",
-    speech: "",
+    speech: "Formée à l’École des Beaux Arts de Bordeaux, je suis designer graphique freelance.
+      Intriguée par les dimensions numériques de l’image et de l’information, j’ai ajouté à mon arc, la fonction de cheffe de projet digital. Je travaille autour de la conception de l’image et de ses enjeux techniques, mais surtout créatifs, en interrogeant le lien entre typographie, photographie & graphisme.
+      Les illustrations Zoom Zoom réalisées au sein du collectif illustré, me permettent d’attirer l’attention sur des endroits qui me séduisent et de focaliser sur certains détails.",
     blog: "https://www.victoirephotos.fr",
     blog2: "https://www.victoiredelpierre.fr/",
     instagram: "https://www.instagram.com/victoiredelpierre/"
   },
   {
-    first_name: "Nicolas",
-    last_name: "Paquet",
-    job: "Graphiste Web/Print",
-    instagram: "https://www.instagram.com/mephisto_artist/",
-    linkedin: "https://www.linkedin.com/in/nicolas-paquet-0179aa115/"
-  },
-  {
     first_name: "Marc",
     last_name: "Lafon",
     job: "Graphiste Web/Print",
-    speech: "",
+    speech: "Graphiste, maquettiste et affichiste travaillant à Bordeaux. Spécialisé dans la maquette de livre et l’affiche de cinéma, je suis aussi un graphiste touche à tout qui n’hésite pas à explorer des techniques et méthodes pour mieux m’adapter à la mission. Au travers de Dame Jeanne j’explore ma vision d’un bordeaux coloré et divers.",
     blog: "https://www.marclafon-design.fr",
     instagram: "https://www.instagram.com/marclafon33/"
   },
@@ -43,7 +38,8 @@ artists_attributes = [
     first_name: "Sybille",
     last_name: "Cordeau",
     job: "Graphiste & Designer UX/UI",
-    speech: "Illustrations inspirées de l'univers de la mode et de Bordeaux",
+    speech: "Après avoir étudié la mode à Paris, je suis retournée dans ma ville natale, Bordeaux, pour suivre une formation de développement web et me lancer en freelance en tant que graphiste et webdesigner. Restant fidèle à ma passion première, je puise mon inspiration dans la mode, l’art et les voyages.
+      Ainsi, les illustrations que j’ai réalisées pour Dame Jeanne est une personnification du vin rouge, blanc et rosé incarnée par les trois Grâces de la place de la Bourse.",
     blog: "http://sybillecrd.tumblr.com/",
     linkedin: "https://www.linkedin.com/in/sybille-cordeau/",
     behance: "https://www.behance.net/sybillecorda3f"
@@ -61,7 +57,36 @@ artists_attributes = [
     first_name: "Camille",
     last_name: "Quid",
     job: "Illustratrice auteur",
-    speech: "Illustrations féminines, mode, lifestyle avec phrases humoristiques",
+    speech: "Camille Quid est illustratrice auteur, installée à
+      Bordeaux en free-lance depuis 2012. Elle
+      travaille pour différents projets comme des
+      sites internet, des portraits de famille, des
+      cartes de vœux, des identités visuelles, ou
+      des magazines.
+      Elle tient à jour son « petit journal » en
+      publiant des dessins quotidiens et
+      humoristiques sur Instagram.
+      En participant au Collectif Dame Jeanne elle
+      lance aujourd'hui une gamme d'affiches,
+      illustrant La Bordelaise.
+      Puisque Bordeaux est le thème qui rassemble
+      tous les artistes de ce collectif, Camille Quid a
+      à cœur, à l’instar de la parisienne, de mettre
+      en scène La Femme, et en particulier celle qui
+      vit et aime Bordeaux !
+      Avec ses affiches, Camille Quid souhaite vous
+      emmener dans son univers féminin, frais et
+      léger, avec une touche d'humour, au travers
+      de petites scènes de vie croquées dans les
+      lieux tant aimés. Ce qu'elle espère c'est que
+      chacun trouve à s’y identifier et y retrouve la
+      Bordelaise qu’il a rencontrée, connue ou
+      croisée.
+      Chaque dessin évoque dans une bulle une
+      petite phrase évoquant cet instant volé, où le
+      temps semble s'être arrêté, une anecdote d’un
+      petit moment vécu par cette Bordelaise aux
+      milles facettes !",
     blog: "http://camillequid.ultra-book.com/portfolio",
     instagram: "https://www.instagram.com/camille_quid/"
   },
@@ -87,7 +112,14 @@ artists_attributes = [
     first_name: "Pauline",
     last_name: "Lenain",
     job: "Graphiste / Illustratrice / Packaging",
-    speech: "Etiquette de vin, impression letterpress, galbé, dorure, papier création.",
+    speech: "Graphiste indépendante depuis 2013 à Bordeaux, j’allie ma passion pour le vin et les choses
+      authentiques au travers de la création d’étiquette de vins.
+      Très curieuse des métiers de l’Artisanat et des savoirs-faire, je m’interroge souvent sur le
+      temps.
+      Les illustrations pour le collectif, sont faite d’une traite et sans correction, j’aime penser
+      qu’elles sont l’essence d’un moment, résultant d’un regard à un moment T.
+      Ma vision n’étant qu’un point de vue sur des photographies anciennes, je laisse l’illustration
+      faire son chemin et vous offrir un petit moment d’histoire.",
     blog: "https://www.graphisme-la-lettre-m.fr",
     instagram: "https://www.instagram.com/Pauline_lenain/",
   },
@@ -95,7 +127,14 @@ artists_attributes = [
     first_name: "Amandine",
     last_name: "Thomas",
     job: "Illustratrice et DA print",
-    speech: "Illustration jeunesse / presse / commerciale et graphisme / DA print",
+    speech: "Après des études d’illustration à l’école Estienne, puis de didactique visuelle aux arts
+      décoratifs de Strasbourg, j’ai passé six ans à Melbourne, en Australie, où j’étais directrice
+      artistique dans la presse et l’édition. Récemment installée à Bordeaux, je profite de la
+      liberté offerte par mon nouveau statut de free-lance pour me replonger dans l’illustration,
+      aussi bien éditoriale que jeunesse ou commerciale.
+      À travers les illustrations crées pour Dame Jeanne, j’explore ma nouvelle ville, Bordeaux, à
+      vue d’oiseau – j’en survole les rues pour mieux cartographier mon quartier, et je m’en
+      réapproprie les icônes.",
     blog: "https://www.amandine-thomas.com",
     instagram: "https://www.instagram.com/amandinethomas/",
     facebook: "https://www.facebook.com/helloamandinethomas"
@@ -124,10 +163,6 @@ puts "Creating projects..."
     {
       name: "Zoom Zoom",
       artist: Artist.find_by(first_name:"Victoire")
-    },
-    {
-      name: "Colour & Shape",
-      artist: Artist.find_by(first_name:"Nicolas")
     },
     {
       name: "Les trois Grâces",

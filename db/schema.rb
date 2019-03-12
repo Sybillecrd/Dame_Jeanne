@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_27_141635) do
+ActiveRecord::Schema.define(version: 2019_03_12_134103) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(version: 2019_02_27_141635) do
     t.string "behance"
     t.string "facebook"
     t.string "twitter"
+    t.string "avatar"
   end
 
   create_table "contacts", force: :cascade do |t|
