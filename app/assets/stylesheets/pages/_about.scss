@@ -37,7 +37,7 @@
     margin: 0;
   }
 
-  .card-shops-about {
+  .card-about {
     position: absolute;
     width: 90%;
     height: 390px;
@@ -60,7 +60,7 @@
   }
 }
 
-@media (min-width: 20px) and (max-width: 735px) {
+@media (min-width: 992px) and (max-width: 1025px) {
   .banner-about {
     position: relative;
     background-position: center;
