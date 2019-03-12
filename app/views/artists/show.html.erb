@@ -12,8 +12,10 @@
         <% end %>
         <br><br>
 
-        <p>Son inspiration</p>
-        <h6><%= @artist.speech %></h6>
+        <p>Sa biographie</p>
+        <div class="text-justify">
+          <h6><%= @artist.speech %></h6>
+        </div>
         <br><br>
 
         <% if @artist.blog2.present? %>
