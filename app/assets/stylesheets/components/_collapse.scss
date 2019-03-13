@@ -17,3 +17,13 @@
     text-decoration: underline $dark-blue;
   }
 }
+
+.cross-collapse {
+  color: $red;
+  position: absolute;
+  right: 30px;
+  top: 5px;
+  &:hover {
+    color: $red;
+  }
+}
