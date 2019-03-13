@@ -39,7 +39,7 @@ artists_attributes = [
   {
     first_name: "Sybille",
     last_name: "Cordeau",
-    job: "Graphiste & Designer UX/UI",
+    job: "Graphiste & Webdesigner",
     speech: "Après avoir étudié la mode à Paris, je suis retournée dans ma ville natale, Bordeaux, pour suivre une formation de développement web et me lancer en freelance en tant que graphiste et webdesigner. Restant fidèle à ma passion première, je puise mon inspiration dans la mode, l’art et les voyages.
       Ainsi, les illustrations que j’ai réalisées pour Dame Jeanne est une personnification du vin rouge, blanc et rosé incarnée par les trois Grâces de la place de la Bourse.",
     blog: "http://sybillecrd.tumblr.com/",
@@ -52,7 +52,7 @@ artists_attributes = [
     first_name: "Marjorie",
     last_name: "Goalard",
     job: "Graphiste web/print & illustratrice",
-    speech: "Marjorie Goalard est originaire de Bayonne et a débarqué à Bordeaux il y a de ça quelques années. Depuis maintenant 1 an elle s'est lancé dans l'aventure de graphiste freelance. Dans son travail Marjorie fait la part belle à l'illustration à travers la création de compositions colorées où se mêlent détails et symboles. Faire partie du collectif Dame Jeanne lui permet de rendre hommage à Bordeaux, devenue sa ville de coeur.",
+    speech: "Marjorie Goalard est originaire de Bayonne et a débarqué à Bordeaux il y a de ça quelques années. Depuis maintenant 1 an elle s'est lancée dans l'aventure de graphiste freelance. Dans son travail, Marjorie fait la part belle à l'illustration à travers la création de compositions colorées où se mêlent détails et symboles. Faire partie du collectif Dame Jeanne lui permet de rendre hommage à Bordeaux, devenue sa ville de coeur.",
     blog: "https://www.behance.net/Marjorie-Goalard",
     instagram: "https://www.instagram.com/marjorie.goalard/",
     linkedin: "https://www.linkedin.com/in/marjorie-goalard/",
