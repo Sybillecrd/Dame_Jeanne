@@ -97,7 +97,7 @@ artists_attributes = [
   },
   {
     first_name: "Johanna",
-    last_name: "de Sigoyer",
+    last_name: "Maxwell",
     job: "Graphiste web/print",
     speech: "",
     blog: "http://cargocollective.com/jomaxwell",
