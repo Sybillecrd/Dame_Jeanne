@@ -14,7 +14,8 @@ artists_attributes = [
       Les illustrations Zoom Zoom réalisées au sein du collectif illustré, me permettent d’attirer l’attention sur des endroits qui me séduisent et de focaliser sur certains détails.",
     blog: "https://www.victoirephotos.fr",
     blog2: "https://www.victoiredelpierre.fr/",
-    instagram: "https://www.instagram.com/victoiredelpierre/"
+    instagram: "https://www.instagram.com/victoiredelpierre/",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552479477/Dame%20Jeanne/VictoireDelpierre-photoAlessandraOstolidi.jpg"
   },
   {
     first_name: "Marc",
@@ -22,7 +23,8 @@ artists_attributes = [
     job: "Graphiste Web/Print",
     speech: "Graphiste, maquettiste et affichiste travaillant à Bordeaux. Spécialisé dans la maquette de livre et l’affiche de cinéma, je suis aussi un graphiste touche à tout qui n’hésite pas à explorer des techniques et méthodes pour mieux m’adapter à la mission. Au travers de Dame Jeanne j’explore ma vision d’un bordeaux coloré et divers.",
     blog: "https://www.marclafon-design.fr",
-    instagram: "https://www.instagram.com/marclafon33/"
+    instagram: "https://www.instagram.com/marclafon33/",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552479477/Dame%20Jeanne/IMG_8675-copie-WEB.jpg"
   },
   {
     first_name: "Liane",
@@ -42,16 +44,19 @@ artists_attributes = [
       Ainsi, les illustrations que j’ai réalisées pour Dame Jeanne est une personnification du vin rouge, blanc et rosé incarnée par les trois Grâces de la place de la Bourse.",
     blog: "http://sybillecrd.tumblr.com/",
     linkedin: "https://www.linkedin.com/in/sybille-cordeau/",
-    behance: "https://www.behance.net/sybillecorda3f"
+    behance: "https://www.behance.net/sybillecorda3f",
+    dribbble: "https://dribbble.com/Sybillecrd",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552474510/Dame%20Jeanne/IMG_3577.jpg"
   },
   {
     first_name: "Marjorie",
     last_name: "Goalard",
     job: "Graphiste web/print & illustratrice",
-    speech: "",
+    speech: "Marjorie Goalard est originaire de Bayonne et a débarqué à Bordeaux il y a de ça quelques années. Depuis maintenant 1 an elle s'est lancé dans l'aventure de graphiste freelance. Dans son travail Marjorie fait la part belle à l'illustration à travers la création de compositions colorées où se mêlent détails et symboles. Faire partie du collectif Dame Jeanne lui permet de rendre hommage à Bordeaux, devenue sa ville de coeur.",
     blog: "https://www.behance.net/Marjorie-Goalard",
     instagram: "https://www.instagram.com/marjorie.goalard/",
-    linkedin: "https://www.linkedin.com/in/marjorie-goalard/"
+    linkedin: "https://www.linkedin.com/in/marjorie-goalard/",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552479477/Dame%20Jeanne/marjorie-portrait-illu.jpg"
   },
   {
     first_name: "Camille",
@@ -102,11 +107,24 @@ artists_attributes = [
     first_name: "Antoine",
     last_name: "Coiquaud",
     job: "Graphiste 3D",
-    speech: "Images de synthèse et visite virtuelle 3d",
+    speech: "Réalisation d'images de synthèse, de vidéos, de visites virtuelles, jusqu'aux montages finaux.
+      Bac Professionnel Communication Art Graphique 2011 :
+      Diplôme Concepteur Réalisateur 3D de l'ESMI 2016 :
+      Passionné par l’image de synthèse 3D et le rendu d’architecture, je me suis spécialisé dans ce domaine et le
+      compositing.
+      Mon expérience et ma maîtrise dans le domaine de la 3D seront au service de votre entreprise pour la
+      valorisation de vos projets immobiliers et architecturaux.
+      J'accomplis mon travail avec minutie d’après des esquisses, des photos afin que vos maquettes soient
+      valorisées au mieux.
+      Capable de concevoir des perspectives d'images de synthèse, intérieures et extérieures, en déployant mes
+      connaissances dans le domaine de l'imagerie 3D :
+      La mise au point des lumières, textures, matériaux et environnements appropriés.
+      L'animation des perspectives 3D pour une immersion compléte de visite virtuelle.",
     blog: "https://antoinecoiquaud1991.e-monsite.com",
     instagram: "https://www.instagram.com/antoine__coiquaud/",
     linkedin: "https://www.linkedin.com/in/antoine-coiquaud-5382a9145/",
-    facebook: "https://www.facebook.com/antoinecoiquaud3dview.fr/"
+    facebook: "https://www.facebook.com/antoinecoiquaud3dview.fr/",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552475150/Dame%20Jeanne/01.jpg"
   },
   {
     first_name: "Pauline",
@@ -137,7 +155,8 @@ artists_attributes = [
       réapproprie les icônes.",
     blog: "https://www.amandine-thomas.com",
     instagram: "https://www.instagram.com/amandinethomas/",
-    facebook: "https://www.facebook.com/helloamandinethomas"
+    facebook: "https://www.facebook.com/helloamandinethomas",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552474967/Dame%20Jeanne/Portrait-AT.jpg"
   },
   {
     first_name: "Marie",
@@ -295,6 +314,14 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Sur les rails"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/Affiche-grand-theatre-A3moins-web.jpg"
+    },
+    {
+      project: Project.find_by(name:"Zoom Zoom"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-meriadeck-_victoiredelpierre72dpi.jpg"
+    },
+    {
+      project: Project.find_by(name:"Zoom Zoom"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-Larrieu-_victoiredelpierre-72dpi.jpg"
     },
   ]
 

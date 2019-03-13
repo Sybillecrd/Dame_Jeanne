@@ -20,7 +20,7 @@
 .adresses-shops {
   display: grid;
   margin: 10% auto 5% auto;
-  grid-template-rows: repeat(3, minmax(100px, 1fr));
+  grid-template-rows: repeat(3, 150px);
 
 }
 #map {
@@ -60,7 +60,7 @@
     height: 450px !important;
   }
   .adresses-shops {
-    grid-template-rows: repeat(3, 150px);
+    grid-template-rows: repeat(3, 140px);
     margin: 15% auto 5% auto;
   }
 }

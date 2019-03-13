@@ -3,6 +3,15 @@
     <div class="col">
 
       <div class="artist-info-show">
+
+          <% if @artist.avatar.present? %>
+            <%= cl_image_tag @artist.avatar, class: "avatar" %>
+          <% else %>
+            <%= image_tag('default-profile.jpg', class: "avatar") %>
+          <% end %>
+
+
+
         <h1><%= @artist.first_name %> <%= @artist.last_name %></h1>
         <h5><%= @artist.job %></h5>
         <br>
@@ -60,6 +69,11 @@
           <% if @artist.twitter.present? %>
             <%= link_to @artist.twitter, target: "_blank" do %>
               <i class="fab fa-twitter"></i>
+            <% end %>
+          <% end %>
+          <% if @artist.dribbble.present? %>
+            <%= link_to @artist.dribbble, target: "_blank" do %>
+              <i class="fab fa-dribbble"></i>
             <% end %>
           <% end %>
         </div>
