@@ -1,25 +1,38 @@
-<div class="grid-container">
+<div class="container container-infos-artists">
   <div class="row">
     <div class="col">
 
       <div class="artist-info-show">
+        <% if @artist.avatar.present? %>
+          <%= cl_image_tag @artist.avatar, class: "avatar" %>
+        <% else %>
+          <%= image_tag('default-profile.jpg', class: "avatar") %>
+        <% end %>
         <h1><%= @artist.first_name %> <%= @artist.last_name %></h1>
         <h5><%= @artist.job %></h5>
         <br>
-        <p>Son projet</p>
-        <% if @artist.projects.present? %>
-          <%= @artist.projects.first.name %>
-        <% end %>
-        <br><br>
 
-        <p>Sa biographie</p>
-        <div class="text-justify">
-          <h6><%= @artist.speech %></h6>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseBio" role="button">
+          Biographie
+        </a>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseSite" role="button">
+          Site Professionnel
+        </a>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseSocials" role="button">
+          Réseaux sociaux
+        </a>
+        <div class="collapse" id="collapseBio">
+          <div class="card card-body card-body-collapse text-justify">
+            <h6><%= @artist.speech %></h6>
+            <h4>
+              <a data-toggle="collapse" href="#collapseBio" role="button" class="cross-collapse">
+                &times;
+              </a>
+            </h4>
+          </div>
         </div>
-        <br><br>
-
-        <% if @artist.blog2.present? %>
-          <p>Ses liens</p>
+        <div class="collapse" id="collapseSite">
+          <div class="card card-body card-body-collapse text-justify">
             <%= link_to @artist.blog, target: "_blank", class: "link-show" do %>
               <%= @artist.blog %>
             <% end %>
@@ -27,47 +40,67 @@
             <%= link_to @artist.blog2, target: "_blank", class: "link-show" do %>
               <%= @artist.blog2 %>
             <% end %>
-        <% else @artist.blog.present? %>
-          <p>Son lien</p>
-          <%= link_to @artist.blog, target: "_blank", class: "link-show" do %>
-            <%= @artist.blog %>
-          <% end %>
-        <% end %>
-        <br><br>
-
-        <p>Ses réseaux sociaux</p>
-        <div class="social">
-          <% if @artist.instagram.present? %>
-            <%= link_to @artist.instagram, target: "_blank" do %>
-              <i class="fab fa-instagram"></i>
-            <% end %>
-          <% end %>
-          <% if @artist.linkedin.present? %>
-            <%= link_to @artist.linkedin, target: "_blank" do %>
-              <i class="fab fa-linkedin"></i>
-            <% end %>
-          <% end %>
-          <% if @artist.behance.present? %>
-            <%= link_to @artist.behance, target: "_blank" do %>
-              <i class="fab fa-behance"></i>
-            <% end %>
-          <% end %>
-          <% if @artist.facebook.present? %>
-            <%= link_to @artist.facebook, target: "_blank" do %>
-              <i class="fab fa-facebook"></i>
-            <% end %>
-          <% end %>
-          <% if @artist.twitter.present? %>
-            <%= link_to @artist.twitter, target: "_blank" do %>
-              <i class="fab fa-twitter"></i>
-            <% end %>
-          <% end %>
+            <h4>
+              <a data-toggle="collapse" href="#collapseSite" role="button" class="cross-collapse">
+                &times;
+              </a>
+            </h4>
+          </div>
         </div>
+        <div class="collapse" id="collapseSocials">
+          <div class="card card-body card-body-collapse text-justify">
+            <div class="social">
+              <% if @artist.instagram.present? %>
+                <%= link_to @artist.instagram, target: "_blank" do %>
+                  <i class="fab fa-instagram"></i>
+                <% end %>
+              <% end %>
+              <% if @artist.linkedin.present? %>
+                <%= link_to @artist.linkedin, target: "_blank" do %>
+                  <i class="fab fa-linkedin"></i>
+                <% end %>
+              <% end %>
+              <% if @artist.behance.present? %>
+                <%= link_to @artist.behance, target: "_blank" do %>
+                  <i class="fab fa-behance"></i>
+                <% end %>
+              <% end %>
+              <% if @artist.facebook.present? %>
+                <%= link_to @artist.facebook, target: "_blank" do %>
+                  <i class="fab fa-facebook"></i>
+                <% end %>
+              <% end %>
+              <% if @artist.twitter.present? %>
+                <%= link_to @artist.twitter, target: "_blank" do %>
+                  <i class="fab fa-twitter"></i>
+                <% end %>
+              <% end %>
+              <% if @artist.dribbble.present? %>
+                <%= link_to @artist.dribbble, target: "_blank" do %>
+                  <i class="fab fa-dribbble"></i>
+                <% end %>
+              <% end %>
+            </div>
+            <h4>
+              <a data-toggle="collapse" href="#collapseSocials" role="button" class="cross-collapse">
+                &times;
+              </a>
+            </h4>
+          </div>
+        </div>
+        <br><br><br>
+        <% if @artist.projects.present? %>
+          <h5><%= @artist.projects.first.name %></h5>
+        <% end %>
+        <br>
       </div>
 
     </div>
   </div>
+</div>
 
+
+<div class="grid-container">
   <div class="row">
     <% @artist.projects.each do |project| %>
       <div class="show-posters">
