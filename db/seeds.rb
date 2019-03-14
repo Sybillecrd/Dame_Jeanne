@@ -9,9 +9,8 @@ artists_attributes = [
     first_name: "Victoire",
     last_name: "Delpierre",
     job: "Designer graphique/Chef de projet Web",
-    speech: "Formée à l’École des Beaux Arts de Bordeaux, je suis designer graphique freelance.
-      Intriguée par les dimensions numériques de l’image et de l’information, j’ai ajouté à mon arc, la fonction de cheffe de projet digital. Je travaille autour de la conception de l’image et de ses enjeux techniques, mais surtout créatifs, en interrogeant le lien entre typographie, photographie & graphisme.
-      Les illustrations Zoom Zoom réalisées au sein du collectif illustré, me permettent d’attirer l’attention sur des endroits qui me séduisent et de focaliser sur certains détails.",
+    speech: "Formée à l’École des Beaux Arts de Bordeaux, Victoire Delpierre est designer graphique. Intriguée par les dimensions numériques de l’image et de l’information, elle ajoute à son arc la fonction de cheffe de projet digital. Elle travaille autour de la conception de l’image et de ses enjeux techniques, mais surtout créatifs en interrogeant le lien entre typographie, photographie & graphisme.
+      La série Zoom Zoom qu'elle réalise pour le collectif illustré, lui permettent d’attirer l’attention sur des lieux qui la séduisent et de partager le regard qu'elle porte sur certains détails.",
     blog: "https://www.victoirephotos.fr",
     blog2: "https://www.victoiredelpierre.fr/",
     instagram: "https://www.instagram.com/victoiredelpierre/",
@@ -30,18 +29,19 @@ artists_attributes = [
     first_name: "Liane",
     last_name: "Langenbach",
     job: "Illustratrice graphiste",
-    speech: "Communication illustrée pour projets écologiques et solidaires",
+    speech: "Illustratrice graphiste indépendante depuis 2017, Liane dessine et met en scène dans des environnements épurés des personnages ronds et colorés qui ont pour point commun de ne parler que d’écologie et d’environnement. Engagée dans les mouvements Zéro déchet et minimaliste, elle parle de ces sujets sur son blog Lilou Testetou et dans diverses parutions, en parallèle de son travail pour aider les acteurs du changement à mieux communiquer sur leurs projets à impact positif. Bordelaise d’adoption, elle est tombée amoureuse de cette ville et s’attache à mettre en lumière les nombreux projets de développement durable qui s’y forment. Pour cette première saison chez Dame Jeanne, elle a choisi de rendre vivantes les places bordelaises en mettant en avant leurs nombreuses sculptures animales, qui invitent au voyage et à l’imaginaire.",
     blog: "https://www.liane-langenbach.com",
     blog2: "https://www.liloutestetou.com",
     instagram: "https://www.instagram.com/liane.langenbach/",
-    facebook: "https://www.facebook.com/liane.langenbach/"
+    facebook: "https://www.facebook.com/liane.langenbach/",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552568702/Dame%20Jeanne/Portrait_-Liane.jpg"
   },
   {
     first_name: "Sybille",
     last_name: "Cordeau",
     job: "Graphiste & Webdesigner",
-    speech: "Après avoir étudié la mode à Paris, je suis retournée dans ma ville natale, Bordeaux, pour suivre une formation de développement web et me lancer en freelance en tant que graphiste et webdesigner. Restant fidèle à ma passion première, je puise mon inspiration dans la mode, l’art et les voyages.
-      Ainsi, les illustrations que j’ai réalisées pour Dame Jeanne est une personnification du vin rouge, blanc et rosé incarnée par les trois Grâces de la place de la Bourse.",
+    speech: "Après avoir étudié la mode à Paris, Sybille est retournée dans sa ville natale, Bordeaux, pour suivre une formation de développement web et se lancer en freelance en tant que graphiste et webdesigner. Restant fidèle à sa passion première, elle puise son inspiration dans la mode, l’art et les voyages.
+      Ainsi, les illustrations qu’elle a réalisées pour Dame Jeanne sont une personnification du vin rouge, blanc et rosé incarnée par les trois Grâces de la place de la Bourse.",
     blog: "http://sybillecrd.tumblr.com/",
     linkedin: "https://www.linkedin.com/in/sybille-cordeau/",
     behance: "https://www.behance.net/sybillecorda3f",
@@ -52,7 +52,7 @@ artists_attributes = [
     first_name: "Marjorie",
     last_name: "Goalard",
     job: "Graphiste web/print & illustratrice",
-    speech: "Marjorie Goalard est originaire de Bayonne et a débarqué à Bordeaux il y a de ça quelques années. Depuis maintenant 1 an elle s'est lancée dans l'aventure de graphiste freelance. Dans son travail, Marjorie fait la part belle à l'illustration à travers la création de compositions colorées où se mêlent détails et symboles. Faire partie du collectif Dame Jeanne lui permet de rendre hommage à Bordeaux, devenue sa ville de coeur.",
+    speech: "Marjorie Goalard est originaire de Bayonne et a débarqué à Bordeaux il y a de ça quelques années. Depuis maintenant 1 an, elle s'est lancée dans l'aventure de graphiste freelance. Dans son travail, Marjorie fait la part belle à l'illustration à travers la création de compositions colorées où se mêlent détails et symboles. Faire partie du collectif Dame Jeanne lui permet de rendre hommage à Bordeaux, devenue sa ville de coeur.",
     blog: "https://www.behance.net/Marjorie-Goalard",
     instagram: "https://www.instagram.com/marjorie.goalard/",
     linkedin: "https://www.linkedin.com/in/marjorie-goalard/",
@@ -99,7 +99,15 @@ artists_attributes = [
     first_name: "Johanna",
     last_name: "Maxwell",
     job: "Graphiste web/print",
-    speech: "",
+    speech: "Après des études d’Histoire de l’Art à Bordeaux, puis de communication visuelle
+      à l’E.C.V Aquitaine, Johanna est partie faire ses armes à Paris. Elle a travaillé 6
+      ans en agence comme web designer puis 2 ans dans une start up en tant que
+      responsable graphiste web, print et illustration.
+      10 ans, 3 bébés et une pause plus tard, un retour à Bordeaux et rapidement un
+      retour à la création.
+      A travers Dame Jeanne, elle retrouve la liberté de créer et l’émulation du collectif.
+      Quoi de mieux que la belle ville de Bordeaux comme muse ! Une cité chargée
+      d’histoire, réussissant l’équibre parfait entre passé et modernité !",
     blog: "http://cargocollective.com/jomaxwell",
     linkedin: "https://www.linkedin.com/in/johanna-de-sigoyer-b5ab091b/"
   },
@@ -130,29 +138,27 @@ artists_attributes = [
     first_name: "Pauline",
     last_name: "Lenain",
     job: "Graphiste / Illustratrice / Packaging",
-    speech: "Graphiste indépendante depuis 2013 à Bordeaux, j’allie ma passion pour le vin et les choses
-      authentiques au travers de la création d’étiquette de vins.
-      Très curieuse des métiers de l’Artisanat et des savoirs-faire, je m’interroge souvent sur le
-      temps.
-      Les illustrations pour le collectif, sont faite d’une traite et sans correction, j’aime penser
-      qu’elles sont l’essence d’un moment, résultant d’un regard à un moment T.
-      Ma vision n’étant qu’un point de vue sur des photographies anciennes, je laisse l’illustration
-      faire son chemin et vous offrir un petit moment d’histoire.",
+    speech: "Pauline est Graphiste indépendante à Bordeaux depuis 2013. Animée par sa passion pour le vin et les créations authentiques, elle crée des étiquettes de vin dans un style moderne et épuré.
+      Très curieuse des métiers de l’Artisanat et des savoir-faire, elle s’interroge souvent sur la notion du temps.
+      Ses illustrations pour le collectif sont faites d’une traite et sans correction, car elle aime penser qu’elles sont l’essence d’un moment, résultant d’un regard à un instant T.
+      Sa vision n’étant qu’un point de vue sur des photographies anciennes, elle laisse l’illustration faire son chemin et vous offrir un petit moment d’histoire.",
     blog: "https://www.graphisme-la-lettre-m.fr",
     instagram: "https://www.instagram.com/Pauline_lenain/",
+    facebook: "https://www.facebook.com/pauline.lenain.1",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552572779/Dame%20Jeanne/PAULINE_LENAIN_ATELIER__ILLUSTRATION_DAME_JEANNE_COLLECTIF.png"
   },
   {
     first_name: "Amandine",
     last_name: "Thomas",
     job: "Illustratrice et DA print",
     speech: "Après des études d’illustration à l’école Estienne, puis de didactique visuelle aux arts
-      décoratifs de Strasbourg, j’ai passé six ans à Melbourne, en Australie, où j’étais directrice
-      artistique dans la presse et l’édition. Récemment installée à Bordeaux, je profite de la
-      liberté offerte par mon nouveau statut de free-lance pour me replonger dans l’illustration,
-      aussi bien éditoriale que jeunesse ou commerciale.
-      À travers les illustrations crées pour Dame Jeanne, j’explore ma nouvelle ville, Bordeaux, à
-      vue d’oiseau – j’en survole les rues pour mieux cartographier mon quartier, et je m’en
-      réapproprie les icônes.",
+      décoratifs de Strasbourg, Amandine Thomas a passé six ans à Melbourne, en Australie, où
+      elle était directrice artistique dans la presse et l’édition. Récemment installée à Bordeaux,
+      elle profite de la liberté offerte par son nouveau statut de free-lance pour se replonger dans
+      l’illustration, aussi bien éditoriale que jeunesse ou commerciale.
+      À travers les illustrations crées pour Dame Jeanne, elle explore sa nouvelle ville, Bordeaux, à
+      vol d’oiseau – elle en survole les rues pour mieux cartographier son quartier, et s’en
+      réapproprier les icônes.",
     blog: "https://www.amandine-thomas.com",
     instagram: "https://www.instagram.com/amandinethomas/",
     facebook: "https://www.facebook.com/helloamandinethomas",
@@ -162,9 +168,18 @@ artists_attributes = [
     first_name: "Marie",
     last_name: "Paruit",
     job: "Illustratrice",
-    speech: "Illustration secteur jeunesse ",
+    speech: "Marie Paruit est née en 1980 dans le sud de la France.  Mieux que l'école, elle se régale de dessiner et  dévorer les histoires de Roald Dahl.
+      Plus tard elle étudie à Toulouse et continue à plus de 1000 kms d'apprendre à mieux raconter les histoires.
+      Elle est diplômée en création visuelle à  St Luc Tournai.
+      Repérée pendant ses études par une éditrice de Casterman, elle publie chez eux son premier album L'arbre sorcier, écrit par MS Roger en 2003.
+      Elle travaille majoritairement pour l’édition jeunesse, et ponctuellement pour la pub.
+      Elle collabore avec le magazine parental Bubblemag en illustrant les pages Bonnes Manières depuis de nombreuses années.
+      Elle a illustré une soixantaine de livres. Ses albums sont traduits en coréen, néerlandais, portugais, italien et allemand et anglais.
+      Après s’être baladée en France du Sud au Nord, habité dans le Far West américain,  au sommet d'une très haute tour à Hong Kong, et fait un tour à Paris, Marie Paruit a posé ses valises à Bordeaux avec son mari, leurs 3 garçons et autant de tortues.
+      Éblouie par la ville, elle propose de faire se regrouper des créatifs autour de cette pépite. Dame Jeanne est née de cette envie de découvrir et faire découvrir les richesses locales, et de s’émulsionner en coollectif joyeux.",
     blog: "http://www.marieparuit.ultra-book.com",
-    instagram: "https://www.instagram.com/marieparuit/"
+    instagram: "https://www.instagram.com/marieparuit/",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552569103/Dame%20Jeanne/marie-paruit-2018.jpg"
   }
 ]
 
@@ -253,7 +268,7 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Les trois Grâces"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552385572/Dame%20Jeanne/vin-rouge_RVB_72.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552567658/Dame%20Jeanne/vin-rouge_RVB_72.jpg"
     },
     {
       project: Project.find_by(name:"Les trois Grâces"),
@@ -304,6 +319,10 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551272991/Dame%20Jeanne/Poster-2-Amandine.jpg"
     },
     {
+      project: Project.find_by(name:"Bordeaux à vol d'oiseau"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552567532/Dame%20Jeanne/AT-Poster3.jpg"
+    },
+    {
       project: Project.find_by(name:"La Bordelaise"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/Affiche_1_Camille_Quid_pour_Dame_Jeanne-WEB.jpg"
     },
@@ -314,6 +333,10 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Sur les rails"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/Affiche-grand-theatre-A3moins-web.jpg"
+    },
+    {
+      project: Project.find_by(name:"Sur les rails"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552568357/Dame%20Jeanne/affiche-porte-de-bourgogne-WEB.png"
     },
     {
       project: Project.find_by(name:"Zoom Zoom"),
