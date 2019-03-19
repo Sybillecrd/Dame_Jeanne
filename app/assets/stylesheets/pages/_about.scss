@@ -14,7 +14,7 @@
 
 .card-about {
   position: absolute;
-  height: 780px;
+  height: 830px;
   width: 1000px;
   top: 540px;
   left: 0;
@@ -24,11 +24,30 @@
   text-align: center;
 }
 
-@media (min-width: 20px) and (max-width: 735px) {
+.card-text strong {
+  text-transform: uppercase;
+}
+
+@media (min-width: 20px) and (max-width: 360px) {
+  .container-about {
+    height: 300vh;
+  }
   .card-about {
     position: absolute;
     width: 90%;
-    height: 1132px;
+    height: 1660px;
+    top: 450px;
+    text-align: center;
+  }
+}
+@media (min-width: 361px) and (max-width: 735px) {
+  .container-about {
+    height: 200vh;
+  }
+  .card-about {
+    position: absolute;
+    width: 90%;
+    height: 1400px;
     top: 450px;
     text-align: center;
   }
@@ -42,6 +61,7 @@
     position: absolute;
     width: 85%;
     top: 450px;
+    height: 920px;
   }
 }
 
@@ -53,5 +73,6 @@
     position: absolute;
     width: 80%;
     top: 500px;
+    height: 940px;
   }
 }

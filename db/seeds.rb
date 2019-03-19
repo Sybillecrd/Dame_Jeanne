@@ -20,7 +20,8 @@ artists_attributes = [
     first_name: "Marc",
     last_name: "Lafon",
     job: "Graphiste Web/Print",
-    speech: "Graphiste, maquettiste et affichiste travaillant à Bordeaux. Spécialisé dans la maquette de livre et l’affiche de cinéma, je suis aussi un graphiste touche à tout qui n’hésite pas à explorer des techniques et méthodes pour mieux m’adapter à la mission. Au travers de Dame Jeanne j’explore ma vision d’un bordeaux coloré et divers.",
+    speech: "Graphiste, maquettiste et affichiste travaillant à Bordeaux. Après un BTS en communication graphique et un master en design aux Beaux-Arts, il se spécialise dans la maquette de livre et l’affiche de cinéma, C’est aussi un graphiste touche à tout qui n’hésite pas à explorer des techniques et méthodes pour ne jamais rester en terrain connu et s’adapter à chaque projet.
+      Au travers de Dame Jeanne il explore une vision d’un Bordeaux coloré et divers, ne se donnant pas de contraintes, les illustrations pourront varier de style suivant les collections.",
     blog: "https://www.marclafon-design.fr",
     instagram: "https://www.instagram.com/marclafon33/",
     avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552479477/Dame%20Jeanne/IMG_8675-copie-WEB.jpg"
@@ -62,38 +63,13 @@ artists_attributes = [
     first_name: "Camille",
     last_name: "Quid",
     job: "Illustratrice auteur",
-    speech: "Camille Quid est illustratrice auteur, installée à
-      Bordeaux en free-lance depuis 2012. Elle
-      travaille pour différents projets comme des
-      sites internet, des portraits de famille, des
-      cartes de vœux, des identités visuelles, ou
-      des magazines.
-      Elle tient à jour son « petit journal » en
-      publiant des dessins quotidiens et
-      humoristiques sur Instagram.
-      En participant au Collectif Dame Jeanne elle
-      lance aujourd'hui une gamme d'affiches,
-      illustrant La Bordelaise.
-      Puisque Bordeaux est le thème qui rassemble
-      tous les artistes de ce collectif, Camille Quid a
-      à cœur, à l’instar de la parisienne, de mettre
-      en scène La Femme, et en particulier celle qui
-      vit et aime Bordeaux !
-      Avec ses affiches, Camille Quid souhaite vous
-      emmener dans son univers féminin, frais et
-      léger, avec une touche d'humour, au travers
-      de petites scènes de vie croquées dans les
-      lieux tant aimés. Ce qu'elle espère c'est que
-      chacun trouve à s’y identifier et y retrouve la
-      Bordelaise qu’il a rencontrée, connue ou
-      croisée.
-      Chaque dessin évoque dans une bulle une
-      petite phrase évoquant cet instant volé, où le
-      temps semble s'être arrêté, une anecdote d’un
-      petit moment vécu par cette Bordelaise aux
-      milles facettes !",
-    blog: "http://camillequid.ultra-book.com/portfolio",
-    instagram: "https://www.instagram.com/camille_quid/"
+    speech: "Camille Quid est une illustratrice bordelaise installée en free-lance depuis 2012, qui collabore sur des projets tels que sites internet, portraits de famille, cartes illustrées, identités visuelles, magazines.
+      Elle publie également sur Instagram des petits croquis quotidiens et humoristiques sur sa vie de femme et mère de 4 enfants.
+      En participant au Collectif Dame Jeanne, elle a choisi avec ses affiches d’illustrer « La Bordelaise ». En effet, Camille Quid a à cœur, à l’instar de la parisienne, de mettre en scène La Femme, et en particulier celle qui vit et aime Bordeaux !
+      Avec ses dessins, Camille Quid souhaite vous emmener dans son univers féminin, frais et léger, avec une touche d'humour, au travers de petites scènes de vie croquées dans les lieux tant aimés. Ce qu'elle espère c'est que chacun trouve à s’y identifier et y retrouve la Bordelaise qu’il a rencontrée, connue ou croisée. Une phrase accompagne le dessin pour évoquer cet instant volé, où le temps semble s'être arrêté : une anecdote d’un petit moment vécu par cette Bordelaise aux milles facettes !",
+    blog: "https://camillequid.bigcartel.com/",
+    instagram: "https://www.instagram.com/camille_quid/",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1553005014/Dame%20Jeanne/Camille_Quid.jpg"
   },
   {
     first_name: "Johanna",
@@ -109,7 +85,8 @@ artists_attributes = [
       Quoi de mieux que la belle ville de Bordeaux comme muse ! Une cité chargée
       d’histoire, réussissant l’équibre parfait entre passé et modernité !",
     blog: "http://cargocollective.com/jomaxwell",
-    linkedin: "https://www.linkedin.com/in/johanna-de-sigoyer-b5ab091b/"
+    linkedin: "https://www.linkedin.com/in/johanna-de-sigoyer-b5ab091b/",
+    avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1553006646/Dame%20Jeanne/photo-portrait-johanna-web.jpg"
   },
   {
     first_name: "Antoine",
@@ -203,7 +180,7 @@ puts "Creating projects..."
       artist: Artist.find_by(first_name:"Sybille")
     },
     {
-      name: "Projet architectural",
+      name: "Bx-Bie",
       artist: Artist.find_by(first_name:"Antoine")
     },
     {
@@ -255,11 +232,11 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549630638/Dame%20Jeanne/pin-up-velo-avec-matieres.jpg"
     },
     {
-      project: Project.find_by(name:"Projet architectural"),
+      project: Project.find_by(name:"Bx-Bie"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552384804/Dame%20Jeanne/ANTOINE_COIQUAUD_02.jpg"
     },
     {
-      project: Project.find_by(name:"Projet architectural"),
+      project: Project.find_by(name:"Bx-Bie"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540541559/Dame%20Jeanne/FINAL_PAVILLON_ADMINISTRATIF_re%CC%81so72.jpg"
     },
     {
