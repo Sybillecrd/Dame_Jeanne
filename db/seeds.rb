@@ -84,7 +84,6 @@ artists_attributes = [
       À travers Dame Jeanne, elle retrouve la liberté de créer et l’émulation du collectif.
       Quoi de mieux que la belle ville de Bordeaux comme muse ! Une cité chargée
       d’histoire, réussissant l’équibre parfait entre passé et modernité !",
-    blog: "http://cargocollective.com/jomaxwell",
     linkedin: "https://www.linkedin.com/in/johanna-de-sigoyer-b5ab091b/",
     avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1553006646/Dame%20Jeanne/photo-portrait-johanna-web.jpg"
   },
@@ -310,7 +309,15 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"La Bordelaise"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/Affiche_1_Camille_Quid_pour_Dame_Jeanne-WEB.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553166419/Dame%20Jeanne/C.Quid_affiche1.jpg"
+    },
+    {
+      project: Project.find_by(name:"La Bordelaise"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553166172/Dame%20Jeanne/C.Quid_affiche2.jpg"
+    },
+    {
+      project: Project.find_by(name:"La Bordelaise"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553165714/Dame%20Jeanne/C.Quid_affiche3_copie.jpg"
     },
     {
       project: Project.find_by(name:"Le temps"),
@@ -318,11 +325,15 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Sur les rails"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/Affiche-grand-theatre-A3moins-web.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553166525/Dame%20Jeanne/Affiche-grand-theatre-WEB.png"
     },
     {
       project: Project.find_by(name:"Sur les rails"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552568357/Dame%20Jeanne/affiche-porte-de-bourgogne-WEB.png"
+    },
+    {
+      project: Project.find_by(name:"Sur les rails"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553166526/Dame%20Jeanne/affiche-cite-du-vin-WEB.png"
     },
     {
       project: Project.find_by(name:"Zoom Zoom"),
