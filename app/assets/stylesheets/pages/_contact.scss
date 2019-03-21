@@ -21,3 +21,9 @@
     padding: 16px;
   }
 }
+
+@media (min-width: 736px) and (max-width: 1025px) {
+  .background-contact {
+    height: 100vh;
+  }
+}
