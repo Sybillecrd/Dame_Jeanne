@@ -343,6 +343,10 @@ puts "Creating projects..."
       project: Project.find_by(name:"Zoom Zoom"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-Larrieu-_victoiredelpierre-72dpi.jpg"
     },
+    {
+      project: Project.find_by(name:"Zoom Zoom"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553252715/Dame%20Jeanne/zoomzoom-Meca_victoiredelpierre.jpg"
+    },
   ]
 
   Poster.create!(posters_attributes)
