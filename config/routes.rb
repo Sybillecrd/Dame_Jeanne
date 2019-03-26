@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get :shops, to: "pages#shops"
   get :press, to: "pages#press"
   get :contact, to: "pages#contact"
+  get :legalpage, to: 'pages#legalpage'
 end
