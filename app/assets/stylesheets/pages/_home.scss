@@ -50,7 +50,7 @@
     margin: 3rem 2% 0 2%;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 2%;
-    grid-auto-rows: 500px;
+    grid-template-rows: repeat(5, minmax(420px, 1fr));
     grid-row-gap: 1%;
   }
 }
@@ -61,7 +61,7 @@
     margin: 3rem 2% 0 2%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 2%;
-    grid-auto-rows: 500px;
+    grid-template-rows: repeat(5, minmax(420px, 1fr));
     grid-row-gap: 1%;
   }
 }
