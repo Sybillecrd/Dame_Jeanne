@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Dame Jeanne</title>
+    <title>Dame Jeanne, collectif illustré</title>
     <%= csrf_meta_tags %>
     <%= favicon_link_tag %>
     <%= action_cable_meta_tag %>
@@ -40,7 +40,8 @@
     <%= yield :after_js %>
     <%= render 'shared/footer' %>
 
-    <script> if(("standalone" in window.navigator) && window.navigator.standalone){
+    <script>
+      if(("standalone" in window.navigator) && window.navigator.standalone){
       // If you want to prevent remote links in standalone web apps opening Mobile Safari, change 'remotes' to true
       var noddy, remotes = false;
       document.addEventListener('click', function(event) {
@@ -56,6 +57,6 @@
         }
       },false);
     }</script>
-    
+
   </body>
 </html>
