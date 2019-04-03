@@ -248,6 +248,10 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540541559/Dame%20Jeanne/FINAL_PAVILLON_ADMINISTRATIF_re%CC%81so72.jpg"
     },
     {
+      project: Project.find_by(name:"Bx-Bie"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1554280403/Dame%20Jeanne/Maison_du_Vin_72dpi.jpg"
+    },
+    {
       project: Project.find_by(name:"Les trois Grâces"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552385572/Dame%20Jeanne/vin-blanc_RVB_72.jpg"
     },
@@ -322,6 +326,14 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Le temps"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/illu-DAME-JEANNE-WEB.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le temps"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1554280403/Dame%20Jeanne/CAPUCINS_PAULINE_LENAIN_LA_LETTRE_M_BD.png"
+    },
+    {
+      project: Project.find_by(name:"Le temps"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1554280402/Dame%20Jeanne/ST_EMILION_PAULINE_LENAIN__LA_LETTRE_M_BD.png"
     },
     {
       project: Project.find_by(name:"Sur les rails"),
