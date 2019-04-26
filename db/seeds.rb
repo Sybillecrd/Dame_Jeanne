@@ -33,7 +33,7 @@ artists_attributes = [
     speech: "Illustratrice graphiste indépendante depuis 2017, Liane dessine et met en scène dans des environnements épurés des personnages ronds et colorés qui ont pour point commun de ne parler que d’écologie et d’environnement. Engagée dans les mouvements Zéro déchet et minimaliste, elle parle de ces sujets sur son blog Lilou Testetou et dans diverses parutions, en parallèle de son travail pour aider les acteurs du changement à mieux communiquer sur leurs projets à impact positif. Bordelaise d’adoption, elle est tombée amoureuse de cette ville et s’attache à mettre en lumière les nombreux projets de développement durable qui s’y forment. Pour cette première saison chez Dame Jeanne, elle a choisi de rendre vivantes les places bordelaises en mettant en avant leurs nombreuses sculptures animales, qui invitent au voyage et à l’imaginaire.",
     blog: "https://www.liane-langenbach.com",
     blog2: "https://www.liloutestetou.com",
-    instagram: "https://www.instagram.com/liane.langenbach/",
+    instagram: "https://www.instagram.com/liane.illustration/",
     facebook: "https://www.facebook.com/liane.langenbach/",
     avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552568702/Dame%20Jeanne/Portrait_-Liane.jpg"
   },
