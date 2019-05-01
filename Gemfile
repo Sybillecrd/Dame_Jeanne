@@ -3,7 +3,7 @@ ruby '2.4.3'
 
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
-gem 'pg', '~> 0.21'
+gem 'pg', '~> 0.18.4'
 gem 'puma'
 gem 'rails', '5.2.1'
 gem 'redis'
@@ -24,7 +24,7 @@ group :development do
 end
 
 group :development, :test do
-  gem 'pry-byebug'
+  # gem 'pry-byebug'
   gem 'pry-rails'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
