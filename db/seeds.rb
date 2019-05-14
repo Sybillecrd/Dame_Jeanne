@@ -43,9 +43,10 @@ artists_attributes = [
     job: "Graphiste & Webdesigner",
     speech: "Après avoir étudié la mode à Paris, Sybille est retournée dans sa ville natale, Bordeaux, pour suivre une formation de développement web et se lancer en freelance en tant que graphiste et webdesigner. Restant fidèle à sa passion première, elle puise son inspiration dans la mode, l’art et les voyages.
       Ainsi, les illustrations qu’elle a réalisées pour Dame Jeanne sont une personnification du vin rouge, blanc et rosé incarnée par les trois Grâces de la place de la Bourse.",
-    blog: "http://sybillecrd.tumblr.com/",
+    blog: "https://www.sybillecordeau.fr/",
+    tumblr: "https://sybillecrd.tumblr.com/",
     linkedin: "https://www.linkedin.com/in/sybille-cordeau/",
-    behance: "https://www.behance.net/sybillecorda3f",
+    behance: "https://www.behance.net/sybillecordeau",
     dribbble: "https://dribbble.com/Sybillecrd",
     avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552474510/Dame%20Jeanne/IMG_3577.jpg"
   },

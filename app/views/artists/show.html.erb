@@ -70,14 +70,14 @@
                   <i class="fab fa-facebook"></i>
                 <% end %>
               <% end %>
-              <% if @artist.twitter.present? %>
-                <%= link_to @artist.twitter, target: "_blank" do %>
-                  <i class="fab fa-twitter"></i>
-                <% end %>
-              <% end %>
               <% if @artist.dribbble.present? %>
                 <%= link_to @artist.dribbble, target: "_blank" do %>
                   <i class="fab fa-dribbble"></i>
+                <% end %>
+              <% end %>
+              <% if @artist.tumblr.present? %>
+                <%= link_to @artist.tumblr, target: "_blank" do %>
+                  <i class="fab fa-tumblr"></i>
                 <% end %>
               <% end %>
             </div>
