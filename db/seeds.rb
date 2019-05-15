@@ -242,15 +242,15 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Bx-Bie"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552384804/Dame%20Jeanne/ANTOINE_COIQUAUD_02.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1557912777/Dame%20Jeanne/Antoine_Coiquaud_Gt_Theatre.jpg"
     },
     {
       project: Project.find_by(name:"Bx-Bie"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1540541559/Dame%20Jeanne/FINAL_PAVILLON_ADMINISTRATIF_re%CC%81so72.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1557912777/Dame%20Jeanne/Antoine_Coiquaud_Pavillon.jpg"
     },
     {
       project: Project.find_by(name:"Bx-Bie"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1554280403/Dame%20Jeanne/Maison_du_Vin_72dpi.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1557912777/Dame%20Jeanne/Antoine_Coiquaud_Maison_du_Vin.jpg"
     },
     {
       project: Project.find_by(name:"Les trois Grâces"),
