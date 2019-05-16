@@ -242,7 +242,7 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Bx-Bie"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1557912777/Dame%20Jeanne/Antoine_Coiquaud_Gt_Theatre.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1557994940/Dame%20Jeanne/Antoine_Coiquaud_Gd_Theatre.jpg"
     },
     {
       project: Project.find_by(name:"Bx-Bie"),
