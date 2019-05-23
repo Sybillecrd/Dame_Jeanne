@@ -314,15 +314,15 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"La Bordelaise"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553166419/Dame%20Jeanne/C.Quid_affiche1.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Pont_Chaban.jpg"
     },
     {
       project: Project.find_by(name:"La Bordelaise"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553166172/Dame%20Jeanne/C.Quid_affiche2.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Jardin_Public.jpg"
     },
     {
       project: Project.find_by(name:"La Bordelaise"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553165714/Dame%20Jeanne/C.Quid_affiche3_copie.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Cite%CC%81_du_Vin.jpg"
     },
     {
       project: Project.find_by(name:"Le temps"),
