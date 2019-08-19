@@ -42,9 +42,9 @@
     height: 300px !important;
   }
   .adresses-shops {
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(6, 100px);
     margin: 5% auto 5% auto;
-    grid-row-gap: 5%;
+    grid-row-gap: 1%;
 
   }
 }
