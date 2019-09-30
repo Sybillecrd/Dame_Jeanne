@@ -6,5 +6,4 @@ class PagesController < ApplicationController
 
   def shops; end
 
-  def press; end
 end

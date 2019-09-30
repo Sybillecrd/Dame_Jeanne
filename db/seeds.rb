@@ -273,20 +273,12 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1556111587/Dame%20Jeanne/LIAN-1.jpg"
     },
     {
-      project: Project.find_by(name:"Bordeaux - Les animaux sont dans la place"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1556111587/Dame%20Jeanne/LIAN-2.jpg"
-    },
-    {
       project: Project.find_by(name:"Bordeaux panoramique"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549284103/Dame%20Jeanne/Panoramique---SaintMichel-2.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux panoramique"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1550658719/Dame%20Jeanne/2-Panoramique-Bourse-1.jpg"
-    },
-    {
-      project: Project.find_by(name:"Bordeaux panoramique"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549284103/Dame%20Jeanne/Panoramique---Chartrons-2.jpg"
     },
     {
       project: Project.find_by(name:"Dégustation en bord d'eau"),
@@ -297,12 +289,8 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549380772/Dame%20Jeanne/3-affiche-marjorie.jpg"
     },
     {
-      project: Project.find_by(name:"Dégustation en bord d'eau"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549630638/Dame%20Jeanne/1-affiche-marjorie.jpg"
-    },
-    {
       project: Project.find_by(name:"Bordeaux à vol d'oiseau"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549377237/Dame%20Jeanne/AT-Poster-collecif-small.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1569848082/Dame%20Jeanne/AT-Poster3.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux à vol d'oiseau"),
@@ -310,19 +298,11 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Bordeaux à vol d'oiseau"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552567532/Dame%20Jeanne/AT-Poster3.jpg"
-    },
-    {
-      project: Project.find_by(name:"La Bordelaise"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Pont_Chaban.jpg"
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1569848102/Dame%20Jeanne/AT-Poster-Bourse.jpg"
     },
     {
       project: Project.find_by(name:"La Bordelaise"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Jardin_Public.jpg"
-    },
-    {
-      project: Project.find_by(name:"La Bordelaise"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Cite%CC%81_du_Vin.jpg"
     },
     {
       project: Project.find_by(name:"Le temps"),
@@ -345,20 +325,12 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552568357/Dame%20Jeanne/affiche-porte-de-bourgogne-WEB.png"
     },
     {
-      project: Project.find_by(name:"Sur les rails"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553166526/Dame%20Jeanne/affiche-cite-du-vin-WEB.png"
-    },
-    {
       project: Project.find_by(name:"Zoom Zoom"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-meriadeck-_victoiredelpierre72dpi.jpg"
     },
     {
       project: Project.find_by(name:"Zoom Zoom"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-Larrieu-_victoiredelpierre-72dpi.jpg"
-    },
-    {
-      project: Project.find_by(name:"Zoom Zoom"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553252715/Dame%20Jeanne/zoomzoom-Meca_victoiredelpierre.jpg"
     },
   ]
 
