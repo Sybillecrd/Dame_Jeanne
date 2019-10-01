@@ -326,10 +326,6 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Zoom Zoom"),
-      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-meriadeck-_victoiredelpierre72dpi.jpg"
-    },
-    {
-      project: Project.find_by(name:"Zoom Zoom"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-Larrieu-_victoiredelpierre-72dpi.jpg"
     },
   ]
