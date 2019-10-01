@@ -5,26 +5,27 @@ en:
     points-of-sale: 'Points of sale'
   about:
     subtitle: "Illustrated Collective"
-    àpropos_html: "<strong>Dame Jeanne, a collective of illustrators for crossed views on Bordeaux</strong>
+    àpropos_html: "<strong>An illustrators’ collective sharing their perspectives of Bordeaux</strong>
     <br><br>
-    Dame Jeanne est une association culturelle d’artistes réunis autour de la thématique commune : “Bordeaux et sa région”. Composé de 11 personnalités attachées à la ville de Gironde -Illustrateurs, graphistes, peintres ou encore photographes- les membres du collectif proposent des travaux graphiques à l'identité bordelaise. Ils croisent leurs visions et leurs “pattes” afin de proposer à la vente un large choix de travaux graphiques  évoquant la ville de Bordeaux et ses alentours.
+    Dame Jeanne is a cultural association, bringing artists together around the common theme of « Bordeaux and its surroundings ». It is composed of 11 members - illustrators, graphic designers, painters and photographers - who love their city.
     <br>
-    Le nom de l’association a été choisi en référence à ces grosses bouteilles en verre, qui servaient au transport et à la conservation de liquides, clin d’oeil à l’un des traits caractéristiques forts de Bordeaux, le vin.
+    The members of the collective, who come from all over France, each convey their own unique point of view and personal style. As a result, the collective is able to offer a wide variety of graphic works reflecting Bordeaux and its surroundings.
     <br>
-    Ici, la gracieuse bouteille sert à la conservation et à la bonne circulation du patrimoine illustré de Bordeaux.
+    The association takes its name from the dame Jeanne (Lady Joan), a big bottle used in the past to transport and store liquids such as wine, a hint to one of Bordeaux’s most famous cultural aspect.
+    Here, this lovely bottle allows us to maintain and to share the illustrated heritage of Bordeaux.
     <br><br><br>
-    <strong>L’activité de la bouteille</strong>
+    <strong>The activities of the bottle</strong>
     <br><br>
-    Dame Jeanne souhaite proposer 2 collections par an, à raison de 33 visuels par compilation (chacun des 11 membres fondateurs soumet trois visuels par collection).
-    Les affiches sont présentées lors d’un vernissage puis elles sont soumises à différents revendeurs, galeries, boutiques, pop-up.
-    Les affiches ne sont pas disponible à la vente en ligne pour le moment... affaire à suivre !
-    <br><br><br>
-    <strong>Peu importe le flacon pourvu qu’il y ait l’ivresse : l’équipe</strong>
+    Dame Jeanne wishes to publish 2 collections of posters and postcards per year, each collection being composed of 33 different illustrations (each of the 11 funding members creates 3 illustrations).
     <br><br>
-    Réuni par le biais d’un groupe facebook d’entraide entre freelances, le collectif est composé de 11 personnalités graphiques.
-    Aucun filtre de sélection, bienveillance 100%.
-    Illustrateurs jeunesse, graphistes, peintres, ou encore modéliste 3D, chacun des 11 membres fondateurs soumet un regard de la ville au travers de sa patte graphique."
+    The posters are first introduced during an launch event, followed by an exhibition, before being submitted to various sellers, galleries, local stores, pop-up and e-shops."
     link: 'Our press kit to download'
     follow-us: 'Follow us'
   shops:
     boutique: 'Find us in stores!'
+  contact:
+    contact-us: 'Contact us'
+    name: 'Name'
+    first-name: 'First name'
+    message: 'Your message'
+    send: 'Send'

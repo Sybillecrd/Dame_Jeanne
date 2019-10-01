@@ -29,3 +29,9 @@ fr:
     follow-us: 'Suivez-nous'
   shops:
     boutique: 'Retrouvez-nous en boutiques !'
+  contact:
+    contact-us: 'Contactez-nous'
+    name: 'Nom'
+    first-name: 'Prénom'
+    message: 'Votre message'
+    send: 'Envoyer'

@@ -5,22 +5,22 @@
 
         <div class="card card-contact">
           <div class="card-body">
-            <h1 class="card-title">Contactez-nous</h1>
+            <h1 class="card-title"><%= t('contact.contact-us') %></h1>
             <h6 class="card-subtitle mb-2">contact@dame-jeanne-bordeaux.fr</h6><br>
             <form method="POST" action="https://formspree.io/contact@dame-jeanne-bordeaux.fr">
               <div class="form-group">
-                <input type="name" class="form-control" name="Nom" placeholder="Nom">
+                <input type="name" class="form-control" name="Nom" placeholder="<%= t('contact.name') %>">
               </div>
               <div class="form-group">
-                <input type="firstname" class="form-control" name="Prénom" placeholder="Prénom">
+                <input type="firstname" class="form-control" name="Prénom" placeholder="<%= t('contact.first-name') %>">
               </div>
               <div class="form-group">
                 <input type="email" class="form-control" name="Email" placeholder="Email">
               </div>
               <div class="form-group">
-                <textarea name="Message" class="form-control" placeholder="Votre message" rows="4"></textarea>
+                <textarea name="Message" class="form-control" placeholder="<%= t('contact.message') %>" rows="4"></textarea>
               </div>
-                <button type="submit" class="btn btn-danger">Envoyer</button>
+                <button type="submit" class="btn btn-danger"><%= t('contact.send') %></button>
             </form>
           </div>
         </div>
