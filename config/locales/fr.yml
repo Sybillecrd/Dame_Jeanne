@@ -1,0 +1,37 @@
+fr:
+  navbar:
+    artists: 'Les artistes'
+    collectif: 'Le Collectif'
+    points-of-sale: 'Points de vente'
+  boutique: 'Retrouvez-nous en boutiques !'
+  about:
+    subtitle: "Collectif illustré"
+    àpropos_html: "<strong>Dame Jeanne, un collectif d’illustrateurs pour des regards croisés sur Bordeaux</strong>
+    <br><br>
+    Dame Jeanne est une association culturelle d’artistes réunis autour de la thématique commune : “Bordeaux et sa région”. Composé de 11 personnalités attachées à la ville de Gironde -Illustrateurs, graphistes, peintres ou encore photographes- les membres du collectif proposent des travaux graphiques à l'identité bordelaise. Ils croisent leurs visions et leurs “pattes” afin de proposer à la vente un large choix de travaux graphiques  évoquant la ville de Bordeaux et ses alentours.
+    <br>
+    Le nom de l’association a été choisi en référence à ces grosses bouteilles en verre, qui servaient au transport et à la conservation de liquides, clin d’oeil à l’un des traits caractéristiques forts de Bordeaux, le vin.
+    <br>
+    Ici, la gracieuse bouteille sert à la conservation et à la bonne circulation du patrimoine illustré de Bordeaux.
+    <br><br><br>
+    <strong>L’activité de la bouteille</strong>
+    <br><br>
+    Dame Jeanne souhaite proposer 2 collections par an, à raison de 33 visuels par compilation (chacun des 11 membres fondateurs soumet trois visuels par collection).
+    Les affiches sont présentées lors d’un vernissage puis elles sont soumises à différents revendeurs, galeries, boutiques, pop-up.
+    Les affiches ne sont pas disponible à la vente en ligne pour le moment... affaire à suivre !
+    <br><br><br>
+    <strong>Peu importe le flacon pourvu qu’il y ait l’ivresse : l’équipe</strong>
+    <br><br>
+    Réuni par le biais d’un groupe facebook d’entraide entre freelances, le collectif est composé de 11 personnalités graphiques.
+    Aucun filtre de sélection, bienveillance 100%.
+    Illustrateurs jeunesse, graphistes, peintres, ou encore modéliste 3D, chacun des 11 membres fondateurs soumet un regard de la ville au travers de sa patte graphique."
+    link: 'Notre dossier de presse à télécharger'
+    follow-us: 'Suivez-nous'
+  shops:
+    boutique: 'Retrouvez-nous en boutiques !'
+  contact:
+    contact-us: 'Contactez-nous'
+    name: 'Nom'
+    first-name: 'Prénom'
+    message: 'Votre message'
+    send: 'Envoyer'

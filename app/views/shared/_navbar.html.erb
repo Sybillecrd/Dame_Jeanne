@@ -9,11 +9,11 @@
 
     <!-- Links -->
     <a data-toggle="collapse" href="#artists-menu" role="button"><i class="fas fa-caret-down"></i>
-      Les Artistes
+      <%= t('navbar.artists') %>
     </a>
-    <%= link_to "Le Collectif", about_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to t("navbar.collectif"), about_path, class: "navbar-wagon-item navbar-wagon-link" %>
     <!-- presse, press_path -->
-    <%= link_to "Points de vente", shops_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to t('navbar.points-of-sale'), shops_path, class: "navbar-wagon-item navbar-wagon-link" %>
     <%= link_to "Contact", contact_path, class: "navbar-wagon-item navbar-wagon-link" %>
 
 
@@ -26,11 +26,11 @@
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
         <li>
           <a data-toggle="collapse" href="#artists-menu" role="button">
-            Les Artistes
+            <%= t('navbar.artists') %>
           </a>
         </li>
-        <li><a href="about">Le Collectif</a></li>
-        <li><a href="shops">Points de vente</a></li>
+        <li><a href="about"><%= t('navbar.collectif') %></a></li>
+        <li><a href="shops"><%= t('navbar.points-of-sale') %></a></li>
         <!-- <li><a href="press">Presse</a></li> -->
         <li><a href="contact">Contact</a></li>
       </ul>

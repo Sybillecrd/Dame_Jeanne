@@ -1,33 +1,31 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  navbar:
+    artists: 'The artists'
+    collectif: 'The Collective'
+    points-of-sale: 'Points of sale'
+  about:
+    subtitle: "Illustrated Collective"
+    àpropos_html: "<strong>An illustrators’ collective sharing their perspectives of Bordeaux</strong>
+    <br><br>
+    Dame Jeanne is a cultural association, bringing artists together around the common theme of « Bordeaux and its surroundings ». It is composed of 11 members - illustrators, graphic designers, painters and photographers - who love their city.
+    <br>
+    The members of the collective, who come from all over France, each convey their own unique point of view and personal style. As a result, the collective is able to offer a wide variety of graphic works reflecting Bordeaux and its surroundings.
+    <br>
+    The association takes its name from the dame Jeanne (Lady Joan), a big bottle used in the past to transport and store liquids such as wine, a hint to one of Bordeaux’s most famous cultural aspect.
+    Here, this lovely bottle allows us to maintain and to share the illustrated heritage of Bordeaux.
+    <br><br><br>
+    <strong>The activities of the bottle</strong>
+    <br><br>
+    Dame Jeanne wishes to publish 2 collections of posters and postcards per year, each collection being composed of 33 different illustrations (each of the 11 funding members creates 3 illustrations).
+    <br><br>
+    The posters are first introduced during an launch event, followed by an exhibition, before being submitted to various sellers, galleries, local stores, pop-up and e-shops."
+    link: 'Our press kit to download'
+    follow-us: 'Follow us'
+  shops:
+    boutique: 'Find us in stores!'
+  contact:
+    contact-us: 'Contact us'
+    name: 'Name'
+    first-name: 'First name'
+    message: 'Your message'
+    send: 'Send'
