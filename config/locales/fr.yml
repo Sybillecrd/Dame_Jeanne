@@ -1,11 +1,12 @@
-en:
+fr:
   navbar:
-    artists: 'The artists'
-    collectif: 'The Collective'
-    points-of-sale: 'Points of sale'
+    artists: 'Les artistes'
+    collectif: 'Le Collectif'
+    points-of-sale: 'Points de vente'
+  boutique: 'Retrouvez-nous en boutiques !'
   about:
-    subtitle: "Illustrated Collective"
-    àpropos_html: "<strong>Dame Jeanne, a collective of illustrators for crossed views on Bordeaux</strong>
+    subtitle: "Collectif illustré"
+    àpropos_html: "<strong>Dame Jeanne, un collectif d’illustrateurs pour des regards croisés sur Bordeaux</strong>
     <br><br>
     Dame Jeanne est une association culturelle d’artistes réunis autour de la thématique commune : “Bordeaux et sa région”. Composé de 11 personnalités attachées à la ville de Gironde -Illustrateurs, graphistes, peintres ou encore photographes- les membres du collectif proposent des travaux graphiques à l'identité bordelaise. Ils croisent leurs visions et leurs “pattes” afin de proposer à la vente un large choix de travaux graphiques  évoquant la ville de Bordeaux et ses alentours.
     <br>
@@ -24,7 +25,7 @@ en:
     Réuni par le biais d’un groupe facebook d’entraide entre freelances, le collectif est composé de 11 personnalités graphiques.
     Aucun filtre de sélection, bienveillance 100%.
     Illustrateurs jeunesse, graphistes, peintres, ou encore modéliste 3D, chacun des 11 membres fondateurs soumet un regard de la ville au travers de sa patte graphique."
-    link: 'Our press kit to download'
-    follow-us: 'Follow us'
+    link: 'Notre dossier de presse à télécharger'
+    follow-us: 'Suivez-nous'
   shops:
-    boutique: 'Find us in stores!'
+    boutique: 'Retrouvez-nous en boutiques !'
