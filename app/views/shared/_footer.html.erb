@@ -4,6 +4,11 @@
     <a href="https://www.facebook.com/damejeannebordeaux" target="_blank"><i class="fab fa-facebook"></i></a>
   </div>
   <div class="footer-copyright">
+    <% if I18n.locale == :fr %>
+      <%= link_to (image_tag "uk.png", height: 30), "#{current_page?(root_path)}/en/" %>
+    <% else %>
+      <%= link_to (image_tag "france.png", height: 30), "#{current_page?(root_path)}/" %>
+    <% end %>
     <%= link_to "MENTIONS LÉGALES", legalpage_path, class:"footer-copyright"%>
   </div>
 </div>
