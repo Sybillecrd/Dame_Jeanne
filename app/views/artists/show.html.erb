@@ -9,21 +9,30 @@
           <%= image_tag('default-profile.jpg', class: "avatar") %>
         <% end %>
         <h1><%= @artist.first_name %> <%= @artist.last_name %></h1>
-        <h5><%= @artist.job %></h5>
+
+        <% if I18n.locale == :fr %>
+          <h5><%= @artist.job %></h5>
+        <% else %>
+          <h5><%= @artist.job_en %></h5>
+        <% end %>
         <br>
 
         <a class="btn btn-danger" data-toggle="collapse" href="#collapseBio" role="button">
-          Biographie
+          <%= t :bio %>
         </a>
         <a class="btn btn-danger" data-toggle="collapse" href="#collapseSite" role="button">
-          Site Professionnel
+          <%= t :site %>
         </a>
         <a class="btn btn-danger" data-toggle="collapse" href="#collapseSocials" role="button">
-          Réseaux sociaux
+          <%= t :socials %>
         </a>
         <div class="collapse" id="collapseBio">
           <div class="card card-body card-body-collapse">
-            <h6><%= @artist.speech %></h6>
+            <% if I18n.locale == :fr %>
+              <h6><%= @artist.speech %></h6>
+            <% else %>
+              <h6><%= @artist.speech_en %></h6>
+            <% end %>
             <h4>
               <a data-toggle="collapse" href="#collapseBio" role="button" class="cross-collapse">
                 &times;

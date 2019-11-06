@@ -1,6 +1,6 @@
 class ArtistsController < ApplicationController
   def index
-    @projects = Project.all
+    @projects = Project.includes(:artist, :posters)
   end
 
   def show
