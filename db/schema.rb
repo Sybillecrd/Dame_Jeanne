@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_14_132427) do
+ActiveRecord::Schema.define(version: 2019_11_06_140512) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,6 +32,8 @@ ActiveRecord::Schema.define(version: 2019_05_14_132427) do
     t.string "avatar"
     t.string "dribbble"
     t.string "tumblr"
+    t.string "job_en"
+    t.string "speech_en"
   end
 
   create_table "posters", force: :cascade do |t|
