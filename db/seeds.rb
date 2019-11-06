@@ -9,6 +9,7 @@ artists_attributes = [
     first_name: "Victoire",
     last_name: "Delpierre",
     job: "Designer graphique/Chef de projet Web",
+    job_en: "Graphic Designer/Web project manager",
     speech: "Formée à l’École des Beaux Arts de Bordeaux, Victoire Delpierre est designer graphique. Intriguée par les dimensions numériques de l’image et de l’information, elle ajoute à son arc la fonction de cheffe de projet digital. Elle travaille autour de la conception de l’image et de ses enjeux techniques, mais surtout créatifs en interrogeant le lien entre typographie, photographie & graphisme.
       La série Zoom Zoom qu'elle réalise pour le collectif illustré, lui permettent d’attirer l’attention sur des lieux qui la séduisent et de partager le regard qu'elle porte sur certains détails.",
     blog: "https://www.victoirephotos.fr",
@@ -20,6 +21,7 @@ artists_attributes = [
     first_name: "Marc",
     last_name: "Lafon",
     job: "Graphiste Web/Print",
+    job_en: "Graphic Designer web/print",
     speech: "Graphiste, maquettiste et affichiste travaillant à Bordeaux. Après un BTS en communication graphique et un master en design aux Beaux-Arts, il se spécialise dans la maquette de livre et l’affiche de cinéma, C’est aussi un graphiste touche à tout qui n’hésite pas à explorer des techniques et méthodes pour ne jamais rester en terrain connu et s’adapter à chaque projet.
       Au travers de Dame Jeanne il explore une vision d’un Bordeaux coloré et divers, ne se donnant pas de contraintes, les illustrations pourront varier de style suivant les collections.",
     blog: "https://www.marclafon-design.fr",
@@ -30,7 +32,9 @@ artists_attributes = [
     first_name: "Liane",
     last_name: "Langenbach",
     job: "Illustratrice graphiste",
+    job_en: "Graphic Illustrator",
     speech: "Illustratrice graphiste indépendante depuis 2017, Liane dessine et met en scène dans des environnements épurés des personnages ronds et colorés qui ont pour point commun de ne parler que d’écologie et d’environnement. Engagée dans les mouvements Zéro déchet et minimaliste, elle parle de ces sujets sur son blog Lilou Testetou et dans diverses parutions, en parallèle de son travail pour aider les acteurs du changement à mieux communiquer sur leurs projets à impact positif. Bordelaise d’adoption, elle est tombée amoureuse de cette ville et s’attache à mettre en lumière les nombreux projets de développement durable qui s’y forment. Pour cette première saison chez Dame Jeanne, elle a choisi de rendre vivantes les places bordelaises en mettant en avant leurs nombreuses sculptures animales, qui invitent au voyage et à l’imaginaire.",
+    speech_en: "Working as an freelance illustrator and graphic designer since 2017, Liane likes to create sweet and colored characters in simple decors. She focuses her work on topics like environment, zero waste and minimalism, and writes about these matters in Lilou Testetou, an illustrated blog. She also works with eco friendly companies and organizations, helping them developing their communication through illustration and graphic design. She fell in love with the city of Bordeaux when she first arrived there during her studies, and she tries to highlight with her work the various eco friendly projects that are developed in this always evolving city.",
     blog: "https://www.liane-langenbach.com",
     blog2: "https://www.liloutestetou.com",
     instagram: "https://www.instagram.com/liane.illustration/",
@@ -41,6 +45,7 @@ artists_attributes = [
     first_name: "Sybille",
     last_name: "Cordeau",
     job: "Graphiste & Webdesigner",
+    job_en: "Graphic Designer & Webdesigner",
     speech: "Après avoir étudié la mode à Paris, Sybille est retournée dans sa ville natale, Bordeaux, pour suivre une formation de développement web et se lancer en freelance en tant que graphiste et webdesigner. Restant fidèle à sa passion première, elle puise son inspiration dans la mode, l’art et les voyages.
       Ainsi, les illustrations qu’elle a réalisées pour Dame Jeanne sont une personnification du vin rouge, blanc et rosé incarnée par les trois Grâces de la place de la Bourse.",
     blog: "https://www.sybillecordeau.fr/",
@@ -54,6 +59,7 @@ artists_attributes = [
     first_name: "Marjorie",
     last_name: "Goalard",
     job: "Graphiste web/print & illustratrice",
+    job_en: "Graphic Designer web/print @ Illustrator",
     speech: "Marjorie Goalard est originaire de Bayonne et a débarqué à Bordeaux il y a de ça quelques années. Depuis maintenant 1 an, elle s'est lancée dans l'aventure de graphiste freelance. Dans son travail, Marjorie fait la part belle à l'illustration à travers la création de compositions colorées où se mêlent détails et symboles. Faire partie du collectif Dame Jeanne lui permet de rendre hommage à Bordeaux, devenue sa ville de coeur.",
     blog: "https://www.behance.net/Marjorie-Goalard",
     instagram: "https://www.instagram.com/marjorie.goalard/",
@@ -64,6 +70,7 @@ artists_attributes = [
     first_name: "Camille",
     last_name: "Quid",
     job: "Illustratrice auteur",
+    job_en: "Illustrator author",
     speech: "Camille Quid est une illustratrice bordelaise installée en free-lance depuis 2012, qui collabore sur des projets tels que sites internet, portraits de famille, cartes illustrées, identités visuelles, magazines.
       Elle publie également sur Instagram des petits croquis quotidiens et humoristiques sur sa vie de femme et mère de 4 enfants.
       En participant au Collectif Dame Jeanne, elle a choisi avec ses affiches d’illustrer « La Bordelaise ». En effet, Camille Quid a à cœur, à l’instar de la parisienne, de mettre en scène La Femme, et en particulier celle qui vit et aime Bordeaux !
@@ -76,6 +83,7 @@ artists_attributes = [
     first_name: "Johanna",
     last_name: "Maxwell",
     job: "Graphiste web/print",
+    job_en: "Graphic Designer web/print",
     speech: "Après des études d’Histoire de l’Art à Bordeaux, puis de communication visuelle
       à l’E.C.V Aquitaine, Johanna est partie faire ses armes à Paris. Elle a travaillé 6
       ans en agence comme web designer puis 2 ans dans une start up en tant que
@@ -92,6 +100,7 @@ artists_attributes = [
     first_name: "Antoine",
     last_name: "Coiquaud",
     job: "Graphiste 3D",
+    job_en: "3D Graphic Artist",
     speech: "À gauche, Bordeaux se repère
       33 cm pour sa jaune pierre
       Une topé de choix parmi ces monuments,
@@ -124,6 +133,7 @@ artists_attributes = [
     first_name: "Pauline",
     last_name: "Lenain",
     job: "Graphiste / Illustratrice / Packaging",
+    job_en: "Graphic Designer / Illustrator / Packaging",
     speech: "Pauline est Graphiste indépendante à Bordeaux depuis 2013. Animée par sa passion pour le vin et les créations authentiques, elle crée des étiquettes de vin dans un style moderne et épuré.
       Très curieuse des métiers de l’Artisanat et des savoir-faire, elle s’interroge souvent sur la notion du temps.
       Ses illustrations pour le collectif sont faites d’une traite et sans correction, car elle aime penser qu’elles sont l’essence d’un moment, résultant d’un regard à un instant T.
@@ -137,6 +147,7 @@ artists_attributes = [
     first_name: "Amandine",
     last_name: "Thomas",
     job: "Illustratrice et DA print",
+    job_en: "Illustrator & AD print",
     speech: "Après des études d’illustration à l’école Estienne, puis de didactique visuelle aux arts
       décoratifs de Strasbourg, Amandine Thomas a passé six ans à Melbourne, en Australie, où
       elle était directrice artistique dans la presse et l’édition. Récemment installée à Bordeaux,
@@ -154,6 +165,7 @@ artists_attributes = [
     first_name: "Marie",
     last_name: "Paruit",
     job: "Illustratrice",
+    job_en: "Illustrator",
     speech: "Marie Paruit est née en 1980 dans le sud de la France.  Mieux que l'école, elle se régale de dessiner et  dévorer les histoires de Roald Dahl.
       Plus tard elle étudie à Toulouse et continue à plus de 1000 kms d'apprendre à mieux raconter les histoires.
       Elle est diplômée en création visuelle à  St Luc Tournai.
