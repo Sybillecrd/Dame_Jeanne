@@ -12,6 +12,7 @@ artists_attributes = [
     job_en: "Graphic Designer/Web project manager",
     speech: "Formée à l’École des Beaux Arts de Bordeaux, Victoire Delpierre est designer graphique. Intriguée par les dimensions numériques de l’image et de l’information, elle ajoute à son arc la fonction de cheffe de projet digital. Elle travaille autour de la conception de l’image et de ses enjeux techniques, mais surtout créatifs en interrogeant le lien entre typographie, photographie & graphisme.
       La série Zoom Zoom qu'elle réalise pour le collectif illustré, lui permettent d’attirer l’attention sur des lieux qui la séduisent et de partager le regard qu'elle porte sur certains détails.",
+    speech_en: "Trained at the School of Fine Arts in Bordeaux, Victoire Delpierre is a graphic designer. Intrigued by the digital dimensions of image and information, she adds another string to her bow as a digital project manager. She works around the conception of the image and its technical, but above all creative issues by questioning the link between typography, photography & graphic design. The Zoom Zoom series, which she creates for the illustrated collective, allows her to draw attention to places that seduce her and to share the way she looks at certain details.",
     blog: "https://www.victoirephotos.fr",
     blog2: "https://www.victoiredelpierre.fr/",
     instagram: "https://www.instagram.com/victoiredelpierre/",
@@ -48,6 +49,8 @@ artists_attributes = [
     job_en: "Graphic Designer & Webdesigner",
     speech: "Après avoir étudié la mode à Paris, Sybille est retournée dans sa ville natale, Bordeaux, pour suivre une formation de développement web et se lancer en freelance en tant que graphiste et webdesigner. Restant fidèle à sa passion première, elle puise son inspiration dans la mode, l’art et les voyages.
       Ainsi, les illustrations qu’elle a réalisées pour Dame Jeanne sont une personnification du vin rouge, blanc et rosé incarnée par les trois Grâces de la place de la Bourse.",
+    speech_en: "After studying fashion in Paris, Sybille returned to her hometown, Bordeaux, to take a web development course and start freelancing as a graphic designer and web designer. Remaining faithful to her primary passion, she draws inspiration from fashion, art and travel.
+      This way, the illustrations she made for Dame Jeanne are a personification of red, white and rosé wine embodied by the three Graces of the Place de la Bourse.",
     blog: "https://www.sybillecordeau.fr/",
     tumblr: "https://sybillecrd.tumblr.com/",
     linkedin: "https://www.linkedin.com/in/sybille-cordeau/",
@@ -317,6 +320,10 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Jardin_Public.jpg"
     },
     {
+      project: Project.find_by(name:"La Bordelaise"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Cite%CC%81_du_Vin.jpg"
+    },
+    {
       project: Project.find_by(name:"Le temps"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1551175908/Dame%20Jeanne/illu-DAME-JEANNE-WEB.jpg"
     },
@@ -334,11 +341,19 @@ puts "Creating projects..."
     },
     {
       project: Project.find_by(name:"Sur les rails"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1553166526/Dame%20Jeanne/affiche-cite-du-vin-WEB.png"
+    },
+    {
+      project: Project.find_by(name:"Sur les rails"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552568357/Dame%20Jeanne/affiche-porte-de-bourgogne-WEB.png"
     },
     {
       project: Project.find_by(name:"Zoom Zoom"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-Larrieu-_victoiredelpierre-72dpi.jpg"
+    },
+    {
+      project: Project.find_by(name:"Zoom Zoom"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-meriadeck-_victoiredelpierre72dpi.jpg"
     },
   ]
 
