@@ -64,6 +64,7 @@ artists_attributes = [
     job: "Graphiste web/print & illustratrice",
     job_en: "Graphic Designer web/print @ Illustrator",
     speech: "Marjorie Goalard est originaire de Bayonne et a débarqué à Bordeaux il y a de ça quelques années. Depuis maintenant 1 an, elle s'est lancée dans l'aventure de graphiste freelance. Dans son travail, Marjorie fait la part belle à l'illustration à travers la création de compositions colorées où se mêlent détails et symboles. Faire partie du collectif Dame Jeanne lui permet de rendre hommage à Bordeaux, devenue sa ville de coeur.",
+    speech_en: "Marjorie Goalard comes from Bayonne and arrived in Bordeaux a few years ago. Since last year, she started the adventure of freelancer graphic designer. Her work of illustrations gathers colourful compositions that combine details and symbols. Being a part of the collective Dame Jeanne allows Marjorie to show her love for Bordeaux, which became her favorite city.",
     blog: "https://www.behance.net/Marjorie-Goalard",
     instagram: "https://www.instagram.com/marjorie.goalard/",
     linkedin: "https://www.linkedin.com/in/marjorie-goalard/",
@@ -126,6 +127,25 @@ artists_attributes = [
       L'eau transparente carte postale, d'une plage au sable fin doré
       De la matière, de la diversité, juste au toucher, sous le regard des bordelais,
       Mariage entre Bordeaux et la Colombie, rien à rajouter : Inspiré.",
+    speech_en: "On the left, Bordeaux with his typical blond stone.
+      Great choice of monuments where everyone finds memories.
+      Like the Grand Théatre and its arches, where the first glass is often taken on the steps.
+      Hearing the heels slamming, making music.
+      In the massive administrative pavilion of the Jardin Public.
+      Who has never been in the grass lying in the afternoon ?
+      The pebbles waltz as children keep moving.
+      Until this rounded corner of the Maison du Vin.
+      Who has never sipped a glass of red wine
+      On the terrace, on the waterfront with friends?
+      Halve everything and get different color tints
+      With Colombia colors, a certain challenge.
+      Cartagena and its bright facades.
+      Warm color, like local coffee
+      Percussions all around by groups playing freestyle
+      With clear sky and rays of sun coming.
+      Transparent water postcard, a beach with fine golden sand.
+      Material, diversity, just the touch, under Bordelais'eyes.
+      Marriage between Bordeaux and Colombia, nothing to add : Inspired.",
     blog: "https://antoinecoiquaud1991.e-monsite.com",
     instagram: "https://www.instagram.com/antoine__coiquaud/",
     linkedin: "https://www.linkedin.com/in/antoine-coiquaud-5382a9145/",
@@ -159,6 +179,7 @@ artists_attributes = [
       À travers les illustrations crées pour Dame Jeanne, elle explore sa nouvelle ville, Bordeaux, à
       vol d’oiseau – elle en survole les rues pour mieux cartographier son quartier, et s’en
       réapproprier les icônes.",
+    speech_en: "After studying illustration at the école Estienne, then visual didactic at the arts décoratifs de Strasbourg, Amandine Thomas spent six years in Melbourne, Australia, where she became the art director of quarterly magazine Dumbo Feather. Now based in Bordeaux, she takes full advantage of the freedom offered by her freelance status to dive back into illustration, both editorial and commercial. Through her Dame Jeanne illustrations, she takes a bird-eye view of her new city, Bordeaux - flying above the streets to better map her neighbourhood, and reclaim its iconic elements.",
     blog: "https://www.amandine-thomas.com",
     instagram: "https://www.instagram.com/amandinethomas/",
     facebook: "https://www.facebook.com/helloamandinethomas",
