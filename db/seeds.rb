@@ -55,7 +55,8 @@ artists_attributes = [
     tumblr: "https://sybillecrd.tumblr.com/",
     linkedin: "https://www.linkedin.com/in/sybille-cordeau/",
     behance: "https://www.behance.net/sybillecordeau",
-    dribbble: "https://dribbble.com/Sybillecrd",
+    dribbble: "https://dribbble.com/sybillecordeau",
+    instagram: "https://www.instagram.com/sybillecordeau_webdesign/",
     avatar: "https://res.cloudinary.com/sybillecrd/image/upload/v1552474510/Dame%20Jeanne/IMG_3577.jpg"
   },
   {
