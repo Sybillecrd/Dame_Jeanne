@@ -1,0 +1,2700 @@
+    1  mkdir -p ~/.ssh && ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/id_ed25519 -C "sybillecordeau@gmail.com"\n
+    2  cat ~/.ssh/id_ed25519.pub\n
+    3  ssh -T git@github.com\n
+    4  export GITHUB_USERNAME=Sybillecrd
+    5  mkdir -p ~/code/$GITHUB_USERNAME && cd $_ && git clone git@github.com:$GITHUB_USERNAME/dotfiles.git\n
+    6  cd ~/code/$GITHUB_USERNAME/dotfiles\n
+    7  zsh install.sh\n
+    8  cd ~/code/$GITHUB_USERNAME/dotfiles\n
+    9  zsh git_setup.sh\n
+   10  stt
+   11  sw_vers\n
+   12  touch ~/.ssh/config 
+   13  st ~/.ssh/config 
+   14  rvm implode && sudo rm -rf ~/.rvm\n
+   15  sudo rm -rf $HOME/.rbenv /usr/local/rbenv /opt/rbenv /usr/local/opt/rbenv\n
+   16  brew uninstall --force rbenv ruby-build\n
+   17  brew install rbenv\n
+   18  rbenv install 2.4.4\n
+   19  rbenv global 2.4.4\n
+   20  ruby -v\n
+   21  brew install postgresql\n
+   22  brew services start postgresql\n
+   23  psql -d postgres\n
+   24  curl -Ls https://raw.githubusercontent.com/lewagon/setup/master/check.rb > _.rb && ruby _.rb || rm _.rb\n
+   25  bundle install
+   26  gem install rake bundler rspec rubocop pry pry-byebug hub colored octokit\n
+   27  curl -Ls https://raw.githubusercontent.com/lewagon/setup/master/check.rb > _.rb && ruby _.rb || rm _.rb\n
+   28  cd code/Sybillecrd
+   29  l
+   30  git clone git@github.com:Sybillecrd/Dame_Jeanne.git
+   31  git clone git@github.com:Sybillecrd/My_website.git
+   32  git clone git@github.com:Sybillecrd/movie_match.git
+   33  git clone git@github.com:claire-gtr/clapee.git
+   34  cd
+   35  cd /Users/sybillecordeau/code/Sybillecrd
+   36  cd Dame_Jeanne
+   37  rails s
+   38  ruby -v
+   39  rbenv versions
+   40  rbenv install 2.4.3
+   41  cd
+   42  ruby -v
+   43  rbenv versions
+   44  rails s
+   45  gem install rails\n
+   46  rails s
+   47  bundle install
+   48  rails s
+   49  yarn install
+   50  brew install yarn\n
+   51  rails s
+   52  yarn install
+   53  stt
+   54  yarn upgrade
+   55  yarn upgrade @rails/webpacker
+   56  rm package-lock.json
+   57  yarn install
+   58  gst
+   59  l
+   60  rails s
+   61  stt
+   62  bundle
+   63  bundle update
+   64  rails
+   65  rails s
+   66  cd code/Sybillecrd/Dame_Jeanne
+   67  rails db:create
+   68  rails db:migrate
+   69  cd
+   70  cat ./.zshrc
+   71  vim ./.zshrc
+   72  la
+   73  cd code/Sybillecrd/dotfiles
+   74  l
+   75  cat install.sh
+   76  ~/Library/Application\ Support/Sublime\ Text\ 3
+   77  l
+   78  cd Packages/User
+   79  l
+   80  cd ..
+   81  l
+   82  cd Installed\ Packages
+   83  l
+   84  cat Package\ Control.sublime-package
+   85  l
+   86  cd
+   87  rails s
+   88  l
+   89  cd -
+   90  cd code/Sybillecrd/Dame_Jeanne
+   91  atom .
+   92  git co -b modifs
+   93  rails s
+   94  gst
+   95  git add .
+   96  git commit -m "add yarn, bootstrap 4"
+   97  git push origin modifs
+   98  hub browse
+   99  git co master
+  100  git pull origin master
+  101  cd
+  102  cd code/Sybillecrd/clapee
+  103  rails s
+  104  bundle install
+  105  yarn install
+  106  rails s
+  107  rails db:migrate
+  108  rails db:create
+  109  rails db:migrate
+  110  atom .
+  111  git pull origin master
+  112  rails db:drop
+  113  rails db:create
+  114  rails db:migrate
+  115  rake
+  116  rails task
+  117  rails rake
+  118  rails digitick
+  119  rake digitick:fetch
+  120  rails s
+  121  git co -b responsive
+  122  gst
+  123  git add . 
+  124  git commit -m "reduce image size & add media queries for sign up and edit profil" 
+  125  brew install hub
+  126  gst
+  127  hub browse
+  128  hub create
+  129  bundle install
+  130  hub browse
+  131  brew install hub
+  132  git push origin responsive
+  133  hub browse
+  134  git co master
+  135  git pull origin master
+  136  cd
+  137  cd code/Sybillecrd/Dame_Jeanne
+  138  rails s
+  139  atom .
+  140  gst
+  141  git co -b contact
+  142  git add .
+  143  git commit -m "add a half-screen image, fix background contact"
+  144  gst
+  145  git add .
+  146  git commit -m "add a brown color for title"
+  147  git push origin contact
+  148  git co master
+  149  git pull origin master
+  150  git sweep
+  151  cd
+  152  cd code/Sybillecrd/clapee
+  153  rails s
+  154  atom .
+  155  git sweep
+  156  git co -b scroll
+  157  gst
+  158  git add .
+  159  git commit -m "fix bug with mobile responsive"
+  160  git push origin scroll
+  161  git co master
+  162  git pull origin master
+  163  rails s
+  164  cd
+  165  cd code/Sybillecrd/Dame_Jeanne
+  166  atom .
+  167  rails s
+  168  git co -b contact-infos
+  169  gst
+  170  git add .
+  171  git commit -m "add contact infos Marie + Sybille"
+  172  gst
+  173  git add .
+  174  git commit -m "contact page for xs"
+  175  gst
+  176  git push origin contact-infos 
+  177  git co master
+  178  git pull origin master
+  179  cd
+  180  cd code/Sybillecrd/clapee
+  181  git pull origin master
+  182  atom .
+  183  git pull origin master
+  184  atom .
+  185  cd
+  186  cd code/Sybillecrd/Dame_Jeanne
+  187  rails s
+  188  atom .
+  189  git pull origin master
+  190  git co -b responsive-contact
+  191  gst
+  192  git add .
+  193  git commit -m "add media queries for xs screen"
+  194  git push origin responsive-contact 
+  195  git co master
+  196  git pull origin master
+  197  git sweep
+  198  git co -b about
+  199  gst
+  200  git add .
+  201  git commit -m "beginning of the about page"
+  202  git push origin about
+  203  git co master
+  204  git pull origin master
+  205  gst
+  206  atom .
+  207  rails
+  208  rails s
+  209  git co -b about
+  210  git co -b about-suite
+  211  gst
+  212  git add.
+  213  git add .
+  214  git commit -m "add a new color for typo, place the card in about page, reduce icon size"
+  215  gst
+  216  git add .
+  217  git commit -m "change typo color for contact content"
+  218  gst
+  219  git push origin master
+  220  git push origin about-suite 
+  221  git co master
+  222  git pull origin master 
+  223  git sweep
+  224  atom .
+  225  rails s
+  226  git co -b card-home
+  227  gst
+  228  git add .
+  229  git commit -m "change card home, add a filter and a hover"
+  230  gst
+  231  git add .
+  232  git commit -m "css for artists names"
+  233  git push origin card-home
+  234  git co master
+  235  git pull origin master
+  236  git co -b about-xs
+  237  gst
+  238  git add .
+  239  git commit -m "change about page for xs"
+  240  git push origin about-xs
+  241  git co master
+  242  git pull origin master
+  243  git sweep
+  244  atom .
+  245  rails s
+  246  git co -b home-container
+  247  gst
+  248  git add .
+  249  git commit -m "modify hover cards artist, add a cards container, start responsive for home page"
+  250  gst
+  251  git add .
+  252  git commit -m "continue the responsive of home page"
+  253  gst
+  254  git add .
+  255  git commit -m "add anew card, fix margin"
+  256  git push origin home-container 
+  257  git co master
+  258  git pull origin master
+  259  git co -b mail
+  260  gst
+  261  git add .
+  262  git commit -m "add mailto in contact page and footer" 
+  263  git push origin mail
+  264  git co master
+  265  git pull origin master
+  266  git sweep
+  267  atom .
+  268  rails s
+  269  git co -b change-about
+  270  gst
+  271  git add .
+  272  git commit -m "try to change css of about page"
+  273  git push origin change-about
+  274  git co master
+  275  git pull origin master
+  276  atom .
+  277  git co -b about-media
+  278  gst
+  279  git add .
+  280  git commit -m "add media queries for about page"
+  281  gst
+  282  git add .
+  283  git commit -m "continue responsive for about title and p"
+  284  git push origin about-media
+  285  git co master
+  286  git pull origin master
+  287  atom .
+  288  rails s
+  289  git co -b home-try
+  290  gst
+  291  git add .
+  292  git commit -m "search for home page"
+  293  git push origin home-try
+  294  git co master
+  295  git pull origin master
+  296  atom .
+  297  rails s
+  298  git co -b home-4
+  299  gst
+  300  git add .
+  301  git commit -m "try bootstrap 4 for responsive home"
+  302  git push origin home-4
+  303  git co master
+  304  git pull origin master
+  305  rails s
+  306  atom .
+  307  rails s
+  308  git co -b controller
+  309  rails generate controller artists name job avatar
+  310  gst
+  311  git add .
+  312  git commit -m "add seeds and artists controller"
+  313  git push origin controller 
+  314  git co master
+  315  git pull origin master
+  316  git sweep
+  317  atom .
+  318  git co -b seed
+  319  gst
+  320  git add .
+  321  git commit -m "modify mail for artists"
+  322  git push origin seed
+  323  git co master
+  324  git pull origin master
+  325  atom .
+  326  git co -b artist-model
+  327  gst
+  328  rails g model Artist first_name last_name job speech blog
+  329  rails g model Project name artist:references
+  330  rails g model Poster picture_one picture_two picture_three project:referencess
+  331  rails s
+  332  rails db:create
+  333  rails db:migrate
+  334  rails s
+  335  rails db:migrate
+  336  $ sudo mkdir /var/pgsql_socket/\n
+  337  sudo mkdir /var/pgsql_socket/\n
+  338  sudo ln -s /private/tmp/.s.PGSQL.5432 /var/pgsql_socket/
+  339  rails db:migrate
+  340  postgres -D /usr/local/pgsql/data
+  341  pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
+  342  brew install postgresql
+  343  rails db:migrate
+  344  rails s
+  345  brew reinstall postgresql
+  346  rails db:migrate
+  347  rails s
+  348  rm /usr/local/var/postgres/postmaster.pid
+  349  postgres -D /usr/local/pgsql/data
+  350  initdb
+  351  pg_basebackup
+  352  pg_basebackup --help
+  353  postgres -D /usr/local/pgsql/data >logfile 2>&1 &
+  354  gst
+  355  git add .
+  356  git commit -m "add models for poster, artist and project"
+  357  git push origin artist-model 
+  358  git co master
+  359  git pull origin master
+  360  rails db:migrate
+  361  gst
+  362  git add .
+  363  git commit -m "fix bug in the migration"
+  364  git co -b fix-bug
+  365  gst
+  366  git push origin fix-bug
+  367  git co master
+  368  git pull originmaster
+  369  git pull origin master
+  370  git co -b fix-models
+  371  rails generate migration RemovePicturesFromPosters picture_one picture_two picture_three
+  372  rails db:migrate
+  373  rails g migration AddPictureToPosters
+  374  rails db:migrate
+  375  gst
+  376  rails db:migrate
+  377  gst
+  378  git add .
+  379  git commit -m "add picture column to posters"
+  380  rails db:migrate
+  381  git push origin fix-models
+  382  git co master
+  383  git pull origin master
+  384  rails db:migrate
+  385  git co -b picture-to-posters
+  386  rails g migration AddPictureToPosters picture:string
+  387  rails db:migrate
+  388  gst
+  389  git add .
+  390  git commit -m "fix the bug with the migration add picture to posters"
+  391  git push origin picture-to-posters 
+  392  git co master
+  393  git pull origin master
+  394  rails db:migrate
+  395  gst
+  396  rails s
+  397  atom .
+  398  git co -b artist-controller
+  399  gst
+  400  rails c
+  401  gst
+  402  git add .
+  403  git commit -m "modify artists controller, add roots, add seeds"
+  404  git push origin artist-controller 
+  405  git co master
+  406  git pull origin master
+  407  git co -b seed
+  408  git sweep
+  409  git co -b creat-seed
+  410  rails c
+  411  exit
+  412  rails c
+  413  gst
+  414  rails db:seed
+  415  rails g migration AddInstagramtoArtists instagram:string
+  416  rails db:migrate
+  417  rails g migration AddInstagramToArtists instagram:string
+  418  rails g migration AddLinkedinToArtists linkedin:string
+  419  rails db:migrate
+  420  rails db:seed
+  421  rails c
+  422  rails db:drop
+  423  rails db:migrate
+  424  rails db:seed
+  425  psql -d postgres
+  426  brew install postgresql
+  427  brew upgrade postgresql
+  428  rails db:create
+  429  yarn install
+  430  bundle install
+  431  yarn install
+  432  rails db:create
+  433  yarn install
+  434  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+  435  psql
+  436  specs postgres brew os
+  437  createdb sybillecordeau
+  438  rails db:create
+  439  yarn install
+  440  rails db:migrate
+  441  psql -h localhost or psql
+  442  psql -d postgres
+  443  yarn install
+  444  npm version
+  445  brew upgrade npm
+  446  yarn install
+  447  rails db:create
+  448  rails db:migrate
+  449  rails db:seed
+  450  rails c
+  451  gst
+  452  git add .
+  453  git commit -m "add migration instagram and linkedin for artists attributes"
+  454  git push origin creat-seed 
+  455  git co master
+  456  git pull origin master
+  457  rails db:migrate
+  458  git co -b link_to
+  459  rails routes
+  460  gst
+  461  git add .
+  462  git commit -m "change home by artist index, add link to show artist"
+  463  git push origin link_to
+  464  git co master
+  465  git pull origin master
+  466  rails db:seed
+  467  rails db:migrate
+  468  atom .
+  469  rails s
+  470  rails db:seed
+  471  rails co -b artist-name
+  472  git co -b artist-name
+  473  gst
+  474  rails db:drop
+  475  rails db:create
+  476  rails db:migrate
+  477  rails db:seed
+  478  gst
+  479  git add .
+  480  git commit -m "begin artist show + css artist index"
+  481  git push origin artist-name
+  482  git co master
+  483  git pull origin master
+  484  rails db:migrate
+  485  atom .
+  486  rails s
+  487  git co -b alpha-order
+  488  gst
+  489  git add.
+  490  git add .
+  491  git commit -m "order alpha for artist last name in index"
+  492  git push origin alpha-order
+  493  git co master
+  494  git pull origin master
+  495  rails c
+  496  gst
+  497  git co -b project-show
+  498  git add .
+  499  git commit -m "add project name in the artist show"
+  500  git push origin project-show
+  501  git co master
+  502  git pull origin master
+  503  git sweep
+  504  git co -b socials
+  505  gst
+  506  git add .
+  507  git commit -m "add social networks linkedin + insta in artist show"
+  508  git push origin socials
+  509  git co master
+  510  git pull origin master
+  511  git co -b blogs
+  512  rails g migration AddBlog2ToArtists blog2:string
+  513  rails db:migrate
+  514  rails db:seed
+  515  rails db:drop
+  516  rails db:create db:migrate db:seed
+  517  rails db:drop db:create db:migrate db:seed
+  518  gst
+  519  git add .
+  520  git commit -m "site blog in artist show"
+  521  git push origin blogs
+  522  git co master
+  523  git pull origin master
+  524  rails db:seed
+  525  atom .
+  526  rails s
+  527  git co -b show-artist
+  528  rails g migration AddBehanceToArtists behance:string
+  529  rails db:migrate
+  530  rails db:drop db:create db:migrate db:seed
+  531  gst
+  532  git add .
+  533  git commit -m "begin css artist show + add new column behance in artists"
+  534  gst
+  535  git add .
+  536  git commit -m "little thing css show artist"
+  537  git push origin show-artist
+  538  git co master
+  539  git pull origin master
+  540  rails db:migrate
+  541  rails s
+  542  atom .
+  543  git co -b réu
+  544  gst
+  545  rails db:drop db:create db:migrate db:seed
+  546  gst
+  547  git add .
+  548  git commit -m "change text in réu DJ"
+  549  git push origin réu
+  550  git co master
+  551  git pull origin master
+  552  atom .
+  553  rails s
+  554  git co -b complete-seed
+  555  rails db:drop db:create db:migrate db:seed
+  556  rails db:seed
+  557  rails db:drop db:create db:migrate db:seed
+  558  gst
+  559  git add .
+  560  git commit -m "add dependence in artist model"
+  561  git push origin complete-seed 
+  562  git co master
+  563  git pull origin master
+  564  carousel
+  565  git co -b carousel
+  566  yarn remove bootstrap
+  567  yarn add bootstrap
+  568  yarn add popper.js
+  569  yarn instal
+  570  yarn install
+  571  ls
+  572  gst
+  573  git add .
+  574  git commit -m "begin carousel in index artist + update jquery"
+  575  git push origin carousel
+  576  git co master
+  577  git pull origin master
+  578  atom .
+  579  git co -b social-n
+  580  rails g migration AddFacebookToArtists facebook:string
+  581  rails s
+  582  rails db:migrate
+  583  rails db:drop db:create db:migrate db:seed
+  584  rails db:drop
+  585  rake environment db:drop
+  586  rails db:create db:migrate db:seed
+  587  rails g migration AddTwitterToArtists twitter:string
+  588  rails db:drop db:create db:migrate db:seed
+  589  gst
+  590  git add .
+  591  git commit -m "add Alice + more social networks + postgresql task"
+  592  git push origin social-n
+  593  git co master
+  594  git pull origin master
+  595  git co -b try-card
+  596  gst
+  597  git add 
+  598  git add .
+  599  git commit -m "try card for home"
+  600  git push origin try-card
+  601  git co master
+  602  git pull origin master
+  603  atom .
+  604  git co -b add-posters
+  605  gst
+  606  rails db:drop db:create db:migrate db:seed
+  607  rails s
+  608  rails db:drop db:create db:migrate db:seed
+  609  gst
+  610  git add .
+  611  git commit -m "add Marie, Antoine & me posters in seed"
+  612  git push origin add-posters 
+  613  git co master
+  614  git pull origin master
+  615  atom .`\nexit
+  616  atom .
+  617  rails s
+  618  gst
+  619  git add .
+  620  git co -b back-index
+  621  git add .
+  622  git commit -m "begin back and css index artists"
+  623  gst
+  624  git push origin back-index 
+  625  git co master
+  626  git pull origin master
+  627  rails s
+  628  atom .
+  629  git co -b nico
+  630  rails db:drop db:create db:migrate db:seed
+  631  gst
+  632  git add .
+  633  git commit -m "seed Nico"
+  634  git push origin nico
+  635  hub browse
+  636  git co master
+  637  git pull origin master
+  638  atom .
+  639  rails s
+  640  /Volumes/Sketch\ 52/Open\ Gatekeeper\ friendly ; exit;
+  641  atom .
+  642  rails s
+  643  git co -b modif-about
+  644  npm install @babel/plugin-transform-modules-commonjs
+  645  npm audit
+  646  npm install --save-dev webpack-dev-server@3.1.14
+  647  gst
+  648  git add .
+  649  git commit -m "fix css dropdown, add links in dropdown, add some media queries for about xs page"
+  650  git push origin modif-about 
+  651  git co master
+  652  git pull origin master
+  653  touch .env
+  654  echo '.env*' >> .gitignore
+  655  gst 
+  656  git add .
+  657  git commit -m "Add dotenv - Protect my secret data in .env file"\n
+  658  rails s
+  659  yarn install
+  660  brew upgrade yarn
+  661  rails s
+  662  gst
+  663  git add .
+  664  git commit -m "yarn install"
+  665  git co -b pb
+  666  gst
+  667  git push origin pb
+  668  git co master
+  669  git pull origin master
+  670  git co -b js
+  671  gst
+  672  git add .
+  673  git commit -m "add carousel js"
+  674  git push origin js
+  675  git co master
+  676  git pull origin master
+  677  atom .
+  678  git co -b carrousel
+  679  rails s
+  680  git co master
+  681  gst
+  682  git co -b logo-a
+  683  gst
+  684  git add .
+  685  git commit -m "change logo + size"
+  686  git push origin logo-a 
+  687  git co master
+  688  git pull origin master 
+  689  git co -b little-css-home
+  690  gst
+  691  git add .
+  692  git commit -m "fix some details for home cards, to go on"
+  693  git push origin little-css-home 
+  694  git co master
+  695  git pull origin master 
+  696  gst
+  697  git co -b show-artist
+  698  git co -b artist-show
+  699  git add .
+  700  git commit -m "add posters in artist show"
+  701  git push origin artist-show 
+  702  git co master
+  703  git pull origin master
+  704  atom .
+  705  rails s
+  706  atom .
+  707  rails s
+  708  git co -b liane
+  709  rails db:drop db:create db:migrate db:seed
+  710  gst
+  711  git add .
+  712  git commit -m "add Liane's posters"
+  713  git push origin liane
+  714  git co master
+  715  git pull origin master
+  716  git co -b test-grid
+  717  gst
+  718  git add .
+  719  git commit -m "fix grid for show artist"
+  720  git push origin test-grid 
+  721  git co master
+  722  git pull origin master
+  723  git co -b lilou
+  724  rails db:seed
+  725  rails db:drop db:create db:migrate db:seed
+  726  gst
+  727  git add .
+  728  git commit -m "add some Liane's infos"
+  729  git push origin lilou
+  730  git co master
+  731  git pull origin master
+  732  rails s
+  733  git co -b media-show
+  734  gst
+  735  git add .
+  736  git commit -m "fix problem media queries show artist"
+  737  git push origin media-show 
+  738  git co master
+  739  git pull origin master
+  740  atom .
+  741  rails s
+  742  git co -b pauline
+  743  rails db:drop db:create db:migrate db:seed
+  744  gst
+  745  git add .
+  746  git commit -m "add Pauline's insta + new logo + delete Vincent"
+  747  rails db:drop db:create db:migrate db:seed
+  748  gst
+  749  git add .
+  750  git commit -m "add a favicon"
+  751  git push origin pauline
+  752  git co master
+  753  git pull origin master
+  754  rails db:drop db:create db:migrate db:seed
+  755  gst
+  756  git co -b css-home
+  757  rails db:drop db:create db:migrate db:seed
+  758  gst
+  759  git add .
+  760  git commit -m "add Marc's posters"
+  761  gst
+  762  git add .
+  763  git commit -m "just for change"
+  764  git push origin css-home
+  765  git co master
+  766  git pull origin master
+  767  git co -b try-home
+  768  rails db:drop db:create db:migrate db:seed
+  769  gst
+  770  git add .
+  771  git commit -m "css home + add insta Vic"
+  772  git push origin try-home 
+  773  git co master
+  774  git pull origin master
+  775  git co -b link-artist
+  776  gst
+  777  git add .
+  778  git commit -m "posters in the index is now clikable"
+  779  git push origin link-artist 
+  780  git co master
+  781  git pull origin master 
+  782  atom .
+  783  rails s
+  784  git co -b add-posters
+  785  git sweep
+  786  git co -b 3-posters
+  787  rails db:drop db:create db:migrate db:seed
+  788  rails s
+  789  rails db:drop db:create db:migrate db:seed
+  790  gst
+  791  git add .
+  792  git commit -m "add Marjorie & Amandine's posters + try js"
+  793  git push origin 3-posters 
+  794  git co master
+  795  git pull origin master 
+  796  cd ~/code/Sybillecrd
+  797  rails new \\n  --webpack \\n  --database postgresql \\n  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \\n  bash
+  798  rails v
+  799  rails -v
+  800  gem install rails
+  801  cd Dame_Jeanne
+  802  rails s
+  803  cd ~/code/Sybillecrd
+  804  rails new \\n  --webpack \\n  --database postgresql \\n  -m https://raw.githubusercontent.com/lewagon/rails-templates/master/minimal.rb \\n  bash
+  805  hub create
+  806  cd bash
+  807  hub create
+  808  atom .
+  809  git remote add origin git@github.com:Sybillecrd/bash.git\n
+  810  cd
+  811  cd ~/code/Sybillecrd
+  812  gem install middleman\n
+  813  cd ~/code/Sybillecrd\nmiddleman init BaSh -B -T lewagon/middleman-template
+  814  cd BaSh
+  815  git init
+  816  git add .
+  817  git commit -m 'Generated a new middleman project with lewagon/middleman-template'\n
+  818  hub create
+  819  git remote -v
+  820  git push origin master
+  821  middleman s
+  822  bundle install
+  823  middleman s
+  824  bundle binstubs bundler --force
+  825  middleman s
+  826  bundle update
+  827  middleman server
+  828  bundle exec middleman
+  829  middleman server
+  830  bundle 
+  831  middleman server
+  832  gst
+  833  git add .
+  834  git commit -m "add images + banner + begin grid"
+  835  git co -b banner
+  836  gst
+  837  git push orign banner
+  838  gst
+  839  git add .
+  840  git commit -m "config"
+  841  git push origin banner
+  842  git co master
+  843  git pull origin master 
+  844  git co -b escape-cards
+  845  gst
+  846  git add .
+  847  git commit -m "add 3 cards for escape part"
+  848  gst
+  849  git add .
+  850  git commit -m "add cards infos"
+  851  gst
+  852  git add .
+  853  git commit -m "add a button"
+  854  git push origin escape-cards 
+  855  git push co master
+  856  git co master
+  857  git pull origin master
+  858  git co -b title
+  859  gst
+  860  git add .
+  861  git commit -m "add title with hr"
+  862  gst
+  863  git add .
+  864  git commit -m "add media queries for title"
+  865  git push origin title
+  866  git co master
+  867  git pull origin master
+  868  git co -b allure-begin
+  869  gst
+  870  git add .
+  871  git commit -m "add pictures for allure part + grid position"
+  872  git push origin allure-begin 
+  873  git co master
+  874  git pull origin master
+  875  cd 
+  876  cd code/Sybillecrd/Dame_Jeanne
+  877  rails s
+  878  cd
+  879  cd code/Sybillecrd/bash
+  880  rails s
+  881  middleman server
+  882  atom .
+  883  git co -b lookbook
+  884  gst
+  885  git add .
+  886  git commit -m "finish part 1 lookbook + mobile"
+  887  gst
+  888  git add .
+  889  git commit -m "add second part lookbook"
+  890  git push origin lookbook 
+  891  git co master
+  892  git pull origin master
+  893  atom .
+  894  middleman server
+  895  git co -b btn
+  896  gst
+  897  git add .
+  898  git commit -m "add a btn shop now and title urban jungle"
+  899  git push origin btn 
+  900  git co master
+  901  git pull origin master
+  902  git co -b jungle-cards
+  903  gst
+  904  git add .
+  905  git commit -m "add jungle cards + 4 img + btn"
+  906  git push origin jungle-cards 
+  907  git co master
+  908  git pull origin master
+  909  git co -b jungle-mobile
+  910  gst
+  911  git add .
+  912  git commit -m "responsive for jungle part"
+  913  git push origin jungle-mobile 
+  914  git co master
+  915  git pull origin master
+  916  gst
+  917  git add .
+  918  git co -b fix
+  919  gst
+  920  git add .
+  921  git commit -m "fix"
+  922  git push origin fix
+  923  git co master
+  924  git pull origin master 
+  925  git co -b white
+  926  git add .
+  927  git commit -m "remove white color background"
+  928  git push origin white
+  929  git co master
+  930  git pull origin master
+  931  atom .
+  932  cd
+  933  cd code/Sybillecrd/Dame_Jeanne
+  934  atom .
+  935  rails s
+  936  git co -b marie
+  937  gst
+  938  rails db:drop db:create db:migrate db:seed
+  939  gst
+  940  git add .
+  941  git commit -m "add colors and new MArie posters"
+  942  git push origin marie
+  943  git co master
+  944  git pull origin master
+  945  cd
+  946  cd code/Sybillecrd/bash
+  947  atom .
+  948  cd
+  949  cd code/Sybillecrd/Dame_Jeanne
+  950  atom .
+  951  cd
+  952  cd code/Sybillecrd/bash
+  953  atom .
+  954  cd
+  955  mv home.html
+  956  cd
+  957  cd code/Sybillecrd/bash
+  958  atom .
+  959  cd /path/to/repo
+  960  git checkout -b gh-pages
+  961  git push origin gh-pages
+  962  gst
+  963  git add .
+  964  git commit -m "no idea what i'm doing"
+  965  git push origin gh-pages
+  966  git pull origin master
+  967  git co master
+  968  gst
+  969  rails s
+  970  atom .
+  971  bundle update bootsnap
+  972  bundle
+  973  rails s
+  974  bundle update bootsnap
+  975  rails s
+  976  atom .
+  977  bundle
+  978  rails s
+  979  bundle
+  980  rails s
+  981  atom .
+  982  rails s
+  983  bundle
+  984  rails s
+  985  bundle
+  986  rails s
+  987  bundle
+  988  rails s
+  989  bundle install
+  990  rails s
+  991  rails -v
+  992  gem install rails
+  993  rails s
+  994  atom .
+  995  rails s
+  996  bundler -v
+  997  rails -v
+  998  bundle update
+  999  rails s
+ 1000  compass version
+ 1001  ruby -v
+ 1002  sass version
+ 1003  gem uninstall sass
+ 1004  gem uninstall compass\n
+ 1005  compass version
+ 1006  rails s
+ 1007  bundle install
+ 1008  rails s
+ 1009  gem install compass
+ 1010  bundle 
+ 1011  rails s
+ 1012  middleman server
+ 1013  gst
+ 1014  git co -b delete
+ 1015  gst
+ 1016  git add .
+ 1017  git commit -m "pb"
+ 1018  git push origin delete
+ 1019  git co master
+ 1020  git pull origin master
+ 1021  git sweep
+ 1022  middleman deploy 
+ 1023  bundle install
+ 1024  activate :livereload, apply_js_live: false\n
+ 1025  bundle install
+ 1026  bundle exec rake test\n
+ 1027  gst
+ 1028  git co -b image-pb
+ 1029  git add .
+ 1030  git commit -m "try to fix images"
+ 1031  git push origin image-pb 
+ 1032  git co master
+ 1033  git pull origin master
+ 1034  git rebase --onto\n
+ 1035  --allow-unrelated-historie
+ 1036  git pull origin master --allow-unrelated-histories \n
+ 1037  git pull origin master
+ 1038  gst
+ 1039  middleman deploy 
+ 1040  git pull --rebase development\n\n
+ 1041  git sweep
+ 1042  gst
+ 1043  git remote add github u://r/l
+ 1044  git fetch github\n
+ 1045  cd
+ 1046  gem install middleman\n
+ 1047  cd ~/code/SybilleCrd
+ 1048  middleman init Ba-Sh -B -T lewagon/middleman-template\n
+ 1049  cd Ba-Sh
+ 1050  git init
+ 1051  git add .
+ 1052  git commit -m 'Generate a new project with lewagon/middleman-template'\n
+ 1053  hub create
+ 1054  git remote -v
+ 1055  git push origin master
+ 1056  middleman s
+ 1057  bundle
+ 1058  middleman s
+ 1059  atom .
+ 1060  bundle
+ 1061  middleman s
+ 1062  git co -b init
+ 1063  gst
+ 1064  git add .
+ 1065  git commit -m "add images + sass & compass"
+ 1066  git push origin init 
+ 1067  git co master
+ 1068  git pull origin master
+ 1069  git co -b home
+ 1070  gst
+ 1071  git add .
+ 1072  git commit -m "html+css home"
+ 1073  git push origin home
+ 1074  git co master
+ 1075  git pull origin master
+ 1076  gst
+ 1077  middleman deploy
+ 1078  git co -b pb
+ 1079  bundle
+ 1080  middleman s
+ 1081  gst
+ 1082  git add .
+ 1083  git commit -m "add livereload"
+ 1084  git push origin pb
+ 1085  git co master
+ 1086  git pull origin master
+ 1087  middleman deploy
+ 1088  bundle
+ 1089  gst
+ 1090  git co -b test
+ 1091  git add .
+ 1092  git commit -m "test"
+ 1093  git push origin test
+ 1094  git co master
+ 1095  git pull origin master
+ 1096  git co -b images
+ 1097  gst
+ 1098  git add .
+ 1099  git commit -m "rename images, add image tag"
+ 1100  git push origin images
+ 1101  git co master
+ 1102  git pull origin master
+ 1103  gst
+ 1104  middleman deploy
+ 1105  middleman s
+ 1106  cd
+ 1107  cd code/Sybillecrd/Dame_Jeanne
+ 1108  atom .
+ 1109  git co -b liane2
+ 1110  rails s
+ 1111  rails db:drop db:create db:migrate db:seed
+ 1112  gst
+ 1113  git add .
+ 1114  git commit -m "modif"
+ 1115  git push origin liane2
+ 1116  git co master
+ 1117  git pull origin master
+ 1118  cd
+ 1119  cd code/Sybillecrd/Ba-Sh
+ 1120  atom .
+ 1121  bootstrap -v
+ 1122  cd
+ 1123  cd code/Sybillecrd/Dame_Jeanne
+ 1124  atom .
+ 1125  rails s
+ 1126  git co -b shops
+ 1127  rails db:migrate
+ 1128  gst
+ 1129  git add .
+ 1130  git commit -m "add new page shops + begin css"
+ 1131  git push origin shops
+ 1132  git co master
+ 1133  git pull origin master 
+ 1134  rails s
+ 1135  atom .
+ 1136  git co -b grid-shops
+ 1137  gst
+ 1138  git add .
+ 1139  git commit -m "begin css grid for shops page"
+ 1140  gst
+ 1141  git add .
+ 1142  git commit -m "css grid media queries mobile"
+ 1143  gst
+ 1144  git add .
+ 1145  git commit -m "media queries tablet for shops page"
+ 1146  git push origin grid-shops
+ 1147  git co master git pull origin master
+ 1148  git co master
+ 1149  git pull origin master 
+ 1150  git co -b js
+ 1151  gst
+ 1152  git add .
+ 1153  git commit -m "carousel js"
+ 1154  git push origin js
+ 1155  git co master
+ 1156  git pull origin master
+ 1157  rails s
+ 1158  atom .
+ 1159  rails s
+ 1160  git co -b change-about-
+ 1161  gst
+ 1162  git add .
+ 1163  git commit -m "change css about page + modify navbar size"
+ 1164  git push origin change-about- 
+ 1165  git co master
+ 1166  git pull origin master
+ 1167  git co -b press
+ 1168  rails db:drop db:create db:migrate db:seed
+ 1169  gst
+ 1170  git add .
+ 1171  git commit -m "add page press + Antoine's socials" 
+ 1172  gst
+ 1173  git add .
+ 1174  git commit -m "add magazines cards in press page"
+ 1175  gst
+ 1176  git push origin press
+ 1177  git co master
+ 1178  git pull origin master 
+ 1179  gst
+ 1180  git co -b reunion
+ 1181  git add .
+ 1182  git commit -m "change logo, delete title"
+ 1183  git push origin reunion 
+ 1184  hub browse
+ 1185  git co master
+ 1186  git pull origin master
+ 1187  atom .
+ 1188  git co -b geocoder
+ 1189  bundle install
+ 1190  rails generate geocoder:config\n
+ 1191  rails s
+ 1192  gst
+ 1193  git add .
+ 1194  git commit -m "add geocoder gem, begin gecoding"
+ 1195  gst
+ 1196  git add .
+ 1197  git commit -m "change typo, set up css shops"
+ 1198  gst
+ 1199  git add .
+ 1200  git commit -m "css shops, responsive"
+ 1201  git push origin geocoder
+ 1202  git co master
+ 1203  git pull origin master
+ 1204  gst
+ 1205  git co -b pb-shops
+ 1206  git add .
+ 1207  git commit -m "resolve pb css shops, about, press"
+ 1208  git push origin pb-shops 
+ 1209  git co master
+ 1210  git pull origin master
+ 1211  atom .
+ 1212  rails s
+ 1213  git co -b 26fev
+ 1214  rails db:drop db:create db:migrate db:seed
+ 1215  gst
+ 1216  git add .
+ 1217  git commit -m "add overlay zoom for show artist, add new posters Cam, Jo et Pau" 
+ 1218  git push origin 26fev 
+ 1219  git co master 
+ 1220  git pull origin master 
+ 1221  gst
+ 1222  atom .
+ 1223  rails db:drop db:create db:migrate db:seed
+ 1224  rails s
+ 1225  git co -b mail
+ 1226  bundle install
+ 1227  rails g controller contacts new create
+ 1228  rails g model Contact name:string email:string message:string
+ 1229  rails db:migrate
+ 1230  gst
+ 1231  git add .
+ 1232  git commit -m "begin simple contact form"
+ 1233  git push origin mail
+ 1234  git co master
+ 1235  git pull origin master
+ 1236  rails s
+ 1237  atom .
+ 1238  rails s
+ 1239  atom .
+ 1240  git pull origin master
+ 1241  git co -b add-pic
+ 1242  rails db:drop db:create db:migrate db:seed
+ 1243  gst
+ 1244  git add .
+ 1245  git commit -m "change my posters, navbar white and logo blue, add insta & fb links"
+ 1246  git push origin add-pic 
+ 1247  git co master
+ 1248  git pull origin master
+ 1249  git co -b dropdown
+ 1250  rails db:drop db:create db:migrate db:seed
+ 1251  gst
+ 1252  rails g migration AddAvatarToArtists avatar:string
+ 1253  rails db:migrate
+ 1254  gst
+ 1255  git add .
+ 1256  git commit -m "try pimp navbar & dropdown, add migration for avatars artists"
+ 1257  git push origin dropdown 
+ 1258  git co master
+ 1259  git pull origin master
+ 1260  brew install heroku
+ 1261  brew tap heroku/brew && brew install heroku\n
+ 1262  git co -b collapse-begin
+ 1263  gst
+ 1264  git add .
+ 1265  git commit -m "add collapse les artistes, refont home page"
+ 1266  git push origin collapse-begin 
+ 1267  git co master
+ 1268  git pull origin master
+ 1269  heroku create dame-jeanne --region=eu
+ 1270  git remote -v
+ 1271  git push heroku master && heroku run rake db:migrate db:seed
+ 1272  heroku logs -t
+ 1273  gst
+ 1274  git add .
+ 1275  git commit -m "add force ssl"
+ 1276  git push origin master 
+ 1277  git push heroku master
+ 1278  gst
+ 1279  git co -b collapse2
+ 1280  gst
+ 1281  git add .
+ 1282  git commit -m "add partial collapse, folder css collapse, and begin css"
+ 1283  git push origin collapse2
+ 1284  git co master
+ 1285  git pull origin master
+ 1286  ping www.dame-jeanne-bordeaux.fr
+ 1287  ping dame-jeanne-bordeaux.fr
+ 1288  dscacheutil –flushcache
+ 1289  dscacheutil -flushcache
+ 1290  rails s
+ 1291  gst
+ 1292  git co -b collapse2
+ 1293  git co -b collapse3
+ 1294  gst
+ 1295  git add .
+ 1296  git commit -m "continue css collapse, add cross, add box shadow"
+ 1297  git push origin collapse3
+ 1298  git co master
+ 1299  git pull origin master
+ 1300  rails s
+ 1301  atom .
+ 1302  git co -b clean
+ 1303  gst
+ 1304  git add .
+ 1305  git commit -m "add chevron for collapse artists, change banner size, css cross collapse"
+ 1306  git push origin clean
+ 1307  git co master
+ 1308  git pull origin master
+ 1309  git push heroku master
+ 1310  gem install bundler
+ 1311  git co -b avatar
+ 1312  rails db:drop db:create db:migrate db:seed
+ 1313  rails g migration AddDribbbleToArtists dribbble:string
+ 1314  rails db:migrate
+ 1315  rails db:drop db:create db:migrate db:seed
+ 1316  gst
+ 1317  git add .
+ 1318  git commit -m "add avatars"
+ 1319  rails db:drop db:create db:migrate db:seed
+ 1320  gst
+ 1321  git add .
+ 1322  git commit -m "add collapse for artist show"
+ 1323  git push origin avatar
+ 1324  git co master
+ 1325  git pull origin master 
+ 1326  gst
+ 1327  git co -b map
+ 1328  git add .
+ 1329  git commit -m "size map fix"
+ 1330  git push origin map
+ 1331  git co master
+ 1332  git pull origin master
+ 1333  heroku run rake db:seed
+ 1334  git push heroku master
+ 1335  heroku logs -t
+ 1336  git remote -v
+ 1337  git push heroku master && heroku run rake db:migrate db:seed
+ 1338  git co -b réu2
+ 1339  gst
+ 1340  git add .
+ 1341  git commit -m "change color border navbar, button et border avatar"
+ 1342  rails db:drop db:create db:migrate db:seed
+ 1343  gst
+ 1344  git add .
+ 1345  git commit -m "change Johanna name"
+ 1346  git push origin réu2
+ 1347  git co master
+ 1348  git pull origin master
+ 1349  rails s
+ 1350  atom .
+ 1351  git co -b maj
+ 1352  rails db:drop db:create db:migrate db:seed
+ 1353  gst
+ 1354  git add .
+ 1355  git commit -m "add bio, posters, avatars, add about text"
+ 1356  git push origin maj
+ 1357  git co master
+ 1358  git pull origin master
+ 1359  heroku run rake db:seed
+ 1360  git push heroku master
+ 1361  rails s
+ 1362  atom .
+ 1363  gst
+ 1364  heroku run rake db:seed
+ 1365  git push heroku master
+ 1366  git co -b add-info
+ 1367  rails db:drop db:create db:migrate db:seed
+ 1368  gst
+ 1369  git add .
+ 1370  git commit -m "maj seeds, change map key"
+ 1371  rails db:drop db:create db:migrate db:seed
+ 1372  gst
+ 1373  git add .
+ 1374  git commit -m "Antoine's pitch"
+ 1375  git push origin add-info
+ 1376  git co master
+ 1377  git pull origin master
+ 1378  heroku run rake db:seed
+ 1379  git push heroku master
+ 1380  heroku config:set MAPBOX_API_KEY=pk.eyJ1Ijoic3liaWxsZWNyZCIsImEiOiJjanRmeDA3NGcwMngwNDNwNnQycXRuMzBoIn0.ih3FeNiRt6cqRp3GFznwEg
+ 1381  heroku run rake db:seed
+ 1382  git push heroku master
+ 1383  heroku config:set MAPBOX_API_KEY=pk.eyJ1Ijoic3liaWxsZWNyZCIsImEiOiJjanRmeDA3NGcwMngwNDNwNnQycXRuMzBoIn0.ih3FeNiRt6cqRp3GFznwEg
+ 1384  git push heroku master
+ 1385  atom .
+ 1386  rails s
+ 1387  git co -b map-pb
+ 1388  gst
+ 1389  git add .
+ 1390  git commit -m "try to fix map"
+ 1391  git push origin map-pb
+ 1392  git co master
+ 1393  git pull origin master
+ 1394  heroku config:set MAPBOX_API_KEY=pk.eyJ1Ijoic3liaWxsZWNyZCIsImEiOiJjanRoMWU3OGowNnVkNDNuem4yaTB0ZmZ2In0.qqLOhIxd6hjbPzwND-uj2A
+ 1395  git push heroku master
+ 1396  RAILS_ENV=production bundle exec rake assets:precompile
+ 1397  heroku run rake assets:precompile
+ 1398  git push heroku master
+ 1399  gst
+ 1400  git co -b map-pb2
+ 1401  git add .
+ 1402  git commit -m "try to fix map pb"
+ 1403  git push origin map-pb2 
+ 1404  git co master
+ 1405  git pull origin master
+ 1406  heroku config:set MAPBOX_API_KEY=pk.eyJ1Ijoic3liaWxsZWNyZCIsImEiOiJjanRoMjY0dHUwZTc1M3lwNjMyc2dtbDQyIn0.YcFIHnASq3kUhAYrvwvRhg
+ 1407  RAILS_ENV=production bundle exec rake assets:precompile
+ 1408  heroku run rake assets:precompile
+ 1409  git push heroku master
+ 1410  gst
+ 1411  git co -b contact-remove
+ 1412  gst
+ 1413  git add .
+ 1414  git commit -m "remove mail form for replace by formspree"
+ 1415  git push origin contact-remove 
+ 1416  git co master
+ 1417  git pull origin master
+ 1418  rails s
+ 1419  atom .
+ 1420  yarn install
+ 1421  rails s
+ 1422  gst
+ 1423  git co -b contact-fix
+ 1424  rails db:drop db:create db:migrate db:seed
+ 1425  bundle
+ 1426  yarn install
+ 1427  rails s
+ 1428  gem install railties -v 5.0.0.1
+ 1429  rails db:drop db:create db:migrate db:seed
+ 1430  rails s
+ 1431  gst
+ 1432  git add .
+ 1433  git commit -m "add Cam, Jo's posters, pb css contact"
+ 1434  git push origin contact-fix 
+ 1435  git co master
+ 1436  git pull origin master
+ 1437  git push heroku master && heroku run rake db:migrate db:seed
+ 1438  heroku addons:create heroku-postgresql:hobby-dev
+ 1439  heroku addons:create sendgrid\n
+ 1440  heroku addons:docs sendgrid
+ 1441  bundle
+ 1442  gem install sendgrid-ruby
+ 1443  bundle
+ 1444  atom .
+ 1445  gst
+ 1446  git add .
+ 1447  git co -b test-contact
+ 1448  git add .
+ 1449  git commit -m "test css contact"
+ 1450  git push origin test-con
+ 1451  git push origin test-contact
+ 1452  git co master
+ 1453  git pull origin master
+ 1454  git push heroku master
+ 1455  gst
+ 1456  git co -b layout-contact
+ 1457  git add .
+ 1458  git co -m "fix some pb css contact"
+ 1459  git push origin layout-contact 
+ 1460  gst
+ 1461  git add .
+ 1462  git commit -m " fix some pb css contact"
+ 1463  git push origin layout-contact
+ 1464  git co master
+ 1465  git pull origin master
+ 1466  git push heroku master
+ 1467  git co -b row-gap
+ 1468  gst
+ 1469  git add .
+ 1470  git commit -m "change row gap in show artist"
+ 1471  git push origin row-gap 
+ 1472  git co master
+ 1473  git pull origin master
+ 1474  git push heroku master
+ 1475  git pull origin master
+ 1476  rails s
+ 1477  atom .
+ 1478  git co -b vic
+ 1479  rails db:drop db:create db:migrate db:seed
+ 1480  gst
+ 1481  git add .
+ 1482  git commit -m "add poster's Victoire"
+ 1483  git push origin vic
+ 1484  git co master
+ 1485  git pull origin master
+ 1486  heroku run rake db:seed
+ 1487  git push heroku master
+ 1488  heroku run rake db:seed
+ 1489  git push heroku master
+ 1490  rails s
+ 1491  atom .
+ 1492  rails s
+ 1493  heroku config:set HOST=www.dame-jeanne-bordeaux.fr
+ 1494  heroku config:get HOST
+ 1495  git co -b meta
+ 1496  gst
+ 1497  git add .
+ 1498  git commit -m "add meta tag, social meta tag, js apply mobile"
+ 1499  gst
+ 1500  git add .
+ 1501  git commit -m "change picture for socials"
+ 1502  git push origin meta
+ 1503  git pull origin master
+ 1504  git co master
+ 1505  git pull origin master
+ 1506  gst
+ 1507  git co -b meta2
+ 1508  git add .
+ 1509  git commit -m "missing one file"
+ 1510  git push origin meta2
+ 1511  git co master
+ 1512  git pull origin master
+ 1513  git push heroku master
+ 1514  rails s
+ 1515  git co -b 404
+ 1516  gst
+ 1517  git add .
+ 1518  git commit -m "try to change 404 css"
+ 1519  git push origin 404
+ 1520  git co master 
+ 1521  git pull origin master
+ 1522  git push heroku master
+ 1523  git co -b 500
+ 1524  gst
+ 1525  git add .
+ 1526  git commit -m "correct 404, and change 500"
+ 1527  git push origin 500
+ 1528  git co master
+ 1529  git pull origin master
+ 1530  git push heroku master
+ 1531  rails s
+ 1532  atom .
+ 1533  git co -b legalpage
+ 1534  gst
+ 1535  git add .
+ 1536  git commit -m "add legal page, change row in show"
+ 1537  git push origin legalpage
+ 1538  git co master
+ 1539  git pull origin master
+ 1540  git push heroku master
+ 1541  git co -b miss
+ 1542  gst
+ 1543  git add.
+ 1544  git add .
+ 1545  git commit -m "miss add legalpage in index"
+ 1546  git push origin miss
+ 1547  git co master
+ 1548  git pull origin master
+ 1549  git push heroku master
+ 1550  git co -b bug-ipad
+ 1551  gst
+ 1552  git add .
+ 1553  git commit -m "change some sizes for ipad"
+ 1554  git push origin bug-ipad
+ 1555  git co master
+ 1556  git pull origin master
+ 1557  git push heroku master
+ 1558  gst
+ 1559  git push heroku master
+ 1560  git co -b ipad2
+ 1561  gst
+ 1562  git add .
+ 1563  git commit -m "try again fix ipad bug in responsive"
+ 1564  git push origin ipad2
+ 1565  git co master
+ 1566  git pull origin master
+ 1567  git push heroku master
+ 1568  cd
+ 1569  cd code/Sybillecrd/My_website
+ 1570  middleman s
+ 1571  bundle install
+ 1572  middleman s
+ 1573  atom .
+ 1574  middleman s
+ 1575  bundle install
+ 1576  gst
+ 1577  git add .
+ 1578  git co -b clean
+ 1579  git add .
+ 1580  git commit -m "clean middleman, add partials, begin change home"
+ 1581  git push origin clean
+ 1582  hub browse
+ 1583  git co master
+ 1584  git pull origin master
+ 1585  bootstrap -v
+ 1586  -v bootstrap
+ 1587  gem 'bootstrap', '~> 4.3.1'
+ 1588  gem install bootstrap -v 4.3.1
+ 1589  bundle install
+ 1590  git co -b footer
+ 1591  gst
+ 1592  git add .
+ 1593  git commit -m "add footer + design, add logo"
+ 1594  git push origin footer
+ 1595  hub browse
+ 1596  git co master
+ 1597  git pull origin master
+ 1598  gst
+ 1599  atom .
+ 1600  middleman s
+ 1601  bundle
+ 1602  yarn install
+ 1603  bundle
+ 1604  git co -b fix-icon
+ 1605  gst
+ 1606  git add .
+ 1607  git commit -m "fix bug icon fontawesome"
+ 1608  git push origin fix-icon 
+ 1609  hub browse
+ 1610  git co master
+ 1611  git pull origin master
+ 1612  cd
+ 1613  cd code/Sybillecrd/Dame_Jeanne
+ 1614  rails s
+ 1615  atom .
+ 1616  git co -b press_path
+ 1617  gst
+ 1618  git add .
+ 1619  git commit -m "hide press in navbar"
+ 1620  git push origin press_path 
+ 1621  hub browse
+ 1622  git co master
+ 1623  git pull origin master
+ 1624  git sweep
+ 1625  gst
+ 1626  git push heroku master 
+ 1627  git co -b hide-shops
+ 1628  gst
+ 1629  git add .
+ 1630  git commit -m "hide shops in navbar"
+ 1631  git push origin hide-shops
+ 1632  git co master
+ 1633  git pull origin master
+ 1634  gst
+ 1635  git push heroku master 
+ 1636  cd
+ 1637  cd code/Sybillecrd/My_website
+ 1638  atom .
+ 1639  middleman s
+ 1640  gst
+ 1641  git co -b delivery
+ 1642  git add .
+ 1643  git commit -m "add icons delivery, delete portfolio pictures"
+ 1644  git push origin delivery
+ 1645  hub browse
+ 1646  git co master
+ 1647  git pull origin master
+ 1648  cd
+ 1649  cd code/Sybillecrd/Dame_Jeanne
+ 1650  rails s
+ 1651  atom .
+ 1652  git co -b add-last-posters
+ 1653  gst
+ 1654  rails db:drop db:create db:migrate db:seed
+ 1655  gst
+ 1656  git add .
+ 1657  git commit -m "add last posters"
+ 1658  git push origin add-last-posters 
+ 1659  git co master
+ 1660  git pull origin master
+ 1661  heroku run rake db:seed
+ 1662  git push origin heroku master
+ 1663  git push heroku master 
+ 1664  git push heroku master && heroku run rake db:migrate db:seed
+ 1665  git co -b ajustement
+ 1666  gst
+ 1667  git add .
+ 1668  git commit -m "remove press and shops in the dropdown, fix some margin in home"
+ 1669  git push origin ajustement 
+ 1670  git co master
+ 1671  git pull origin master
+ 1672  git push heroku master 
+ 1673  cd
+ 1674  cd code/Sybillecrd/My_website
+ 1675  middleman s
+ 1676  atom .
+ 1677  gst
+ 1678  git co -b fix-deliveries
+ 1679  gst
+ 1680  git add .
+ 1681  git commit -m "change color navbar, fix big cards with deliveries"
+ 1682  git push origin fix-deliveries 
+ 1683  hub browse
+ 1684  git co master 
+ 1685  git pull origin master
+ 1686  gst
+ 1687  git co -b begin-card-portfolio
+ 1688  git add .
+ 1689  git commit -m "card portfolio with img default"
+ 1690  git push origin begin-card-portfolio 
+ 1691  hub browse
+ 1692  git co master
+ 1693  git pull origin master
+ 1694  gst
+ 1695  git co -b hr
+ 1696  gst
+ 1697  git add .
+ 1698  git commit -m "add hr before title"
+ 1699  git push origin hr
+ 1700  hub browse
+ 1701  git co master
+ 1702  git pull origin master
+ 1703  gst
+ 1704  middleman deploy
+ 1705  cd
+ 1706  cd code/Sybillecrd/Dame_Jeanne
+ 1707  rails s
+ 1708  atom .
+ 1709  git co -b liane
+ 1710  gst
+ 1711  rails db:drop db:create db:migrate db:seed
+ 1712  gst
+ 1713  git add .
+ 1714  git commit -m "change posters'Liane"
+ 1715  git push origin liane
+ 1716  git co master
+ 1717  git pull origin master
+ 1718  git push heroku master && heroku run rake db:migrate db:seed
+ 1719  atom .
+ 1720  rails s
+ 1721  git co -b liane2
+ 1722  rails db:drop db:create db:migrate db:seed
+ 1723  bundle
+ 1724  gst
+ 1725  git add .
+ 1726  git commit -m "change insta's Lilou, remove 2 gems"
+ 1727  git push origin liane2
+ 1728  git co master
+ 1729  git pull origin master
+ 1730  git push heroku master && heroku run rake db:migrate db:seed
+ 1731  cd
+ 1732  cd code/Sybillecrd/My_website
+ 1733  atom .
+ 1734  middleman s
+ 1735  git co -b begin-resp
+ 1736  gst
+ 1737  git add .
+ 1738  git commit -m "begin home page responsive mobile"
+ 1739  gst
+ 1740  git add .
+ 1741  git commit -m "continue responsive mobile"
+ 1742  gst
+ 1743  git add .
+ 1744  git commit -m "add cards portfolio"
+ 1745  git push origin begin-resp
+ 1746  git co master
+ 1747  git pull origin master
+ 1748  middleman deploy
+ 1749  middleman s
+ 1750  atom .
+ 1751  git co -b contact
+ 1752  gst
+ 1753  git add .
+ 1754  git commit -m "add formspree form"
+ 1755  bundle
+ 1756  npm install bootstrap
+ 1757  bundle install
+ 1758  yarn add bootstrap
+ 1759  brew upgrade yarn
+ 1760  gem install bootstrap -v 4.3.1
+ 1761  bundle install
+ 1762  bundle update
+ 1763  bundle install
+ 1764  gst
+ 1765  git add .
+ 1766  git commit -m "contact form + bootstrap 4"
+ 1767  git push origin contact
+ 1768  hub browse
+ 1769  git co master
+ 1770  git pull origin master
+ 1771  middleman deploy
+ 1772  gst
+ 1773  git co -b bug-contact
+ 1774  git add .
+ 1775  git commit -m "fix bug contact"
+ 1776  git push origin bug-contact
+ 1777  git push origin bug-contact 
+ 1778  hub browse
+ 1779  git co master
+ 1780  git pull origin master 
+ 1781  middleman deploy
+ 1782  gst
+ 1783  git add . 
+ 1784  git co -b details
+ 1785  git add .
+ 1786  git commit -m "fix some responsive bug"
+ 1787  git push origin details 
+ 1788  hub browse
+ 1789  git co master
+ 1790  git pull origin master 
+ 1791  middleman deploy
+ 1792  gst
+ 1793  git co -b about-text
+ 1794  git add .
+ 1795  git commit -m "writre text bio"
+ 1796  git push origin about-text 
+ 1797  hub browse
+ 1798  git co master 
+ 1799  git pull origin master
+ 1800  cd 
+ 1801  cd
+ 1802  cd code/Sybillecrd/Dame_Jeanne
+ 1803  atom .
+ 1804  cd
+ 1805  cd code/Sybillecrd/My_website
+ 1806  atom .
+ 1807  middleman s
+ 1808  bundle
+ 1809  middleman s
+ 1810  bundle
+ 1811  middleman s
+ 1812  bundle update
+ 1813  middleman s
+ 1814  gem update
+ 1815  bundle && bundle exec middleman init
+ 1816  middleman s
+ 1817  bundle
+ 1818  middleman s
+ 1819  bundle update
+ 1820  middleman s
+ 1821  brew upgrade yarn
+ 1822  middleman s
+ 1823  bundle
+ 1824  middleman s
+ 1825  bundle
+ 1826  gem install middleman
+ 1827  middleman s
+ 1828  bundle
+ 1829  middleman s
+ 1830  gem list
+ 1831  gem install bundler
+ 1832  bundle
+ 1833  middleman s
+ 1834  bundle
+ 1835  middleman s
+ 1836  bundle
+ 1837  middleman s
+ 1838  bundle
+ 1839  middleman s
+ 1840  bundle
+ 1841  middleman s
+ 1842  bundle
+ 1843  middleman s
+ 1844  gst
+ 1845  git co -b sass
+ 1846  git add .
+ 1847  git commit -m "fix bug with css & sass"
+ 1848  git push origin sass
+ 1849  hub browse
+ 1850  git co master
+ 1851  git pull origin master
+ 1852  middleman deploy
+ 1853  cd
+ 1854  cd code/Sybillecrd/Dame_Jeanne
+ 1855  atom .
+ 1856  rails s
+ 1857  git co -b pb-postgres
+ 1858  rm /usr/local/var/postgres/postmaster.pid
+ 1859  rails s
+ 1860  rm -rf /usr/local/var/postgres && initdb /usr/local/var/postgres -E utf8
+ 1861  postgres -D /usr/local/var/postgres
+ 1862  brew services start postgres \n
+ 1863  brew services restart postgresql
+ 1864  rails s
+ 1865  psql
+ 1866  sudo mkdir /var/pgsql_socket/
+ 1867  sudo ln -s /private/tmp/.s.PGSQL.5432 /var/pgsql_socket/
+ 1868  rails s
+ 1869  rm /usr/local/var/postgres/postmaster.pid\n
+ 1870  gem uninstall pg
+ 1871  gem install pg -- --with-pg-
+ 1872  gem install pg
+ 1873  gem install pg -- --with-pg-config=/usr/local/bin/pg_config
+ 1874  brew uninstall postgresql
+ 1875  brew install postgresql
+ 1876  brew services start postgresql
+ 1877  postgres -D /usr/local/var/postgres
+ 1878  ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+ 1879  launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+ 1880  gem install pg -- --with-pg-config=/usr/local/bin/pg_config
+ 1881  gem install pg
+ 1882  brew install postgresql
+ 1883  brew reinstall postgresql
+ 1884  initdb /usr/local/var/postgres\n
+ 1885  pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start\n
+ 1886  psql --version
+ 1887  which psql
+ 1888  rake db:create:all
+ 1889  rake db:migrate
+ 1890  gem install pg
+ 1891  gem install pg -- --with-pg-config=/usr/local/bin/pg_config
+ 1892  gem install pg -- --with-pg-config=/opt/local/lib/postgresql84/bin/pg_config
+ 1893  bundle
+ 1894  gem install pg -v 0.18.4
+ 1895  bundle
+ 1896  bundle exec rake db:create:all
+ 1897  rake db:create
+ 1898  rake db:migrate
+ 1899  rails s
+ 1900  bundle install\n
+ 1901  bundle exec rake db:create\n
+ 1902  brew info readline
+ 1903  ln -s /usr/local/opt/readline/lib/libreadline.dylib /usr/local/opt/readline/lib/libreadline.6.dylib\n\n
+ 1904  rails s
+ 1905  ln -s /usr/local/opt/readline/lib/libreadline.dylib /usr/local/opt/readline/lib/libreadline.6.dylib
+ 1906  rails s
+ 1907  rake db:create
+ 1908  sudo xcodebuild -license accept
+ 1909  brew --prefix readline
+ 1910  rvm reinstall 2.3.1
+ 1911  rm reinstall 2.3.1
+ 1912  rails s
+ 1913  brew install readline
+ 1914  brew link --force readline
+ 1915  ruby_configure_flags=--with-readline-dir=/usr/local/opt/readline
+ 1916  rvm reinstall 1.9.3
+ 1917  brew install readline ruby-build
+ 1918  brew upgrade ruby-build
+ 1919  RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 2.3.1\n
+ 1920  rails s
+ 1921  ruby -v
+ 1922  rvm reinstall 2.3.0 —-gems\n\n
+ 1923  rm reinstall 2.3.0 —-gems\n\n
+ 1924  rv reinstall 2.3.0 —-gems\n\n
+ 1925  gem install bundler\n\n
+ 1926  rails s
+ 1927  bundle install
+ 1928  rails s
+ 1929  psql -h localhost
+ 1930  psql -d template1
+ 1931  createdb\n
+ 1932  psql -h localhost\n
+ 1933  rails s
+ 1934  rake:db:create
+ 1935  rake db:create
+ 1936  rake db:migrate
+ 1937  rails s
+ 1938  rails db:drop db:create db:migrate db:seed
+ 1939  gst
+ 1940  git add .
+ 1941  git commit -m "reinstall pg & rails"
+ 1942  git push origin pb-postgres 
+ 1943  git co master
+ 1944  git pull origin master
+ 1945  git sweep
+ 1946  gst
+ 1947  git co -b legalpagecompleted
+ 1948  git add .
+ 1949  git commit -m "add legal page + delete phone in contact"
+ 1950  git push origin legalpagecompleted 
+ 1951  git co master
+ 1952  git pull origin master
+ 1953  git push heroku master && heroku run rake db:migrate db:seed
+ 1954  atom .
+ 1955  git co -b g-analytics
+ 1956  gst
+ 1957  rails s
+ 1958  git add .
+ 1959  git commit -m "add google analytics balise"
+ 1960  git push origin g-analytics 
+ 1961  git co master
+ 1962  git pull origin master
+ 1963  git push heroku master && heroku run rake db:migrate db:seed
+ 1964  atom .
+ 1965  rails s
+ 1966  git co -b shops-online
+ 1967  gst
+ 1968  git add .
+ 1969  git push origin shops-online 
+ 1970  gst
+ 1971  git add .
+ 1972  git commit -m "online shops page"
+ 1973  git push origin shops-online 
+ 1974  git co master
+ 1975  git pull origin master
+ 1976  git push heroku master && heroku run rake db:migrate db:seed
+ 1977  git co -b change-map
+ 1978  gst
+ 1979  git add .
+ 1980  git commit -m "change map key"
+ 1981  git push origin change-map
+ 1982  git co master
+ 1983  git pull origin master
+ 1984  git push heroku master 
+ 1985  rails s
+ 1986  git co -b map-modif
+ 1987  RAILS_ENV=production bundle exec rake assets:precompile\n
+ 1988  gst
+ 1989  git add .
+ 1990  git commit -m "add shops path in dropdown"
+ 1991  git push origin map-modif 
+ 1992  git co master
+ 1993  git pull origin master
+ 1994  heroku run rake assets:precompile\n
+ 1995  git push heroku master 
+ 1996  cd
+ 1997  cd code/Sybillecrd/My_website/`
+ 1998  cd code/Sybillecrd/My_website
+ 1999  atom .
+ 2000  middleman s
+ 2001  gst
+ 2002  bundle
+ 2003  bundle update
+ 2004  bundle
+ 2005  bundle update
+ 2006  yarn remove foo
+ 2007  yarn remove 
+ 2008  yarn remove <package> --<flag>
+ 2009  middleman s
+ 2010  bundle
+ 2011  middleman s
+ 2012  gst
+ 2013  git -co b sass
+ 2014  git co -b sass
+ 2015  git co -b sass-pb
+ 2016  gst
+ 2017  git add .
+ 2018  git commit -m "delete gem bootstrap 4"
+ 2019  git push origin sass-pb
+ 2020  hub browse
+ 2021  git co master
+ 2022  git pull origin mastr
+ 2023  bundle
+ 2024  middleman s
+ 2025  gst
+ 2026  git co -b about2
+ 2027  gst
+ 2028  git add .
+ 2029  git commit -m "css about page"
+ 2030  git push origin about2
+ 2031  hub browse
+ 2032  git co master
+ 2033  git pull origin master
+ 2034  gst
+ 2035  middleman deploy
+ 2036  atom .
+ 2037  middleman s
+ 2038  git co -b metatags
+ 2039  bundle
+ 2040  middleman s
+ 2041  bundle
+ 2042  middleman s
+ 2043  bundle
+ 2044  gst
+ 2045  git add .
+ 2046  git commit -m "add favicon, gem sitemap, gem protect-emails, metatag"
+ 2047  bundle
+ 2048  middleman s
+ 2049  gst
+ 2050  git add .
+ 2051  git commit -m "add google analytics"
+ 2052  git push origin metatags
+ 2053  hub browse
+ 2054  git co master
+ 2055  git pull origin master
+ 2056  middleman deploy
+ 2057  git co -b cname
+ 2058  gst
+ 2059  git add .
+ 2060  git commit -m cname
+ 2061  git push origin cname
+ 2062  hub browse
+ 2063  git co master
+ 2064  git pull origin master
+ 2065  middleman deploy
+ 2066  atom .
+ 2067  middleman s
+ 2068  gst
+ 2069  git co -b correction
+ 2070  git add .
+ 2071  git commit -m "change favicon, change anchor link, size illu"
+ 2072  git push origin correction 
+ 2073  hub browse
+ 2074  git co master
+ 2075  git pull origin master 
+ 2076  gst
+ 2077  git co -b add-card
+ 2078  git add .
+ 2079  git commit -m "add Emmanuelle's card"
+ 2080  git push origin add-card
+ 2081  hub browse
+ 2082  git co master
+ 2083  git pull origin master
+ 2084  middleman deploy
+ 2085  gst
+ 2086  middleman deploy
+ 2087  bundle
+ 2088  bundle update
+ 2089  middleman deploy
+ 2090  bundle 
+ 2091  gst
+ 2092  git co -b rmv-site
+ 2093  git add .
+ 2094  git commit -m "remove gem sitemap"
+ 2095  git push origin rmv-site
+ 2096  hub browse
+ 2097  git co master
+ 2098  git pull origin master
+ 2099  middleman deploy
+ 2100  middleman s
+ 2101  cd
+ 2102  cd code/Sybillecrd/Dame_Jeanne
+ 2103  atom .
+ 2104  rails s
+ 2105  yarn install
+ 2106  brew upgrade yarn
+ 2107  rails s
+ 2108  yarn install
+ 2109  rails s
+ 2110  yarn check
+ 2111  yarn check --integrity
+ 2112  yarn check --verify-tree
+ 2113  bundle
+ 2114  yarn install
+ 2115  yarn install --check-files
+ 2116  yarn install --force
+ 2117  npm install
+ 2118  rails s
+ 2119  yarn install
+ 2120  sudo apt-get install build-essential
+ 2121  yarn config set cache ~/.my-yarn-cache-dir
+ 2122  yarn install
+ 2123  node-gyp-install
+ 2124  yarn install --har
+ 2125  --cache-folder <path>
+ 2126  yarn --help
+ 2127  yarn help COMMAND
+ 2128  yarn --cache-folder <path>
+ 2129  yarn upgrade
+ 2130  rails s
+ 2131  rails g migration AddTumblrToArtists tumblr:string
+ 2132  rails db:migrate
+ 2133  rails db:drop db:create db:migrate db:seed
+ 2134  gst
+ 2135  git co -b mwa
+ 2136  rails db:drop db:create db:migrate db:seed
+ 2137  gst
+ 2138  git add .
+ 2139  git commit -m "add my site, yarn pb, add tumblr column, change size posters'Pauline"
+ 2140  git push origin mwa
+ 2141  git co master
+ 2142  git pull origin master
+ 2143  gst
+ 2144  git push heroku master && heroku run rake db:migrate db:seed
+ 2145  gst
+ 2146  git co -b try-change-posters-size
+ 2147  gst
+ 2148  git add .
+ 2149  git commit -m "change size for mobile"
+ 2150  git push origin try-change-posters-size 
+ 2151  git co master
+ 2152  git pull origin master
+ 2153  git push heroku master && heroku run rake db:migrate db:seed
+ 2154  gst
+ 2155  rails db:drop db:create db:migrate db:seed
+ 2156  gst
+ 2157  git co -b size-mwa
+ 2158  gst
+ 2159  git add .
+ 2160  git commit -m "change my posters size, try to fix size image paysage"
+ 2161  git push origin size-mwa
+ 2162  git co master
+ 2163  git pull origin master
+ 2164  git push heroku master && heroku run rake db:migrate db:seed
+ 2165  gst
+ 2166  atom .
+ 2167  rails s
+ 2168  git co -b antoine
+ 2169  gst
+ 2170  rails db:drop db:create db:migrate db:seed
+ 2171  gst
+ 2172  git add .
+ 2173  git commit -m "change size posters'Antoine"
+ 2174  git push origin antoine
+ 2175  git co master
+ 2176  git pull origin master
+ 2177  git push heroku master && heroku run rake db:migrate db:seed
+ 2178  imagemin images/* --out-dir=images
+ 2179  git co -b imagemin
+ 2180  npm install --save imagemin-jpegtran
+ 2181  gst
+ 2182  git co master
+ 2183  git sweep
+ 2184  cd
+ 2185  cd code/Sybillecrd/My_website
+ 2186  middleman s
+ 2187  atom .
+ 2188  cd
+ 2189  cd code/Sybillecrd/Dame_Jeanne
+ 2190  atom .
+ 2191  rails s
+ 2192  rails db:drop db:create db:migrate db:seed
+ 2193  git co b antoine2
+ 2194  git co -b antoine2
+ 2195  gst
+ 2196  git add .
+ 2197  git commit -m "change size poster's Antoine"
+ 2198  git push origin antoine2
+ 2199  git co master
+ 2200  git pull origin master
+ 2201  git push heroku master && heroku run rake db:migrate db:seed
+ 2202  cd
+ 2203  cd code/Sybillecrd/My_website
+ 2204  middleman s
+ 2205  atom .
+ 2206  bundle
+ 2207  middleman s
+ 2208  bundle
+ 2209  gst
+ 2210  git co -b end-seo
+ 2211  git add .
+ 2212  git commit -m "metatag, sitemap, copyright"
+ 2213  git push origin end-seo 
+ 2214  hub browse
+ 2215  git co master
+ 2216  git pull origin master
+ 2217  middleman deploy
+ 2218  middleman s
+ 2219  git co -b 404
+ 2220  gst
+ 2221  git add .
+ 2222  git commit -m "add 404.html page"
+ 2223  git push origin 404
+ 2224  hub browse
+ 2225  git co master
+ 2226  git pull origin master
+ 2227  middleman s
+ 2228  gst
+ 2229  git co -b css-404
+ 2230  git add .
+ 2231  git commit -m "try to create 404 file"
+ 2232  git push origin css-404 
+ 2233  hub browse
+ 2234  git co master
+ 2235  git pull origin master
+ 2236  middleman d
+ 2237  atom .
+ 2238  middleman s
+ 2239  git co -b edenpark
+ 2240  gst
+ 2241  git add .
+ 2242  git commit -m "add Eden Park link"
+ 2243  git push origin edenpark 
+ 2244  hub browse
+ 2245  git co master
+ 2246  git pull origin master
+ 2247  middleman deploy
+ 2248  cd
+ 2249  cd code/Sybillecrd/Dame_Jeanne
+ 2250  attom .
+ 2251  atom .
+ 2252  rails s
+ 2253  git co -b cam
+ 2254  rails db:drop db:create db:migrate db:seed
+ 2255  gst
+ 2256  git add .
+ 2257  git commit -m "change posters'Camille"
+ 2258  git push origin cam
+ 2259  git co master
+ 2260  git pull origin master
+ 2261  git push heroku master && heroku run rake db:migrate db:seed
+ 2262  rails s
+ 2263  atom .
+ 2264  gst
+ 2265  git co -b add-shps
+ 2266  git add.
+ 2267  git add .
+ 2268  git commit -m "add Bonendroi, Zone du Dehors, nuit des rois"
+ 2269  atom .
+ 2270  rails s
+ 2271  gst
+ 2272  git add .
+ 2273  git commit "add some modif for mobile responsive"
+ 2274  atom .
+ 2275  rails s
+ 2276  gst
+ 2277  git add .
+ 2278  git commit -m "modif"
+ 2279  git push origin add-shps 
+ 2280  git co master
+ 2281  git pull origin master
+ 2282  atom .
+ 2283  rails db:drop db:create db:migrate db:seed
+ 2284  rails s
+ 2285  rails db:drop db:create db:migrate db:seed
+ 2286  atom .
+ 2287  rails s
+ 2288  git co -b multi-markers
+ 2289  gst
+ 2290  git add .
+ 2291  git commit -m "add multi markers"
+ 2292  git push origin multi-markers 
+ 2293  git co master
+ 2294  git pull origin master
+ 2295  git push heroku master && heroku run rake db:migrate db:seed
+ 2296  gst
+ 2297  git co -b zoom-map
+ 2298  git add .
+ 2299  git commit -m "change zoom, lat, lg map"
+ 2300  git push origin zoom-map 
+ 2301  git co master
+ 2302  git pull origin master
+ 2303  git push heroku master && heroku run rake db:migrate db:seed
+ 2304  atom .
+ 2305  rails s
+ 2306  cd
+ 2307  cd code/Sybillecrd/My_website
+ 2308  atom .
+ 2309  middleman s
+ 2310  git co -b maj
+ 2311  middleman s
+ 2312  gst
+ 2313  git add .
+ 2314  git commit -m "change icons, logo, size icons..."
+ 2315  git push origin maj
+ 2316  hub browse
+ 2317  git co master
+ 2318  git pull origin master
+ 2319  middleman deploy
+ 2320  atom .
+ 2321  middleman s
+ 2322  gst
+ 2323  git co -b logo-size
+ 2324  git add .
+ 2325  git commit -m "change sizelogo, margin-top burger"
+ 2326  git push origin logo-size 
+ 2327  hub browse
+ 2328  git co master
+ 2329  git pull origin master
+ 2330  git sweep
+ 2331  middleman deploy
+ 2332  middleman s
+ 2333  atom .
+ 2334  gst
+ 2335  git co -b image_tag
+ 2336  git add .
+ 2337  git commit -m "image_tag for logo"
+ 2338  git push origin image_tag 
+ 2339  hub browse
+ 2340  git co master
+ 2341  git pull origin master
+ 2342  middleman deploy
+ 2343  cd
+ 2344  cd code/Sybillecrd/Dame_Jeanne
+ 2345  atom .
+ 2346  rails s
+ 2347  gst
+ 2348  cd
+ 2349  cd code/Sybillecrd/Dame_Jeanne
+ 2350  gst
+ 2351  git co -b dossier-presse
+ 2352  rails db:drop db:create db:migrate db:seed
+ 2353  rails s
+ 2354  rails db:drop db:create db:migrate db:seed
+ 2355  gst
+ 2356  git add .
+ 2357  git commit -m "change banner RS, add dossier press, remove 7 posters"
+ 2358  git push origin dossier-presse 
+ 2359  git co master
+ 2360  git pull origin master
+ 2361  git push heroku master && heroku run rake db:migrate db:seed
+ 2362  atom .
+ 2363  rails s
+ 2364  rails db:drop db:create db:migrate db:seed
+ 2365  gst
+ 2366  git co -b dodepresse
+ 2367  git add .
+ 2368  git commit -m "change dossier d epresse, remove mériadeck"
+ 2369  git push origin dodepresse
+ 2370  git co master
+ 2371  git pull origin master
+ 2372  git push heroku master && heroku run rake db:migrate db:seed
+ 2373  git co -b globalize
+ 2374  gem install globalize
+ 2375  bundle 
+ 2376  rails s
+ 2377  gst
+ 2378  git add .
+ 2379  git commit -m "i18n parameters"
+ 2380  git push origin globalize
+ 2381  gst
+ 2382  git add .
+ 2383  git commit -m "contact page in english"
+ 2384  gst
+ 2385  git add .
+ 2386  gst
+ 2387  git push origin globalize
+ 2388  git co master
+ 2389  git pull origin master
+ 2390  gst
+ 2391  atom .
+ 2392  rails s
+ 2393  gst
+ 2394  git co -b modif-yml
+ 2395  git add .
+ 2396  git commit -m "change term more appropriate"
+ 2397  git push origin modif-yml
+ 2398  atom .
+ 2399  git co master
+ 2400  git pull origin master
+ 2401  git push heroku master && heroku run rake db:migrate db:seed
+ 2402  rails s
+ 2403  atom .
+ 2404  rails db:drop db:create db:migrate db:seed
+ 2405  gst
+ 2406  git co -b banner
+ 2407  git add .
+ 2408  git commit -m "problem banner Amandine fixed, change banner contact for poster's Pauline"
+ 2409  git push origin banner
+ 2410  git co master
+ 2411  git pull origin master
+ 2412  gst
+ 2413  git sweep
+ 2414  git push heroku master && heroku run rake db:migrate db:seed
+ 2415  cd
+ 2416  cd code/Sybillecrd
+ 2417  cd ~/code/Sybillecrd\nmiddleman init YOUR_PROJECT -B -T lewagon/middleman-template
+ 2418  cd ~/code/Sybillecrd\nmiddleman init komoot -B -T lewagon/middleman-template
+ 2419  cd komoot
+ 2420  git init
+ 2421  git add .
+ 2422  git commit -m 'Generated a new middleman project with lewagon/middleman-template'
+ 2423  hub create
+ 2424  git remote -v
+ 2425  git push origin master
+ 2426  middleman server
+ 2427  atom .
+ 2428  bundle
+ 2429  middleman server
+ 2430  bundle
+ 2431  middleman s
+ 2432  bundle
+ 2433  middleman s
+ 2434  bundle
+ 2435  middleman s
+ 2436  bundle
+ 2437  middleman s
+ 2438  bundle
+ 2439  gst
+ 2440  git co -b begin
+ 2441  git add .
+ 2442  git commit -m "begin to write card"
+ 2443  git push origin begin
+ 2444  git co master
+ 2445  git pull origin master
+ 2446  bundle
+ 2447  middleman s
+ 2448  bundle
+ 2449  yarn remove bootstrap && yarn add bootstrap
+ 2450  yarn install
+ 2451  yarn add popper.js
+ 2452  middleman s
+ 2453  bundle
+ 2454  middleman s
+ 2455  bundle
+ 2456  middleman s
+ 2457  bundle
+ 2458  middleman s
+ 2459  yarn
+ 2460  bundle
+ 2461  middleman s
+ 2462  bundle update middleman-sprockets
+ 2463  middleman s
+ 2464  bundle
+ 2465  middleman s
+ 2466  bundle
+ 2467  bundle update
+ 2468  bun
+ 2469  bundle update
+ 2470  bun
+ 2471  bundle
+ 2472  gem install bootstrap -v 4.0.0
+ 2473  npm install bootstrap
+ 2474  bundle
+ 2475  middleman s
+ 2476  bundle
+ 2477  yarn install
+ 2478  gem install sprockets
+ 2479  bundle
+ 2480  middleman s
+ 2481  bundle
+ 2482  bundle update sass
+ 2483  bundle update sprockets
+ 2484  cd
+ 2485  cd code/Sybillecrd/Ba-Sh
+ 2486  middleman s
+ 2487  atom .
+ 2488  cd
+ 2489  cd code/Sybillecrd/komoot
+ 2490  middleman s
+ 2491  bundle
+ 2492  middleman s
+ 2493  bundle update bootstrap
+ 2494  gst
+ 2495  bundle
+ 2496  gst
+ 2497  cd
+ 2498  git clone --bare https://github.com/Sybillecrd/Ba-Sh.git
+ 2499  cd Ba-Sh.git
+ 2500  git push --mirror https://github.com/Sybillecrd/komoot-job.git
+ 2501  git push --mirror https://github.com/Sybillecrd/komoot.git
+ 2502  cd ..
+ 2503  rm -rf Ba-Sh.git
+ 2504  cd code/Sybillecrd/komoot
+ 2505  atom .
+ 2506  middleman s
+ 2507  gst
+ 2508  git co -b try
+ 2509  git add .
+ 2510  git commit -m "try to fixed problems"
+ 2511  git push origin try
+ 2512  cd
+ 2513  cd code/Sybillecrd/Dame_Jeanne
+ 2514  atom .
+ 2515  rails s
+ 2516  git co -b flag
+ 2517  gst
+ 2518  git add .
+ 2519  git commit -m "try to add flag for languages selector"
+ 2520  git push origin flag
+ 2521  gst
+ 2522  rails routes
+ 2523  gst
+ 2524  git add .
+ 2525  git commit -m "flags languages selector"
+ 2526  git push origin flag
+ 2527  git co master
+ 2528  git pull origin master
+ 2529  atom .
+ 2530  rails s
+ 2531  mail
+ 2532  gst
+ 2533  bundle
+ 2534  gst 
+ 2535  bundle
+ 2536  gst
+ 2537  git add .
+ 2538  git commit -m "optimize artist index queries"
+ 2539  rails s
+ 2540  bundle
+ 2541  rails s
+ 2542  brew install readline
+ 2543  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+ 2544  atom ~/.zshrc
+ 2545  zsh
+ 2546  gst
+ 2547  bundle
+ 2548  rails s
+ 2549  git add .g
+ 2550  git add .
+ 2551  git commit -m "fix locale switcher"
+ 2552  rails g migration AddEnFieldsToArtists job_en:string speech_en:string
+ 2553  rails db:migrate
+ 2554  rails 
+ 2555  srails s
+ 2556  rails s
+ 2557  rails c
+ 2558  rbenv versions
+ 2559  brew update ruby-builds
+ 2560  brew upgrade ruby-builds
+ 2561  brew upgrade rbenv ruby-build
+ 2562  rbenv versions
+ 2563  rbenv install -l
+ 2564  rbenv install 2.6.5
+ 2565  bundle
+ 2566  rails s
+ 2567  rails c
+ 2568  ping boutique.dame-jeanne-bordeaux.fr
+ 2569  gst
+ 2570  git diff
+ 2571  gst
+ 2572  s
+ 2573  gst
+ 2574  git add .
+ 2575  git commit -m "upgrade ruby + add en fields"
+ 2576  gst
+ 2577  git co -b trad-seed
+ 2578  gst
+ 2579  rails db:drop db:create db:migrate db:seed
+ 2580  gst
+ 2581  git add .
+ 2582  git commit -m "add job trad"
+ 2583  git push origin trad-seed 
+ 2584  git co master
+ 2585  git pull origin master
+ 2586  git push heroku master && heroku run rake db:migrate db:seed
+ 2587  git pull origin master
+ 2588  git push heroku master && heroku run rake db:migrate db:seed
+ 2589  git pull origin master
+ 2590  git push heroku master && heroku run rake db:migrate db:seed
+ 2591  git pull origin master
+ 2592  git push heroku master && heroku run rake db:migrate db:seed
+ 2593  gst
+ 2594  git co -b "faute"
+ 2595  git add .
+ 2596  git commit -m "corriger faute"
+ 2597  git push origin faute
+ 2598  git co master
+ 2599  git pull origin master
+ 2600  git push heroku master && heroku run rake db:migrate db:seed
+ 2601  atom .
+ 2602  rails s
+ 2603  bundle install
+ 2604  rails s
+ 2605  yarn install
+ 2606  brew upgrade yarn
+ 2607  rails s
+ 2608  yarn install
+ 2609  rails s
+ 2610  git co -b citévin
+ 2611  rails db:drop db:create db:migrate db:seed
+ 2612  gst
+ 2613  git add .
+ 2614  git commit -m "update cité du vin poster + 2 bio in english"
+ 2615  git push origin citévin
+ 2616  hub browse
+ 2617  git co master
+ 2618  git pull origin master
+ 2619  git push heroku master && heroku run rake db:migrate db:seed
+ 2620  atom .
+ 2621  rails s
+ 2622  gst
+ 2623  git co -b speech-en
+ 2624  rails db:drop db:create db:migrate db:seed
+ 2625  gst
+ 2626  git add .
+ 2627  git commit -m "add speech english: Amandine, Marjorie, Antoine"
+ 2628  rails s
+ 2629  gst
+ 2630  git push origin speech-en 
+ 2631  git co master
+ 2632  git pull origin master
+ 2633  git push heroku master && heroku run rake db:migrate db:seed
+ 2634  cd 
+ 2635  cd code/Sybillecrd/My_website
+ 2636  atom .
+ 2637  middleman s
+ 2638  git co b builder
+ 2639  git co -b builder
+ 2640  bundle
+ 2641  bundle info builder
+ 2642  gst
+ 2643  git add .
+ 2644  git commit -m "add builder gem"
+ 2645  git push origin builder
+ 2646  hub browse
+ 2647  git co master
+ 2648  git pull origin master
+ 2649  middleman deploy
+ 2650  atom .
+ 2651  git co -b dribbble
+ 2652  gst
+ 2653  git add .
+ 2654  git commit -m "change url dribbble"
+ 2655  git push origin dribbble
+ 2656  hub browse
+ 2657  git co master
+ 2658  git pull origin master
+ 2659  middleman deploy
+ 2660  cd
+ 2661  cd code/Sybillecrd/Dame_Jeanne
+ 2662  atom .
+ 2663  git co -b insta
+ 2664  rails db:drop db:create db:migrate db:seed
+ 2665  rails s
+ 2666  gst
+ 2667  git add .
+ 2668  git commit -m "change url dribbble + add url insta Sybille"
+ 2669  git push origin insta
+ 2670  git co master
+ 2671  git pull origin master
+ 2672  git push heroku master && heroku run rake db:migrate db:seed
+ 2673  cd
+ 2674  cd code/Sybillecrd/My_website
+ 2675  atom .
+ 2676  middleman s
+ 2677  git co -b link-to
+ 2678  gst
+ 2679  git add .
+ 2680  git commit -m "change href by link_to in navbar"
+ 2681  git push origin link-to 
+ 2682  hub browse
+ 2683  git co master
+ 2684  git pull origin master
+ 2685  middleman deploy
+ 2686  cd
+ 2687  cd code/Sybillecrd/Dame_Jeanne
+ 2688  gst
+ 2689  atom .
+ 2690  rails s
+ 2691  gst
+ 2692  git rev-parse HEAD
+ 2693  rails c
+ 2694  which tree
+ 2695  brew install tree
+ 2696  atom .
+ 2697* rails s
+ 2698  tree > tree.txt
+ 2699  tree public/ > public.txt
+ 2700  history

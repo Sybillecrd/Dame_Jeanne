@@ -6,5 +6,6 @@ Rails.application.routes.draw do
     get :shops, to: "pages#shops"
     get :contact, to: "pages#contact"
     get :legalpage, to: 'pages#legalpage'
+    get :posts, to: "pages#posts"
   end
 end
