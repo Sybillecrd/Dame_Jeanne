@@ -20,7 +20,7 @@ post_two = Post.create!(title: "Vernissage de l'expo Dame Jeanne",
 
               DIMANCHE
               10h-16h",
-            date: "Jeudi 9 Mai",
+            date: "Jeudi 9 mai",
             picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575386737/Dame%20Jeanne/VISUELEXPODJ-avril2019.jpg")
 
 puts "#{Post.count} posts created!"

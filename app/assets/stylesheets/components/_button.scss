@@ -1,0 +1,29 @@
+.btn-danger {
+  background-color: $dark-blue !important;
+  border: none;
+  box-shadow: none !important;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.btn-post {
+  background-color: $dark-blue;
+  color: white;
+  letter-spacing: 0.5px;
+  &:hover {
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+  }
+}
+
+
+
+@media (min-width: 20px) and (max-width: 735px){
+  .btn-danger {
+    margin-top: 10px;
+  }
+}

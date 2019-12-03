@@ -4,21 +4,18 @@
 
 <div class="container container-posts">
   <div class="row">
-    <% @posts.each do |post| %>
-    <div class="card post-card-index">
-      <div class="post-photo-index">
+    <div class="col-lg-8 offset-lg-2">
+      <% @posts.each do |post| %>
+      <div class="card card-post-index">
         <%= image_tag(url_for(post.picture))%>
+        <div class="post-content-index">
+          <p><%= post.date %></p>
+          <h4><%= post.title %></h4>
+          <p><%= post.content.first(400) %> (...)</p>
+          <%= link_to "Lire la suite", post_path(post), class: "btn btn-post" %>
+        </div>
       </div>
-      <div class="post-title-index">
-        <p><%= post.date %></p>
-        <h2><%= post.title %></h2>
-      </div>
-      <div class="post-content-index">
-        <p><%= post.content.first(400) %> (...)</p>
-        <%= link_to "Lire la suite", post_path(post), class: "button btn-danger" %>
-      </div>
+      <% end %>
     </div>
-    <% end %>
   </div>
-
 </div>
