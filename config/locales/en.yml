@@ -1,6 +1,6 @@
 en:
   bio: About
-  site: Professional Website 
+  site: Professional Website
   socials: Social Networks
   navbar:
     artists: 'The artists'
@@ -26,6 +26,8 @@ en:
     follow-us: 'Follow us'
   shops:
     boutique: 'Find us in stores!'
+  posts:
+    title: Les actualités de Dame Jeanne Bordeaux
   contact:
     contact-us: 'Contact us'
     name: 'Name'

@@ -1,0 +1,21 @@
+<div class="banner banner-shops" style="background-image: linear-gradient(180deg, rgba(44, 41, 58, 0.54) 0%, rgba(44, 41, 58, 0.28) 100%), url('https://res.cloudinary.com/sybillecrd/image/upload/v1549630638/Dame%20Jeanne/diner-gauche-hommes-avec-matieres.jpg');">
+  <h1 class="shops-title"><%= t('posts.title') %></h1>
+</div>
+
+<div class="container container-posts">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      <% @posts.each do |post| %>
+      <div class="card card-post-index">
+        <%= image_tag(url_for(post.picture))%>
+        <div class="post-content-index">
+          <p><%= post.date %></p>
+          <h4><%= post.title %></h4>
+          <p><%= post.content.first(400) %> (...)</p>
+          <%= link_to "Lire la suite", post_path(post), class: "btn btn-post" %>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>
