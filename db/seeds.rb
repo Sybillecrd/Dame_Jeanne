@@ -1,6 +1,29 @@
 Artist.destroy_all
 Project.destroy_all
 Poster.destroy_all
+Post.destroy_all
+
+puts "Creating posts..."
+
+post_one = Post.create!(title: "Vernissage au Node",
+            content: "Retrouvez-nous jeudi soir à Le Node Bordeaux pour le vernissage de notre expo qui durera du 03 octobre au 03 novembre ! On sera ravis de vous rencontrer et d’échanger avec vous",
+            date: "Jeudi 3 octobre",
+            picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575386606/Dame%20Jeanne/FB-event-DameJeanneXNODE.jpg")
+
+post_two = Post.create!(title: "Vernissage de l'expo Dame Jeanne",
+            content: "Merci à tous ceux qui sont venus découvrir la première collection de Dame Jeanne lors du vernissage hier soir ! L'exposition continue tout le week-end au 44 rue Bouquière :
+              VENDREDI
+              11h-18h
+
+              SAMEDI
+              10h-16h
+
+              DIMANCHE
+              10h-16h",
+            date: "Jeudi 9 Mai",
+            picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575386737/Dame%20Jeanne/VISUELEXPODJ-avril2019.jpg")
+
+puts "#{Post.count} posts created!"
 
 puts "Creating artists..."
 
