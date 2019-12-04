@@ -12,8 +12,8 @@
       <%= t('navbar.artists') %>
     </a>
     <%= link_to t("navbar.collectif"), about_path, class: "navbar-wagon-item navbar-wagon-link" %>
-    <!-- presse, press_path -->
     <%= link_to t('navbar.points-of-sale'), shops_path, class: "navbar-wagon-item navbar-wagon-link" %>
+    <%= link_to t('navbar.posts'), posts_path, class: "navbar-wagon-item navbar-wagon-link" %>
     <%= link_to "Contact", contact_path, class: "navbar-wagon-item navbar-wagon-link" %>
 
 
@@ -31,7 +31,7 @@
         </li>
         <li><a href="about"><%= t('navbar.collectif') %></a></li>
         <li><a href="shops"><%= t('navbar.points-of-sale') %></a></li>
-        <!-- <li><a href="press">Presse</a></li> -->
+        <li><a href="posts"><%= t('navbar.posts') %></a></li>
         <li><a href="contact">Contact</a></li>
       </ul>
     </div>

@@ -1,1 +1,16 @@
-<h1>Hello</h1>
+<%= image_tag(url_for(@post.picture), :class => 'banner banner-post-show' )%>
+
+<div class="container container-post-show">
+  <div class="card card-post-show">
+    <div class="card-body card-body-shops">
+      <h6 class="card-subtitle mb-2 subtitle"><%= @post.date.strftime("%A %e %B %Y") %></h6>
+      <h1 class="card-title about-title"><%= @post.title %></h1>
+      <br>
+      <p class="card-text text-center"><%= @post.content %></p>
+      <br>
+      <%= link_to "Retour à tous les articles", posts_path, class: "btn btn-post" %>
+
+    </div>
+  </div>
+
+</div>
