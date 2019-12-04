@@ -9,7 +9,7 @@
       <div class="card card-post-index">
         <%= image_tag(url_for(post.picture))%>
         <div class="post-content-index">
-          <p><%= post.date %></p>
+          <p><%= post.date.strftime("%A %e %B %Y") %></p>
           <h4><%= post.title %></h4>
           <p><%= post.content.first(300) %> (...)</p>
           <%= link_to "Lire la suite", post_path(post), class: "btn btn-post" %>

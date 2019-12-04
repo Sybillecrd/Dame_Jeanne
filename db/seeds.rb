@@ -7,27 +7,34 @@ puts "Creating posts..."
 
 post_one = Post.create!(title: "Vernissage au Node",
             content: "Retrouvez-nous jeudi soir à Le Node Bordeaux pour le vernissage de notre expo qui durera du 3 octobre au 3 novembre ! On sera ravis de vous rencontrer et d’échanger avec vous.
-              PS: profitez-en, c’est la dernière occasion de voir la saison 1 de Dame Jeanne... car on vous retrouve très vite pour la saison 2 !",
-            date: "Jeudi 3 octobre",
+              PS: profitez-en, c’est la dernière occasion de voir la saison 1 de Dame Jeanne... car on vous retrouve très vite pour la saison 2 !
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            date: "Jeudi 3 octobre 2019",
             picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575458641/Dame%20Jeanne/Image_d_iOS_1.jpg")
 
-post_two = Post.create!(title: "Vernissage de l'expo Dame Jeanne",
+post_two = Post.create!(title: "Bientôt... Dame Jeanne saison 2 !",
+            content: "Les membres de Dame Jeanne ont ressorti leurs crayons, pinceaux et tablettes graphiques, pour commencer à plancher sur la deuxième collection d’affiches... On vous en dit plus très bientôt !
+              PS: Saurez-vous en deviner le thème ?",
+            date: "mercredi 18 septembre 2019",
+            picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575463840/Dame%20Jeanne/Dame_Jeanne_Bordeaux_Saison_2.jpg")
+
+post_three = Post.create!(title: "Vernissage de l'expo Dame Jeanne",
             content: "Merci à tous ceux qui sont venus découvrir la première collection de Dame Jeanne lors du vernissage hier soir ! L'exposition continue tout le week-end au 44 rue Bouquière :
               VENDREDI
               11h-18h
-
               SAMEDI
               10h-16h
-
               DIMANCHE
               10h-16h",
-            date: "jeudi 09 may",
+            date: "jeudi 09 may 2019",
             picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575386737/Dame%20Jeanne/VISUELEXPODJ-avril2019.jpg")
 
-post_three = Post.create!(title: "Exposition à l'Espace Saint-Rémi",
+post_four = Post.create!(title: "Exposition à l'Espace Saint-Rémi",
             content: "Une belle journée d'exposition à l'espace Saint Rémi pour le collectif Dame Jeanne ! Merci à l'association Autour d'un Piano pour nous avoir invité à participer, dans le cadre de l'évènement PIANO DAY.
               Photographies par Victoire Delpierre.",
-            date: "Vendredi 29 mars",
+            date: "Vendredi 29 mars 2019",
             picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575459809/Dame%20Jeanne/DameJeanne-accrochageEspaceSaintRe%CC%81mi-mars2019-_photovictoiredelpierre_7.jpg")
 
 puts "#{Post.count} posts created!"

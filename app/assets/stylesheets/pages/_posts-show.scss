@@ -5,13 +5,18 @@
   object-fit: cover;
 }
 
+.container-post-show {
+  height: 100vh;
+}
+
 .card-post-show {
   position: absolute;
-  height: 300px;
+  flex-grow: 1;
   width: 1000px;
   top: 540px;
   left: 0;
   right: 0;
+  padding-top: 10px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;

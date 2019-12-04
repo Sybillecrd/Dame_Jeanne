@@ -1,20 +1,34 @@
 .card-post-index {
   margin-top: 50px;
+  display: flex;
   height: 280px;
+  flex-grow: 1;
+  overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  display: flex;
   flex-direction: row;
-
+  &:last-child {
+    margin-bottom: 100px;
+  }
 }
 
 .card-post-index img {
   height: 100%;
-  width: 200px;
+  width: 250px;
   object-fit: cover;
 }
 
 .card-post-index .post-content-index {
   padding: 16px 25px;
+}
 
+
+@media (min-width: 20px) and (max-width: 735px) {
+  .card-post-index {
+  }
+}
+
+@media (min-width: 736px) and (max-width: 991px) {
+  .card-post-index {
+  }
 }
