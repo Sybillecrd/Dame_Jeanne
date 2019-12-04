@@ -6,9 +6,10 @@ Post.destroy_all
 puts "Creating posts..."
 
 post_one = Post.create!(title: "Vernissage au Node",
-            content: "Retrouvez-nous jeudi soir à Le Node Bordeaux pour le vernissage de notre expo qui durera du 03 octobre au 03 novembre ! On sera ravis de vous rencontrer et d’échanger avec vous",
+            content: "Retrouvez-nous jeudi soir à Le Node Bordeaux pour le vernissage de notre expo qui durera du 3 octobre au 3 novembre ! On sera ravis de vous rencontrer et d’échanger avec vous.
+              PS: profitez-en, c’est la dernière occasion de voir la saison 1 de Dame Jeanne... car on vous retrouve très vite pour la saison 2 !",
             date: "Jeudi 3 octobre",
-            picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575386606/Dame%20Jeanne/FB-event-DameJeanneXNODE.jpg")
+            picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575458641/Dame%20Jeanne/Image_d_iOS_1.jpg")
 
 post_two = Post.create!(title: "Vernissage de l'expo Dame Jeanne",
             content: "Merci à tous ceux qui sont venus découvrir la première collection de Dame Jeanne lors du vernissage hier soir ! L'exposition continue tout le week-end au 44 rue Bouquière :
@@ -20,8 +21,14 @@ post_two = Post.create!(title: "Vernissage de l'expo Dame Jeanne",
 
               DIMANCHE
               10h-16h",
-            date: "Jeudi 9 mai",
+            date: "jeudi 09 may",
             picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575386737/Dame%20Jeanne/VISUELEXPODJ-avril2019.jpg")
+
+post_three = Post.create!(title: "Exposition à l'Espace Saint-Rémi",
+            content: "Une belle journée d'exposition à l'espace Saint Rémi pour le collectif Dame Jeanne ! Merci à l'association Autour d'un Piano pour nous avoir invité à participer, dans le cadre de l'évènement PIANO DAY.
+              Photographies par Victoire Delpierre.",
+            date: "Vendredi 29 mars",
+            picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1575459809/Dame%20Jeanne/DameJeanne-accrochageEspaceSaintRe%CC%81mi-mars2019-_photovictoiredelpierre_7.jpg")
 
 puts "#{Post.count} posts created!"
 
