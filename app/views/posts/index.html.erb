@@ -5,6 +5,13 @@
 <div class="container container-posts">
   <div class="row">
     <div class="col-lg-10 offset-lg-1">
+      <div class="add-article">
+        <% if user_signed_in? %>
+          <%= link_to "Ajouter un article", new_post_path, class: "btn btn-post" %>
+        <%end %>
+      </div>
+    </div>
+    <div class="col-lg-10 offset-lg-1">
       <% @posts.each do |post| %>
       <div class="card card-post-index">
         <%= cl_image_tag post.photo %>
@@ -17,10 +24,5 @@
       </div>
       <% end %>
     </div>
-    <div class="add-article">
-    <% if user_signed_in? %>
-      <%= link_to "Ajouter un article", new_post_path %>
-    <%end %>
-  </div>
   </div>
 </div>

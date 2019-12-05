@@ -9,6 +9,14 @@
       <p class="card-text text-center"><%= @post.content %></p>
       <br>
       <%= link_to "Retour à tous les articles", posts_path, class: "btn btn-post" %>
+      <div class="edit-article">
+        <% if user_signed_in? %>
+          <br>
+          <%= link_to "Editer cet article", edit_post_path(@post) %>
+          <br>
+          <%= link_to "Supprimer cet article", post_path(@post), method: :delete, data: { confirm: "Confirmer la suppression de cet article ?" } %>
+        <% end %>
+      </div>
 
     </div>
   </div>
