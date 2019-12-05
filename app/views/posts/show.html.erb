@@ -1,4 +1,4 @@
-<%= image_tag(url_for(@post.picture), :class => 'banner banner-post-show' )%>
+<%= cl_image_tag @post.photo, :class => 'banner banner-post-show'%>
 
 <div class="container container-post-show">
   <div class="card card-post-show">

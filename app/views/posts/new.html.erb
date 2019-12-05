@@ -5,7 +5,8 @@
       <%= simple_form_for(@post) do |f| %>
         <%= f.input :title, label: "Titre" %>
         <%= f.input :content, as: :text, label: "Contenu" %>
-        <%= f.input :picture, as: :file, label: "Image" %>
+        <%= f.input :photo, as: :file, label: "Image" %>
+        <%= f.input :photo_cache, as: :hidden %>
         <%= f.button :submit, value: 'Publier cet article', class: 'btn btn-post'%>
       <% end %>
       <br>
