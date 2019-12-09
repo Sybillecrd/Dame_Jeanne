@@ -104,7 +104,7 @@ artists_attributes = [
     job: "Graphiste web/print & illustratrice",
     job_en: "Graphic Designer web/print @ Illustrator",
     speech: "Marjorie Goalard est originaire de Bayonne et a débarqué à Bordeaux il y a de ça quelques années. Depuis maintenant 1 an, elle s'est lancée dans l'aventure de graphiste freelance. Dans son travail, Marjorie fait la part belle à l'illustration à travers la création de compositions colorées où se mêlent détails et symboles. Faire partie du collectif Dame Jeanne lui permet de rendre hommage à Bordeaux, devenue sa ville de coeur.",
-    speech_en: "Marjorie Goalard comes from Bayonne and arrived in Bordeaux a few years ago. Since last year, she started the adventure of freelancer graphic designer. Her work of illustrations gathers colourful compositions that combine details and symbols. Being a part of the collective Dame Jeanne allows Marjorie to show her love for Bordeaux, which became her favorite city.",
+    speech_en: "Marjorie Goalard comes from Bayonne and arrived in Bordeaux a few years ago. Since last year, she started the adventure of freelance graphic designer. Her work of illustrations gathers colourful compositions that combine details and symbols. Being a part of the collective Dame Jeanne allows Marjorie to show her love for Bordeaux, which became her favorite city.",
     blog: "https://www.behance.net/Marjorie-Goalard",
     instagram: "https://www.instagram.com/marjorie.goalard/",
     linkedin: "https://www.linkedin.com/in/marjorie-goalard/",
@@ -167,25 +167,23 @@ artists_attributes = [
       L'eau transparente carte postale, d'une plage au sable fin doré
       De la matière, de la diversité, juste au toucher, sous le regard des bordelais,
       Mariage entre Bordeaux et la Colombie, rien à rajouter : Inspiré.",
-    speech_en: "On the left, Bordeaux with his typical blond stone.
-      Great choice of monuments where everyone finds memories.
-      Like the Grand Théatre and its arches, where the first glass is often taken on the steps.
-      Hearing the heels slamming, making music.
-      In the massive administrative pavilion of the Jardin Public.
-      Who has never been in the grass lying in the afternoon ?
-      The pebbles waltz as children keep moving.
-      Until this rounded corner of the Maison du Vin.
-      Who has never sipped a glass of red wine
-      On the terrace, on the waterfront with friends?
-      Halve everything and get different color tints
-      With Colombia colors, a certain challenge.
-      Cartagena and its bright facades.
-      Warm color, like local coffee
-      Percussions all around by groups playing freestyle
-      With clear sky and rays of sun coming.
-      Transparent water postcard, a beach with fine golden sand.
-      Material, diversity, just the touch, under Bordelais'eyes.
-      Marriage between Bordeaux and Colombia, nothing to add : Inspired.",
+    speech_en: "On the left, Bordeaux and it’s typical yellow stone.
+      A great panel of monuments, where everyone has memories.
+      Like under the arches of the Grand Theater, where a first glass of wine is often drank on the steps.
+      Heels are slamming on the pavement, making music.
+      Or in the massive administrative pavilion of the Public Garden.
+      Who has never lied there in the grass in the afternoon ?
+      The pebbles waltz as children run around.
+      And then, the rounded corner of the House of Wine.
+      Who has never sipped a glass of red wine on the terrace, on at the waterfront, with friends ?
+      Halve everything and add new tints : Colombia’s colors, a true challenge.
+      Imagine Cartagena and its bright facades.
+      Colours are warm like local coffee.
+      Percussions are all around, groups are jamming.
+      Skies are clear, rays of sun coming through.
+      The water, transparent, picture-perfect. A beach with fine golden sand.
+      Just a touch of textures and diversity, for the eyes of an unsuspecting Bordelais.
+      A marriage between Bordeaux and Colombia, nothing to add : Inspired",
     blog: "https://antoinecoiquaud1991.e-monsite.com",
     instagram: "https://www.instagram.com/antoine__coiquaud/",
     linkedin: "https://www.linkedin.com/in/antoine-coiquaud-5382a9145/",

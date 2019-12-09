@@ -16,7 +16,7 @@
       <div class="card card-post-index">
         <%= cl_image_tag post.photo %>
         <div class="post-content-index">
-          <p><%= post.date.strftime("%A %e %B %Y") %></p>
+          <p><%= l(post.created_at,format: :long) %></p>
           <h4><%= post.title %></h4>
           <p><%= post.content.first(300) %> (...)</p>
           <%= link_to "Lire la suite", post_path(post), class: "btn btn-post" %>
