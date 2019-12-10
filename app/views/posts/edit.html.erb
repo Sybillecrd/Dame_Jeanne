@@ -3,6 +3,7 @@
     <div class="col-lg-8 offset-lg-2">
       <h2>Ajouter un article</h2>
       <%= simple_form_for(@post) do |f| %>
+        <%= f.input :date, label: "Date"  %>
         <%= f.input :title, label: "Titre" %>
         <%= f.input :content, as: :text, label: "Contenu" %>
         <%= f.input :photo, as: :file, label: "Image" %>
