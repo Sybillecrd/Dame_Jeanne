@@ -40,3 +40,32 @@ fr:
     first-name: 'Prénom'
     message: 'Votre message'
     send: 'Envoyer'
+  date:
+    day_names:
+    - dimanche
+    - lundi
+    - mardi
+    - mercredi
+    - jeudi
+    - vendredi
+    - samedi
+    month_names:
+    - janvier
+    - février
+    - mars
+    - avril
+    - mai
+    - juin
+    - juillet
+    - août
+    - septembre
+    - octobre
+    - novembre
+    - décembre
+    order:
+    - :day
+    - :month
+    - :year
+  time:
+    formats:
+      long: "%A %d %B %Y"

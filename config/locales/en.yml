@@ -35,3 +35,32 @@ en:
     first-name: 'First name'
     message: 'Your message'
     send: 'Send'
+  date:
+    day_names:
+    - sunday
+    - monday
+    - tuesday
+    - wednesday
+    - thursday
+    - friday
+    - saturday
+    month_names:
+    - january
+    - february
+    - march
+    - april
+    - may
+    - june
+    - july
+    - august
+    - september
+    - october
+    - november
+    - december
+    order:
+    - :day
+    - :month
+    - :year
+  time:
+    formats:
+      long: "%A %d %B %Y"

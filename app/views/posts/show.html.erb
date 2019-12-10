@@ -1,9 +1,10 @@
 <%= cl_image_tag @post.photo, :class => 'banner banner-post-show'%>
 
+
 <div class="container container-post-show">
   <div class="card card-post-show">
     <div class="card-body card-body-shops">
-      <h6 class="card-subtitle mb-2 subtitle"><%= @post.date.strftime("%A %e %B %Y") %></h6>
+      <h6 class="card-subtitle mb-2 subtitle"><%= l(@post.created_at,format: :long) %></h6>
       <h1 class="card-title about-title"><%= @post.title %></h1>
       <br>
       <p class="card-text text-center"><%= @post.content %></p>
@@ -12,7 +13,7 @@
       <div class="edit-article">
         <% if user_signed_in? %>
           <br>
-          <%= link_to "Editer cet article", edit_post_path(@post) %>
+          <%= link_to "Éditer cet article", edit_post_path(@post) %>
           <br>
           <%= link_to "Supprimer cet article", post_path(@post), method: :delete, data: { confirm: "Confirmer la suppression de cet article ?" } %>
         <% end %>

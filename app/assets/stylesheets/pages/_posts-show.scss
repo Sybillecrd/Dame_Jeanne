@@ -26,3 +26,28 @@
   margin-right: auto;
   text-align: center;
 }
+
+@media (min-width: 20px) and (max-width: 735px) {
+  .card-post-show {
+    position: absolute;
+    width: 92%;
+    top: 450px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 736px) and (max-width: 991px) {
+  .card-post-show {
+    position: absolute;
+    width: 85%;
+    top: 450px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1025px) {
+  .card-post-show {
+    position: absolute;
+    width: 80%;
+    top: 500px;
+  }
+}

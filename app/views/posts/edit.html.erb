@@ -3,11 +3,12 @@
     <div class="col-lg-8 offset-lg-2">
       <h2>Ajouter un article</h2>
       <%= simple_form_for(@post) do |f| %>
+        <%= f.input :date, label: "Date"  %>
         <%= f.input :title, label: "Titre" %>
         <%= f.input :content, as: :text, label: "Contenu" %>
         <%= f.input :photo, as: :file, label: "Image" %>
         <%= f.input :photo_cache, as: :hidden %>
-        <%= f.button :submit, value: 'Editer cet article', class: 'btn btn-post'%>
+        <%= f.button :submit, value: 'Éditer cet article', class: 'btn btn-post'%>
       <% end %>
       <br>
       <%= link_to "Retour à l'accueil", root_path %>
