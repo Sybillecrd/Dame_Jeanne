@@ -16,8 +16,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin: auto 5% auto 5%;
   grid-column-gap: 2%;
-  grid-template-rows: repeat(3, minmax(240px, 1fr));
-  grid-row-gap: 1.5%;
+  grid-template-rows: repeat(2, 320px);
+  grid-row-gap: 2%;
 }
 
 .show-poster {
@@ -59,22 +59,31 @@
 	color: white;
 }
 
+
 @media (min-width: 20px) and (max-width: 735px){
   .show-posters {
-    display: grid;
     grid-template-columns: 90%;
     justify-content: center;
-    grid-template-rows: repeat(4, minmax(230px, 1fr));
-    grid-row-gap: 2rem;
+    grid-template-rows: repeat(1, minmax(455px, 500px));
+    grid-row-gap: 2%;
+    margin-bottom: 5%;
   }
 }
 
-@media (min-width: 736px) and (max-width: 1025px) {
+@media (min-width: 736px) and (max-width: 991px) {
   .show-posters {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 1%;
-    grid-template-rows: repeat(3, 1fr);
-    grid-row-gap: 1%;
+    grid-column-gap: 2%;
+    grid-template-rows: repeat(2, 180px);
+    grid-row-gap: 2%;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1025px) {
+  .show-posters {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+    grid-template-rows: repeat(2, 235px);
+    grid-row-gap: 2%;
   }
 }
