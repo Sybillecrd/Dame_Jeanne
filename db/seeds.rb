@@ -8,39 +8,6 @@ puts "Creating user..."
 damejeanne = User.create!(email: "damejeannebordeaux@gmail.com", password: "jeannette33")
 puts "#{User.count} users created!"
 
-puts "Creating posts..."
-
-post_one = Post.create!(title: "Vernissage au Node",
-            content: "Retrouvez-nous jeudi soir à Le Node Bordeaux pour le vernissage de notre expo qui durera du 3 octobre au 3 novembre ! On sera ravis de vous rencontrer et d’échanger avec vous.
-              PS: profitez-en, c’est la dernière occasion de voir la saison 1 de Dame Jeanne... car on vous retrouve très vite pour la saison 2 !",
-            created_at: "Jeudi 3 octobre 2019",
-            photo: "https://res.cloudinary.com/sybillecrd/image/upload/v1575458641/Dame%20Jeanne/Image_d_iOS_1.jpg")
-
-post_two = Post.create!(title: "Bientôt... Dame Jeanne saison 2 !",
-            content: "Les membres de Dame Jeanne ont ressorti leurs crayons, pinceaux et tablettes graphiques, pour commencer à plancher sur la deuxième collection d’affiches... On vous en dit plus très bientôt !
-              PS: Saurez-vous en deviner le thème ?",
-            created_at: "mercredi 18 septembre 2019",
-            photo: "https://res.cloudinary.com/sybillecrd/image/upload/v1575463840/Dame%20Jeanne/Dame_Jeanne_Bordeaux_Saison_2.jpg")
-
-post_three = Post.create!(title: "Vernissage de l'expo Dame Jeanne",
-            content: "Merci à tous ceux qui sont venus découvrir la première collection de Dame Jeanne lors du vernissage hier soir ! L'exposition continue tout le week-end au 44 rue Bouquière :
-              VENDREDI
-              11h-18h
-              SAMEDI
-              10h-16h
-              DIMANCHE
-              10h-16h",
-            created_at: "09-05-2019",
-            photo: "https://res.cloudinary.com/sybillecrd/image/upload/v1575386737/Dame%20Jeanne/VISUELEXPODJ-avril2019.jpg")
-
-post_four = Post.create!(title: "Exposition à l'Espace Saint-Rémi",
-            content: "Une belle journée d'exposition à l'espace Saint Rémi pour le collectif Dame Jeanne ! Merci à l'association Autour d'un Piano pour nous avoir invité à participer, dans le cadre de l'évènement PIANO DAY.
-              Photographies par Victoire Delpierre.",
-            created_at: "Vendredi 29 mars 2019",
-            photo: "https://res.cloudinary.com/sybillecrd/image/upload/v1575459809/Dame%20Jeanne/DameJeanne-accrochageEspaceSaintRe%CC%81mi-mars2019-_photovictoiredelpierre_7.jpg")
-
-puts "#{Post.count} posts created!"
-
 puts "Creating artists..."
 
 artists_attributes = [
@@ -251,6 +218,46 @@ puts "Creating projects..."
 
   projects_attributes = [
     {
+      name: "Le vin par Pauline",
+      artist: Artist.find_by(first_name:"Pauline")
+    },
+    {
+      name: "Le vin par Amandine",
+      artist: Artist.find_by(first_name:"Amandine")
+    },
+    {
+      name: "Le vin par Liane",
+      artist: Artist.find_by(first_name:"Liane")
+    },
+    {
+      name: "Le vin par Johanna",
+      artist: Artist.find_by(first_name:"Johanna")
+    },
+    {
+      name: "Le vin par Victoire",
+      artist: Artist.find_by(first_name:"Victoire")
+    },
+    {
+      name: "Le vin par Marjorie",
+      artist: Artist.find_by(first_name:"Marjorie")
+    },
+    {
+      name: "Le vin par Marc",
+      artist: Artist.find_by(first_name:"Marc")
+    },
+    {
+      name: "Le vin par Marie",
+      artist: Artist.find_by(first_name:"Marie")
+    },
+    {
+      name: "Le vin par Antoine",
+      artist: Artist.find_by(first_name:"Antoine")
+    },
+    {
+      name: "Le vin par Sybille",
+      artist: Artist.find_by(first_name:"Sybille")
+    },
+    {
       name: "Bordeaux vintage",
       artist: Artist.find_by(first_name:"Marie")
     },
@@ -355,6 +362,14 @@ puts "Creating projects..."
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1550658719/Dame%20Jeanne/2-Panoramique-Bourse-1.jpg"
     },
     {
+      project: Project.find_by(name:"Bordeaux panoramique"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549284103/Dame%20Jeanne/Panoramique---Chartrons-2.jpg"
+    },
+    {
+      project: Project.find_by(name:"Dégustation en bord d'eau"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549630638/Dame%20Jeanne/1-affiche-marjorie.jpg"
+    },
+    {
       project: Project.find_by(name:"Dégustation en bord d'eau"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1549380776/Dame%20Jeanne/2-affiche-marjorie.jpg"
     },
@@ -381,6 +396,10 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"La Bordelaise"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Cite%CC%81_du_Vin.jpg"
+    },
+    {
+      project: Project.find_by(name:"La Bordelaise"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1558605615/Dame%20Jeanne/Camille_Quid_Pont_Chaban.jpg"
     },
     {
       project: Project.find_by(name:"Le temps"),
@@ -413,6 +432,46 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Zoom Zoom"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1552480107/Dame%20Jeanne/Zoom-Zoom-meriadeck-_victoiredelpierre72dpi.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Johanna"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578651939/Dame%20Jeanne/Johanna_Maxwell_Dame_Jeanne_2_Vin.gif"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Marie"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578659601/Dame%20Jeanne/Marie_Paruit_Dame_Jeanne_2_Vin.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Victoire"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578651939/Dame%20Jeanne/_Victoire_Delpierre_Dame_Jeanne_2_Vin.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Marjorie"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578651939/Dame%20Jeanne/Marjorie_Goalard_Dame_Jeanne_2_Vin.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Pauline"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578649666/Dame%20Jeanne/Pauline_Lenain_Dame_Jeanne_2_Vin.png"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Marc"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578651939/Dame%20Jeanne/Marc_Lafon_Dame_Jeanne_2_Vin.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Antoine"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578651939/Dame%20Jeanne/Antoine_Coiquaud_Dame_Jeanne_2_Vin.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Sybille"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578651940/Dame%20Jeanne/Sybille_Cordeau_Dame_Jeanne_2_Vin_.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Amandine"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578659630/Dame%20Jeanne/Amandine_Thomas_Dame_Jeanne_2_Vin.jpg"
+    },
+    {
+      project: Project.find_by(name:"Le vin par Liane"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578651939/Dame%20Jeanne/Liane_Langenbach_Dame_Jeanne_2_Vin.jpg"
     },
   ]
 
