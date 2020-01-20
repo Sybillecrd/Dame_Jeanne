@@ -14,7 +14,7 @@
     <div class="col-lg-10 offset-lg-1">
       <% @posts.each do |post| %>
       <div class="card card-post-index">
-        <%= cl_image_tag post.photo %>
+        <%= cl_image_tag post.picture %>
         <div class="post-content-index">
           <p><%= l(post.created_at,format: :long) %></p>
           <h4><%= post.title %></h4>

@@ -17,8 +17,7 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'cloudinary'
-gem "geocoder"
-gem 'carrierwave'
+gem "geocoder"  
 gem 'devise'
 
 group :development do
