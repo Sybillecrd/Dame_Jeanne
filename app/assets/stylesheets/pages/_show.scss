@@ -4,26 +4,18 @@
   text-align: center;
 }
 .artist-info-show {
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 
 .grid-container {
   display: grid;
 }
 
-.show-posters {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: auto 5% auto 5%;
-  grid-column-gap: 2%;
-  grid-template-rows: repeat(2, 320px);
-  grid-row-gap: 2%;
-}
-
 .show-poster {
   box-shadow: 2px 2px 4px #E5E5E5;
   border: none;
   cursor: zoom-in;
+  margin-bottom: 36px;
 }
 
 .artist-info-show p {
@@ -57,33 +49,4 @@
 	font-size: 16px;
   line-height: 32px;
 	color: white;
-}
-
-
-@media (min-width: 20px) and (max-width: 735px){
-  .show-posters {
-    grid-template-columns: 90%;
-    justify-content: center;
-    grid-template-rows: repeat(1, minmax(455px, 500px));
-    grid-row-gap: 2%;
-    margin-bottom: 5%;
-  }
-}
-
-@media (min-width: 736px) and (max-width: 991px) {
-  .show-posters {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2%;
-    grid-template-rows: repeat(2, 180px);
-    grid-row-gap: 2%;
-  }
-}
-
-@media (min-width: 991px) and (max-width: 1025px) {
-  .show-posters {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 2%;
-    grid-template-rows: repeat(2, 235px);
-    grid-row-gap: 2%;
-  }
 }
