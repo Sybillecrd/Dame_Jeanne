@@ -218,6 +218,46 @@ puts "Creating projects..."
 
   projects_attributes = [
     {
+      name: "Bordeaux Bord de l'eau - Sybille",
+      artist: Artist.find_by(first_name:"Sybille")
+    },
+    {
+      name: "Bordeaux Bord de l'eau - Antoine",
+      artist: Artist.find_by(first_name:"Antoine")
+    },
+    {
+      name: "Bordeaux Bord de l'eau - Marie",
+      artist: Artist.find_by(first_name:"Marie")
+    },
+    {
+      name: "Bordeaux Bord de l'eau - Marc",
+      artist: Artist.find_by(first_name:"Marc")
+    },
+    {
+      name: "Bordeaux Bord de l'eau - Marjorie",
+      artist: Artist.find_by(first_name:"Marjorie")
+    },
+    {
+      name: "Bordeaux Bord de l'eau - Victoire",
+      artist: Artist.find_by(first_name:"Victoire")
+    },
+    {
+      name: "Bordeaux Bord de l'eau - Johanna",
+      artist: Artist.find_by(first_name:"Johanna")
+    },
+    {
+      name: "Bordeaux Bord de l'eau - Liane",
+      artist: Artist.find_by(first_name:"Liane")
+    },
+    {
+      name: "Bordeaux Bord de l'eau - Amandine",
+      artist: Artist.find_by(first_name:"Amandine")
+    },
+    {
+      name: "Bordeaux Bord de l'eau - Pauline",
+      artist: Artist.find_by(first_name:"Pauline")
+    },
+    {
       name: "Le vin par Pauline",
       artist: Artist.find_by(first_name:"Pauline")
     },
@@ -472,6 +512,42 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Le vin par Liane"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1578651939/Dame%20Jeanne/Liane_Langenbach_Dame_Jeanne_2_Vin.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Sybille"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726430/Dame%20Jeanne/Bord_eau_Sybille_Cordeau.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Marie"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726429/Dame%20Jeanne/Bord_eau_Marie_Paruit.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Victoire"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726430/Dame%20Jeanne/Bord_eau_Victoire_Delpierre.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Amandine"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726429/Dame%20Jeanne/Bord_eau_Amandine_Thomas.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Pauline"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726430/Dame%20Jeanne/Bord_eau_Pauline_Lenain.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Marc"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726430/Dame%20Jeanne/Bord_eau_Marc_Lafon.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Marjorie"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726430/Dame%20Jeanne/Bord_eau_Marjorie_Goalard.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Johanna"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726430/Dame%20Jeanne/Bord_eau_Johanna_Maxwell.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Antoine"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726429/Dame%20Jeanne/Bord_eau_Antoine_Coiquaud.jpg"
     },
   ]
 
