@@ -238,6 +238,10 @@ puts "Creating projects..."
       artist: Artist.find_by(first_name:"Marjorie")
     },
     {
+      name: "Bordeaux Bord de l'eau - Liane",
+      artist: Artist.find_by(first_name:"Liane")
+    },
+    {
       name: "Bordeaux Bord de l'eau - Victoire",
       artist: Artist.find_by(first_name:"Victoire")
     },
@@ -540,6 +544,10 @@ puts "Creating projects..."
     {
       project: Project.find_by(name:"Bordeaux Bord de l'eau - Marjorie"),
       picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1601726430/Dame%20Jeanne/Bord_eau_Marjorie_Goalard.jpg"
+    },
+    {
+      project: Project.find_by(name:"Bordeaux Bord de l'eau - Liane"),
+      picture: "https://res.cloudinary.com/sybillecrd/image/upload/v1606932807/Dame%20Jeanne/Bord_eau_Liane_Langenbach.jpg"
     },
     {
       project: Project.find_by(name:"Bordeaux Bord de l'eau - Johanna"),

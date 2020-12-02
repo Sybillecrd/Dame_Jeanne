@@ -5,6 +5,7 @@ fr:
   navbar:
     artists: 'Les artistes'
     collectif: 'Le Collectif'
+    eshop: 'Boutique'
     points-of-sale: 'Points de vente'
     posts: 'Actualités'
   about:
@@ -31,7 +32,7 @@ fr:
     link: 'Notre dossier de presse à télécharger'
     follow-us: 'Suivez-nous'
   shops:
-    boutique: 'Retrouvez-nous en boutiques !'
+    boutique: 'Retrouvez-nous en boutique !'
   posts:
     title: Les actualités de Dame Jeanne Bordeaux
   contact:
