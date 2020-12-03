@@ -250,10 +250,6 @@ puts "Creating projects..."
       artist: Artist.find_by(first_name:"Johanna")
     },
     {
-      name: "Bordeaux Bord de l'eau - Liane",
-      artist: Artist.find_by(first_name:"Liane")
-    },
-    {
       name: "Bordeaux Bord de l'eau - Amandine",
       artist: Artist.find_by(first_name:"Amandine")
     },
