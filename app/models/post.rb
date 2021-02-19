@@ -1,5 +1,4 @@
 class Post < ApplicationRecord
   belongs_to :user
-  mount_uploader :photo, PhotoUploader
-
+  has_one_attached :picture
 end

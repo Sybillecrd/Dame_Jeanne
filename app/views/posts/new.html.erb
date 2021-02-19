@@ -6,8 +6,7 @@
         <%= f.input :date, label: "Date"  %>
         <%= f.input :title, label: "Titre" %>
         <%= f.input :content, as: :text, label: "Contenu" %>
-        <%= f.input :photo, as: :file, label: "Image" %>
-        <%= f.input :photo_cache, as: :hidden %>
+        <%= f.input :picture, label: "Image" %>
         <%= f.button :submit, value: 'Publier cet article', class: 'btn btn-post'%>
       <% end %>
       <br>
